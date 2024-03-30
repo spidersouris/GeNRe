@@ -1,0 +1,2 @@
+*.fr filter=lfs diff=lfs merge=lfs -text
+data/europarl/europarl-v7.fr-en.fr filter=lfs diff=lfs merge=lfs -text
