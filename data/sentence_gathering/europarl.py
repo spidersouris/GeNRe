@@ -3,7 +3,6 @@ import os
 import re
 import time
 import nltk
-import spacy
 import fr_core_news_md
 from utils import load_member_nouns, get_regex, get_member_nouns
 
@@ -71,7 +70,7 @@ with open(EUROPARL_CORPUS, "r", encoding="utf8") as f:
                 if token.text in all_member_nouns:
                     if token.pos_ != "NOUN":
                         ambiguous = True
-                        print("Found ambigious sent", sent)
+                        print("Found ambiguous sent", sent)
                         break
 
             if not ambiguous:

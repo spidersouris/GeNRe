@@ -1,4 +1,3 @@
-#!/usr/bin/env python3.10.12
 """
 Main module
 """
@@ -12,7 +11,7 @@ from inflecteur import inflecteur
 from rbs.gender_neutralizer import test_sentence
 
 print("Loading spaCy model...")
-nlp = spacy.load("fr_core_news_md=3.7.0")
+nlp = spacy.load("fr_core_news_md")
 print("spaCy model loaded.")
 
 print("Loading inflecteur...")
