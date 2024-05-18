@@ -1,14 +1,23 @@
-# the goal of this script is to get all italicized words from this
-# wikipedia page: https://fr.wikipedia.org/wiki/H_aspir%C3%A9_en_fran%C3%A7ais
+""""
+Script used to get all the italicized words from this
+Wikipedia page: https://fr.wikipedia.org/wiki/H_aspir%C3%A9_en_fran%C3%A7ais
+We need this list of words because in French, the letter "h" may be
+either silent or aspirated. When it is aspirated, the word preceding
+the "h" is not contracted with the determiner "le" or "la".
+
+Examples:
+"le haricot" vs *"l'haricot" (aspirated "h")
+"l'homme" vs *"le homme" (silent "h")
+"""
 
 import requests
 from bs4 import BeautifulSoup
 from string import punctuation
 
+URL = "https://fr.wikipedia.org/wiki/H_aspir%C3%A9_en_fran%C3%A7ais"
+page = requests.get(URL)
 res = []
-url = "https://fr.wikipedia.org/wiki/H_aspir%C3%A9_en_fran%C3%A7ais"
-page = requests.get(url)
-soup = BeautifulSoup(page.content, 'html.parser')
+soup = BeautifulSoup(page.content, "html.parser")
 
 content = soup.find(id="mw-content-text")
 
@@ -75,7 +84,7 @@ for table in tables:
                 else:
                     res.append(wd)
 
-with open("output/h_wikipedia.txt", "w") as f:
+with open("output/h_wikipedia.txt", "w", encoding="utf8") as f:
     for word in set(res):
         if word.startswith("h"):
             f.write(word + "\n")

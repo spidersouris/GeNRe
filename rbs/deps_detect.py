@@ -400,5 +400,5 @@ def extract_deps(inp_sent: str, target_nouns: list[str], annotated=False):
     print(token.text, token.dep_, token.head.text, token.head.pos_, token.pos_, token.morph, token.lemma_,
             [child for child in token.children])
 
-  print(modified_words)
+  print("Modified words:", modified_words)
   return modified_words

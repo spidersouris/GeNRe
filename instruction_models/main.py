@@ -1,3 +1,8 @@
+"""
+Used to generate sentences using the Mistral or Claude models.
+Assure that the config.ini file is properly configured before running this script.
+"""
+
 from configparser import ConfigParser
 from utils import load_sents, create_prompt, get_dict_data, request_claude, request_mistral
 

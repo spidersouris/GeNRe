@@ -1,3 +1,41 @@
 # GeNRe
 
 GitHub Project for **GeNRe** (**Ge**nder-**N**eutral **Re**writer Using French Collective Nouns).
+
+# Project Structure
+
+- **/data**: contains the data of the project
+    + **/collective_nouns**: contains the collective nouns dictionary
+        * **/scripts**: contains Python scripts used to further populate the dictionary
+            - **/output**: contains output of said scripts
+    + **/dev**: contains development set of sentences used to build the RBS
+    + **/europarl**: contains Europarl corpus file used to extract sentences for fine-tuning and evaluation
+    + **/eval**: contains evaluation data for both corpora (Wikipedia/Europarl) and for each component of the RBS (dependency detection/generation)
+    + **/ft**: contains train and valid sets used for fine-tuning
+    + **/sentence_gathering**: contains Python scripts used to filter the Wikipedia and Europarl corpora, get sentences with member nouns in our dictionary and annotate them accordingly
+        * **/output**: contains said sentences for both corpora
+    + **/tests**: contains test sets for each component of the RBS (dependency detection/generation)
+- **/instruction_models**: contains Python scripts used to communicate with Claude 3 Opus' and Mixtral 8x7B's APIs, for comparison with the RBS and fine-tuned models. Also contains a config.ini file for configuration purposes
+- **/neural**: contains the IPNYB file used to fine-tune T5 and M2M100 models
+- **/rbs**: contains RBS component Python scripts
+    + **/tests**: contains component testing Python scripts (see [Testing](#Testing))
+
+# RBS Usage
+
+`pip install -r requirements.txt`
+`python -m spacy download fr_core_news_sm`
+`python main.py`
+
+Running `python main.py` instantiates the required spaCy and inflecteur models. From then, you can input as many sentences to convert as you want.
+
+Before using the script, check the [Testing section](#Testing) to make sure everything works correctly in order to have the best usage experience.
+
+## Testing
+
+`python -m rbs.tests.tests` can be used to run a series of tests for the two components of the RBS: the dependency detection component and the generation component. Test data can be found in the **data/tests** folder.
+
+If the default tests are failing, it probably means that there is something wrong with your spaCy installation. Please run `python -m spacy info` in your environment and make sure of the following:
+- your local spaCy version is equal to **3.7.4**,
+- your local fr_core_news_sm spaCy pipeline version is equal to **3.7.0**.
+
+If the issue persists, please [open an issue](https://github.com/spidersouris/GeNRe/issues) detailing your environment and the steps that you have taken so far.

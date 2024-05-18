@@ -1,14 +1,30 @@
+"""
+Unit tests for the RBS (both the dependency extraction and the generation components).
+"""
+
 import csv
 from collections import defaultdict
 import unittest
-from .. import deps_detect, gender_neutralizer
+
+import spacy
+from inflecteur import inflecteur
+
+from ..deps_detect import extract_deps
+from ..gender_neutralizer import test_sentence
+
+print("(tests) Loading spaCy model...")
+nlp = spacy.load("fr_core_news_md")
+print("(tests) spaCy model loaded.")
+
+print("(tests) Loading inflecteur...")
+inflecteur_instance = inflecteur()
+inflecteur_instance.load_dict()
+print("(tests) inflecteur loaded.")
 
 class TestExtractDeps(unittest.TestCase):
 
-  def test_from_file(self, file="/content/drive/My Drive/Colab Notebooks/genre/tests/deps_tests.csv"):
-    total_tests = sum(1 for line in open(file)) - 1
-
-    with open(file) as f:
+  def test_from_file(self, file="data/tests/deps_tests.csv"):
+    with open(file, "r", encoding="utf8") as f:
         reader = csv.reader(f)
         next(reader)
         for i, row in enumerate(reader, start=1):
@@ -22,7 +38,7 @@ class TestExtractDeps(unittest.TestCase):
               else:
                 expected_deps[target_noun] = set()
 
-              actual_deps = deps_detect.extract_deps(inp_sent, [target_noun])
+              actual_deps = extract_deps(inp_sent, [target_noun])
 
               if target_noun in actual_deps:
                 actual_deps[target_noun] = set(actual_deps[target_noun])
@@ -31,25 +47,25 @@ class TestExtractDeps(unittest.TestCase):
 
               self.assertDictEqual(actual_deps, expected_deps)
 
-    print("Tests ended")
-
 class TestTransformationPipeline(unittest.TestCase):
+  """
+  Test case class for the RBS generation component.
+  """
 
-  def test_from_file(self, file="/content/drive/My Drive/Colab Notebooks/genre/tests/transformation_tests.csv"):
-    total_tests = sum(1 for line in open(file)) - 1
+  def test_from_file(self, file="data/tests/transformation_tests.csv"):
+    with open(file, "r", encoding="utf8") as f:
+      reader = csv.reader(f)
+      next(reader)
+      for i, row in enumerate(reader, start=1):
+        id, inp_sent, out_sent = row
+        out_sent = out_sent.replace("’", "'")
 
-    with open(file) as f:
-        reader = csv.reader(f)
-        next(reader)
-        for i, row in enumerate(reader, start=1):
-            id, inp_sent, out_sent = row
-            out_sent = out_sent.replace("’", "'")
+        self.assertEqual(test_sentence(inp_sent, nlp, inflecteur_instance, tests=True), out_sent)
 
-            self.assertEqual(gender_neutralizer.test_sentence(inp_sent, tests=True), out_sent)
 
-if __name__ == '__main__':
-    suite = unittest.TestSuite()
-    suite.addTests(unittest.TestLoader().loadTestsFromTestCase(TestExtractDeps))
-    suite.addTests(unittest.TestLoader().loadTestsFromTestCase(TestTransformationPipeline))
-    runner = unittest.TextTestRunner(verbosity=0)
-    runner.run(suite)
+if __name__ == "__main__":
+  suite = unittest.TestSuite()
+  suite.addTests(unittest.TestLoader().loadTestsFromTestCase(TestExtractDeps))
+  suite.addTests(unittest.TestLoader().loadTestsFromTestCase(TestTransformationPipeline))
+  runner = unittest.TextTestRunner(verbosity=0)
+  runner.run(suite)
