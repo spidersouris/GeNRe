@@ -1,16 +1,20 @@
 """
-Module used for evaluating the performance of the 
+Module used for evaluating the performance of the RBS components
+(dependency detection and generation), and LLM generation.
 """
 import ast
 import os
 import csv
 import random
+import argparse
 
 from unicodedata import normalize
 from typing import Dict
 from collections import Counter
 
 import spacy
+from inflecteur import inflecteur
+
 from jiwer import wer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -18,11 +22,18 @@ from sacrebleu import corpus_bleu
 
 from rbs import gender_neutralizer, deps_detect
 
+print("(eval) Loading spaCy model...")
 nlp = spacy.load("fr_core_news_md")
+print("(eval) spaCy model loaded.")
+
+print("(eval) Loading inflecteur...")
+inflecteur_instance = inflecteur()
+inflecteur_instance.load_dict()
+print("(eval) inflecteur loaded.")
 
 def get_cos_sim(ref, hyp):
     """
-    Calculate the cosine similarity between two sentences.
+    Calculates the cosine similarity between two sentences.
 
     Args:
       ref (str): The reference string.
@@ -52,7 +63,7 @@ def get_wer(ref, hyp):
 
 def get_bleu(ref, hyp):
     """
-    Calculate the BLEU score between two sentences.
+    Calculates the BLEU score between two sentences.
 
     Args:
       ref (str): The reference string.
@@ -66,7 +77,8 @@ def get_bleu(ref, hyp):
     hyp = [hyp]
     return round(corpus_bleu(hyp, ref).score, 2)
 
-def extract_eval_data(inp_file, out_file, devset=None, evalset=None, corpus=None, max_sents=250, annotated=True):
+def extract_eval_data(inp_file, out_file, devset=None, evalset=None, corpus=None,
+                      max_sents=250, annotated=True):
     """
     Extracts evaluation data from the input file and writes it to the output file.
 
@@ -90,6 +102,8 @@ def extract_eval_data(inp_file, out_file, devset=None, evalset=None, corpus=None
     elif corpus == "eupr":
         MEMBER_NOUN_ROW = 1
         NON_INCL_SENT_ROW = 2
+    else:
+        raise ValueError("Invalid corpus type", corpus)
 
     if devset is not None:
         with open(devset, "r", encoding="utf8") as devs:
@@ -141,20 +155,28 @@ def extract_eval_data(inp_file, out_file, devset=None, evalset=None, corpus=None
                 try:
                     if not annotated:
                         non_incl_sents.append(row[1])
-                        incl_sents.append(gender_neutralizer.test_sentence(row[1], tests=True))
+                        incl_sents.append(gender_neutralizer.test_sentence(row[1], nlp,
+                                                                           inflecteur_instance,
+                                                                           tests=True))
                     else:
                         inflection_data = []
-                        member_nouns = ast.literal_eval(row[MEMBER_NOUN_ROW].replace("“", "'").replace("”", "'"))
-                        member_nouns2 = ast.literal_eval(row[MEMBER_NOUN_ROW].replace("“", "'").replace("”", "'"))
+                        member_nouns = ast.literal_eval(row[MEMBER_NOUN_ROW]
+                                                        .replace("“", "'").replace("”", "'"))
+                        member_nouns2 = ast.literal_eval(row[MEMBER_NOUN_ROW]
+                                                         .replace("“", "'").replace("”", "'"))
                         non_incl_sent = row[NON_INCL_SENT_ROW]
                         non_incl_sent_cleaned = deps_detect.clean_tags(non_incl_sent)
 
-                        words_to_inflect: Dict[str, list] = deps_detect.extract_deps(non_incl_sent, member_nouns, annotated=True)
+                        words_to_inflect: Dict[str, list] = deps_detect.extract_deps(non_incl_sent,
+                                                                                     member_nouns,
+                                                                                     annotated=True)
 
                         if words_to_inflect is not None:
-                            inflection_data.append((member_nouns, words_to_inflect, non_incl_sent_cleaned))
+                            inflection_data.append((member_nouns, words_to_inflect,
+                                                    non_incl_sent_cleaned))
 
-                        res = gender_neutralizer.get_res(non_incl_sent_cleaned, member_nouns, inflection_data, allow_return=True)
+                        res = gender_neutralizer.get_res(non_incl_sent_cleaned, member_nouns,
+                                                         inflection_data, allow_return=True)
 
                         non_incl_sents.append(non_incl_sent_cleaned)
                         all_member_nouns.append(member_nouns2)
@@ -183,16 +205,29 @@ def extract_eval_data(inp_file, out_file, devset=None, evalset=None, corpus=None
                             for (s_id, non_incl, incl) in zip(sent_ids, non_incl_sents, incl_sents):
                                 writer.writerow([s_id, non_incl, incl])
                         else:
-                            for (s_id, member_nouns, deps, non_incl, incl) in zip(sent_ids, all_member_nouns, detected_deps, non_incl_sents, incl_sents):
+                            for (s_id, member_nouns, deps,
+                                 non_incl, incl) in zip(sent_ids, all_member_nouns,
+                                                        detected_deps, non_incl_sents,
+                                                        incl_sents):
                                 writer.writerow([s_id, member_nouns, deps, non_incl, incl])
                 except (IndexError, ValueError, KeyError, TypeError) as e:
                     print("Unexpected error", e)
                     continue
 
-        print("Successfully extracted eval data!")
+        print("Successfully extracted eval data to", out_file)
 
-def get_gen_scores(inp_file, out_file=None, write_to_file=False, auto_row=None,
+def get_gen_scores(inp_file, out_file=None, write_to_file=False, auto_col=None,
                    print_error_types=False):
+    """
+    Calculates generation scores for automatically generated sentences.
+
+    Args:
+        inp_file (str): The input file path.
+        out_file (str, optional): The output file path. Defaults to None.
+        write_to_file (bool, optional): Whether to write the scores to a file. Defaults to False.
+        auto_col (int, optional): The index of the column containing the generated sentences. Defaults to None.
+        print_error_types (bool, optional): Whether to print the error types. Defaults to False.
+    """
     types = {"rbs_auto_incl_sent": "RBS",
             "t5_auto_incl_sent": "LLM-T5",
             "m2m100_auto_incl_sent": "LLM-M2M100",
@@ -229,21 +264,21 @@ def get_gen_scores(inp_file, out_file=None, write_to_file=False, auto_row=None,
             raise ValueError("file not formatted correctly")
 
         header_types = {header: types.get(header, "UNKNOWN") for header in headers}
-        header_type = header_types.get(headers[auto_row]) if auto_row else "RBS"
+        header_type = header_types.get(headers[auto_col]) if auto_col else "RBS"
 
         for row in data:
             baseline_sent = normalize("NFKD", row[1])
-            if auto_row:
-                if auto_row not in range(2,14):
-                    raise ValueError("Invalid auto_row", auto_row)
-                auto_incl_sent = normalize("NFKD", row[auto_row])
+            if auto_col:
+                if auto_col not in range(2,14):
+                    raise ValueError("Invalid auto_col", auto_col)
+                auto_incl_sent = normalize("NFKD", row[auto_col])
             else:
                 auto_incl_sent = normalize("NFKD", row[2])
             manual_incl_sent = normalize("NFKD", row[14])
 
             if print_error_types:
                 if not header_type:
-                    raise ValueError("print_error_types requires auto_row")
+                    raise ValueError("print_error_types requires auto_col")
                 if header_type == "RBS":
                     error_types_row = row[15]
                 elif header_type == "LLM-T5":
@@ -334,7 +369,18 @@ def get_gen_scores(inp_file, out_file=None, write_to_file=False, auto_row=None,
                                      wer_base, wer_auto,
                                      bleu_base, bleu_auto])
 
-def eval_deps(pred_deps: str, true_deps: str, dct=False):
+def eval_deps(pred_deps: str, true_deps: str, dct=False) -> tuple[float, float]:
+    """
+    Evaluates the precision and recall of predicted dependencies compared to true dependencies.
+
+    Args:
+        pred_deps (str): Comma-separated string of predicted dependencies.
+        true_deps (str): Comma-separated string of true dependencies.
+        dct (bool, optional): Whether the dependencies are in a dictionary. Defaults to False.
+
+    Returns:
+        tuple: A tuple containing the precision and recall values.
+    """
     tps = set()
     if not dct:
         pred_list = pred_deps.split(",")
@@ -370,6 +416,14 @@ def eval_deps(pred_deps: str, true_deps: str, dct=False):
     return precision, recall
 
 def get_deps_score(inp_file):
+    """
+    Calculates the precision, recall, and F-score for RBS and baseline (spaCy)
+    dependency parsing models based on the input file.
+
+    Args:
+        inp_file (str): The path to the input file.
+    """
+
     count_sents = 0
     rbs_precisions = []
     rbs_recalls = []
@@ -426,6 +480,14 @@ def get_deps_score(inp_file):
     Baseline F-score: {round(baseline_fscore, 3)}""")
 
 def write_deps_to_file(inp_file, out_file, max_sents=250):
+    """
+    Write dependency data to a CSV file.
+
+    Args:
+        inp_file (str): The input file path.
+        out_file (str): The output file path.
+        max_sents (int, optional): The maximum number of sentences to process. Defaults to 250.
+    """
     count_sents = 0
     rbs_deps = []
     baseline_deps = []
@@ -478,3 +540,50 @@ def write_deps_to_file(inp_file, out_file, max_sents=250):
                 rbs_dep, baseline_dep) in enumerate(zip(inp_sents, all_target_nouns,
                                                         rbs_deps, baseline_deps)):
             writer.writerow([i, inp_sent, target_nouns, rbs_dep, baseline_dep])
+
+    print(f"Successfully wrote dependency data to {out_file}")
+
+def main():
+    """
+    Main function for the evaluation script.
+    """
+    parser = argparse.ArgumentParser()
+    parser.add_argument("inp_file", type=str, help="The path to the input file.")
+    parser.add_argument("out_file", type=str, help="The path to the output file.")
+    parser.add_argument("--component", "-c", type=str, help="The component to evaluate.",
+                        choices=["gen", "deps"])
+    parser.add_argument("--devset", "-ds", type=str, help="The path to the development set file.")
+    parser.add_argument("--evalset", "-es", type=str, help="The path to the evaluation set file.")
+    parser.add_argument("--print_error_types", "-p", action="store_true",
+                        help="Print the error types.")
+    parser.add_argument("--autocol", "-ac", type=int, default=3,
+                        help="""The column number of the automatically generated
+                        sentences to evaluate.""")
+    parser.add_argument("--maxsents", "-ms", type=int, default=250,
+                        help="The maximum number of sentences to evaluate.")
+    parser.add_argument("--annotated", "-a", action="store_true",
+                        help="Indicates whether the data is annotated.")
+    parser.add_argument("--extract", "-e", action="store_true",
+                        help="Extract evaluation data from the input file.")
+    parser.add_argument("--corpus", "-cp", type=str, help="The corpus type.",
+                        choices=["wiki", "eupr"])
+    args = parser.parse_args()
+
+    if args.extract:
+        if not args.corpus:
+            raise ValueError("Please specify the corpus type: 'wiki' or 'eupr'.")
+        extract_eval_data(args.inp_file, args.out_file, devset=args.devset,
+                          evalset=args.evalset, corpus=args.corpus,
+                          max_sents=args.maxsents, annotated=args.annotated)
+    else:
+        if not args.component:
+            raise ValueError("Please specify a component to evaluate: 'gen' or 'deps'.")
+        if args.component == "gen":
+            get_gen_scores(args.inp_file, args.out_file, write_to_file=True, auto_col=args.autocol,
+                        print_error_types=args.print_error_types)
+        elif args.component == "deps":
+            get_deps_score(args.inp_file)
+            write_deps_to_file(args.inp_file, args.out_file, max_sents=args.maxsents)
+
+if __name__ == "__main__":
+    main()

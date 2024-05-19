@@ -8,7 +8,7 @@ GitHub Project for **GeNRe** (**Ge**nder-**N**eutral **Re**writer Using French C
     + **/collective_nouns**: contains the collective nouns dictionary
         * **/scripts**: contains Python scripts used to further populate the dictionary
             - **/output**: contains output of said scripts
-    + **/dev**: contains development set of sentences used to build the RBS
+    + **/dev**: contains development set of sentences used to build the RBS (rule-based system)
     + **/europarl**: contains Europarl corpus file used to extract sentences for fine-tuning and evaluation
     + **/eval**: contains evaluation data for both corpora (Wikipedia/Europarl) and for each component of the RBS (dependency detection/generation)
     + **/ft**: contains train and valid sets used for fine-tuning
@@ -17,26 +17,24 @@ GitHub Project for **GeNRe** (**Ge**nder-**N**eutral **Re**writer Using French C
     + **/tests**: contains test sets for each component of the RBS (dependency detection/generation)
 - **/instruction_models**: contains Python scripts used to communicate with Claude 3 Opus' and Mixtral 8x7B's APIs, for comparison with the RBS and fine-tuned models. Also contains a config.ini file for configuration purposes
 - **/neural**: contains the IPYNB file used to fine-tune T5 and M2M100 models
-- **/rbs**: contains RBS component Python scripts
+- **/rbs**: contains Python scripts for the RBS (rule-based system) components
     + **/tests**: contains component testing Python scripts (see [Testing](#Testing))
 
 # Usage
-
-## RBS
 
 `pip install -r requirements.txt`
 
 `python -m spacy download fr_core_news_sm`
 
-`python main.py`
+## Rule-based system (RBS)
 
-Running `python main.py` instantiates the required spaCy and inflecteur models. From then, you can input as many sentences to convert as you want.
+Run `python main.py` to instantiate the required spaCy and inflecteur models. From then, you can input as many sentences to convert as you want.
 
 Before using the script, check the [Testing section](#Testing) to make sure everything works correctly in order to have the best usage experience.
 
 ### Testing
 
-`python -m rbs.tests.tests` can be used to run a series of tests for the two components of the RBS: the dependency detection component and the generation component. Test data can be found in the **data/tests** folder.
+Run `python -m rbs.tests.tests` to execute a series of tests for the two components of the RBS: the dependency detection component and the generation component. Test data can be found in the **data/tests** folder.
 
 If the default tests are failing, it probably means that there is something wrong with your spaCy installation. Please run `python -m spacy info` in your environment and make sure of the following:
 - your local spaCy version is equal to **3.7.4**,
@@ -83,3 +81,28 @@ Prompts and few-shot examples can be modified in `instruction_models/utils.py`.
 You can configure your model API keys as well as additional options by editing the included `config.ini` file.
 
 The specified input file in `config.ini` should be a CSV file with one sentence per row (header excluded).
+
+## Evaluation
+
+Run `python eval.py` with arguments to run evaluation.
+
+Usage: `python eval.py inp_file out_file [-h] [--component {gen,deps}] [--devset DEVSET] [--evalset EVALSET] [--print_error_types] [--autocol AUTOCOL] [--maxsents MAXSENTS] [--annotated] [--extract] [--corpus {wiki,eupr}]`
+
+### Arguments
+
+Positional arguments correspond to the input file (inp_file) and the output file (out_file).
+
+Optional arguments are listed below:
+- -c, --component (str): The component to evaluate (either "gen" or "deps").
+- -ds, --devset (str): The path to the development set file.
+- -es, --evalset (str): The path to the evaluation set file.
+- -p, --print_error_types: Print the error types.
+- -ac, --autocol (int): The column number of the automatically generated sentences to evaluate. Default: 3.
+- -ms, --maxsents (int): The maximum number of sentences to evaluate. Default: 250.
+- -a, --annotated: Indicates whether the data is annotated with `<n>` tags.
+- -e, --extract: Extract evaluation data from the input file.
+- -cp, --corpus (str): The corpus type (either "wiki" or "eupr").
+
+### Examples
+
+Coming soon.
