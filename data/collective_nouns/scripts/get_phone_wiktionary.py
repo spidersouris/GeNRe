@@ -22,8 +22,6 @@ content = soup.find("div",
                     {"class": "NavContent"}).find_next("div")
 text = content.text
 
-print(text)
-
 # Delete parentheses and their content
 text = re.sub(r"(\()[^)]*\)", "", text)
 

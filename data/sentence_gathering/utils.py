@@ -60,7 +60,6 @@ def get_member_nouns(file_path):
 
     Returns:
         set: A set containing the plural member nouns.
-
     """
     nouns = set()
 

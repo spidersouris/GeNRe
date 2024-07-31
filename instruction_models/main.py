@@ -3,6 +3,8 @@ Used to generate sentences using the Mistral or Claude models.
 Assure that the config.ini file is properly configured before running this script.
 """
 
+import csv
+
 from configparser import ConfigParser
 from utils import load_sents, create_prompt, get_dict_data, request_claude, request_mistral
 
@@ -50,3 +52,9 @@ for sent in sents:
         results.append(request_mistral(prompt, sent, api_key))
     elif MODEL_TYPE == "claude":
         results.append(request_claude(prompt, api_key))
+
+with open(OUT_FILE, "w", encoding="utf8") as f:
+    writer = csv.writer(f)
+    writer.writerow(["id", "sentence"])
+    for i, res in enumerate(results, start=1):
+        writer.writerow([i, res])

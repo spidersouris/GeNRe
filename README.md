@@ -10,7 +10,7 @@ GitHub Project for **GeNRe** (**Ge**nder-**N**eutral **Re**writer Using French C
             - **/output**: contains output of said scripts
     + **/dev**: contains development set of sentences used to build the RBS (rule-based system)
     + **/europarl**: contains Europarl corpus file used to extract sentences for fine-tuning and evaluation
-    + **/eval**: contains evaluation data for both corpora (Wikipedia/Europarl) and for each component of the RBS (dependency detection/generation)
+    + **/eval**: contains evaluation data for both corpora (Wikipedia/Europarl) and for each component of the RBS (dependency detection/generation). See [Evaluation](#Evaluation)
     + **/ft**: contains train and valid sets used for fine-tuning
     + **/sentence_gathering**: contains Python scripts used to filter the Wikipedia and Europarl corpora, get sentences with member nouns in our dictionary and annotate them accordingly
         * **/output**: contains said sentences for both corpora
@@ -18,7 +18,7 @@ GitHub Project for **GeNRe** (**Ge**nder-**N**eutral **Re**writer Using French C
 - **/instruction_models**: contains Python scripts used to communicate with Claude 3 Opus' and Mixtral 8x7B's APIs, for comparison with the RBS and fine-tuned models. Also contains a config.ini file for configuration purposes
 - **/neural**: contains the IPYNB file used to fine-tune T5 and M2M100 models
 - **/rbs**: contains Python scripts for the RBS (rule-based system) components
-    + **/tests**: contains component testing Python scripts (see [Testing](#Testing))
+    + **/tests**: contains component testing Python scripts. See [Testing](#Testing)
 
 # Usage
 
@@ -37,6 +37,7 @@ Before using the script, check the [Testing section](#Testing) to make sure ever
 Run `python -m rbs.tests.tests` to execute a series of tests for the two components of the RBS: the dependency detection component and the generation component. Test data can be found in the **data/tests** folder.
 
 If the default tests are failing, it probably means that there is something wrong with your spaCy installation. Please run `python -m spacy info` in your environment and make sure of the following:
+- you ran all the commands in the [Usage](#Usage) section,
 - your local spaCy version is equal to **3.7.4**,
 - your local fr_core_news_sm spaCy pipeline version is equal to **3.7.0**.
 
@@ -105,4 +106,24 @@ Optional arguments are listed below:
 
 ### Examples
 
-Coming soon.
+Below are some examples of command usage to evaluate the various components.
+
+#### Generation
+
+todo
+
+#### Dependency Detection
+
+Before evaluating dependency detection, you should make sure that you have a file with your dependencies. GeNRe has two of them: `data/eval/wiki/deps/wiki_deps_eval.csv` for the Wikipedia corpus, and `data/eval/eupr/deps/eupr_deps_eval.csv` for the Europarl corpus.
+
+If you don't have one, you should run `eval.py` with the `-wd` flag like this. The input file should contain your input sentence (row 1). The output file is where your dependency file will be written.
+
+`python eval.py -c "deps" -wd input.csv output.csv`
+
+Once you have your file, here is an example of how to use the dependency detection evaluation system:
+
+`python eval.py -c "deps" data/eval/eupr/deps/eupr_deps_eval.csv eupr_deps_out.csv`
+
+Used as is, this command will generate the following files:
+- **eupr_deps_out_detailed.csv**: CSV file containing the precision and recall for each sentence by model
+- **eupr_deps_out_fscore.csv**: CSV file containing the average precision and recall, and computed F-score by model

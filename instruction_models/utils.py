@@ -37,9 +37,9 @@ def load_sents(inp_file: str, prompt_type: str) -> list[str]:
     sents = []
 
     if prompt_type in ["lazy", "dict"]:
-        row_number = 1 # non_incl_sent
+        col_number = 1 # non_incl_sent
     elif prompt_type == "correction":
-        row_number = 2 # rbs_auto_incl_sent
+        col_number = 2 # rbs_auto_incl_sent
     else:
         raise ValueError("Unknown prompt_type", prompt_type)
 
@@ -49,7 +49,7 @@ def load_sents(inp_file: str, prompt_type: str) -> list[str]:
         data = list(reader)
 
         for row in data:
-            sents.append(row[row_number])
+            sents.append(row[col_number])
 
     print(f"Loaded {len(sents)} sentences")
     return sents
