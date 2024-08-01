@@ -87,7 +87,7 @@ The specified input file in `config.ini` should be a CSV file with one sentence 
 
 Run `python eval.py` with arguments to run evaluation.
 
-Usage: `python eval.py inp_file out_file [-h] [--component {gen,deps}] [--devset DEVSET] [--evalset EVALSET] [--print_error_types] [--autocol AUTOCOL] [--maxsents MAXSENTS] [--annotated] [--extract] [--corpus {wiki,eupr}]`
+Usage: `python eval.py inp_file out_file [-h] [--component {gen,deps}] [--devset DEVSET] [--evalset EVALSET] [--print_error_types] [--autocol AUTOCOL] [--maxsents MAXSENTS] [--annotated] [--extract] [--corpus {wiki,eupr}] [--write_deps]`
 
 ### Arguments
 
@@ -103,14 +103,11 @@ Optional arguments are listed below:
 - -a, --annotated: Indicates whether the data is annotated with `<n>` tags.
 - -e, --extract: Extract evaluation data from the input file.
 - -cp, --corpus (str): The corpus type (either "wiki" or "eupr").
+- -wd, --write_deps: Write syntactic dependencies to a file.
 
 ### Examples
 
-Below are some examples of command usage to evaluate the various components.
-
-#### Generation
-
-todo
+Below are some examples of command usage to evaluate the two components ([dependency detection](#Dependency_Detection) and [generation](#Generation)).
 
 #### Dependency Detection
 
@@ -127,3 +124,18 @@ Once you have your file, here is an example of how to use the dependency detecti
 Used as is, this command will generate the following files:
 - **eupr_deps_out_detailed.csv**: CSV file containing the precision and recall for each sentence by model
 - **eupr_deps_out_fscore.csv**: CSV file containing the average precision and recall, and computed F-score by model
+
+#### Generation
+
+Before evaluating dependency detection, you should make sure that you have a file with your sentences that's correctly formatted. See `data/eval/wiki/gen/wiki_gen_eval.csv` for an example.
+
+Below is a basic example of how to use the generation evaluation system:
+
+`python eval.py -c "gen" data/eval/wiki/gen/wiki_gen_eval.csv wiki_gen_out.csv`
+
+This will generate a CSV file containing the baseline, golden (manual) and auto (RBS/LLM-generated) sentences, along with cosine similarity, WER and BLEU metric scores for baseline and auto sentences.
+
+In addition, you can enable the following flags when using the generation evaluation system:
+
+- `-ac`: chooses the column number that contains auto sentences (starts at 0),
+- `p`: prints error types (more details soon).

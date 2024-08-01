@@ -100,8 +100,10 @@ def extract_eval_data(
       devset (str, optional): The path to the development set file. Defaults to None.
       evalset (str, optional): The path to the evaluation set file. Defaults to None.
       corpus (str, optional): The corpus type. Can be "wiki" or "eupr". Defaults to None.
-      max_sents (int, optional): The maximum number of sentences to extract. Defaults to 250.
-      annotated (bool, optional): Indicates whether the data is annotated. Defaults to True.
+      max_sents (int, optional): The maximum number of sentences to extract.
+      Defaults to 250.
+      annotated (bool, optional): Indicates whether the data is annotated.
+      Defaults to True.
     """
     count = 0
     sent_id = 0
@@ -380,9 +382,12 @@ def get_gen_scores(
 
             print(
                 f"""Sentence {count_sents}\n"""
-                f"""Cosine similarity: (BASELINE) {round(cos_sim_baseline, 3)} | ({header_type}) {round(cos_sim_auto, 3)}\n"""
-                f"""WER: (BASELINE) {round(wer_baseline*100, 3)}% | ({header_type}) {round(wer_auto*100, 3)}%\n"""
-                f"""BLEU: (BASELINE) {round(bleu_baseline, 3)} | ({header_type}) {round(bleu_auto, 3)}\n"""
+                f"""Cosine similarity: (BASELINE) {round(cos_sim_baseline, 3)}"""
+                f""" | ({header_type}) {round(cos_sim_auto, 3)}\n"""
+                f"""WER: (BASELINE) {round(wer_baseline*100, 3)}%"""
+                f""" | ({header_type}) {round(wer_auto*100, 3)}%\n"""
+                f"""BLEU: (BASELINE) {round(bleu_baseline, 3)}"""
+                f""" | ({header_type}) {round(bleu_auto, 3)}\n"""
             )
 
         print(
@@ -402,11 +407,12 @@ def get_gen_scores(
             print(count_errors)
 
         if write_to_file and out_file is not None:
-            with open(out_file, "w", encoding="utf8") as out:
+            with open(out_file, "w", encoding="utf8", newline="") as out:
                 writer = csv.writer(out)
                 writer.writerow(
                     [
                         "id",
+                        "baseline_sent",
                         "auto_incl_sent",
                         "manual_incl_sent",
                         "cos_sim_base",
@@ -419,6 +425,7 @@ def get_gen_scores(
                 )
 
                 for i, (
+                    baseline_sent,
                     auto_incl_sent,
                     manual_incl_sent,
                     cos_sim_base,
@@ -429,6 +436,7 @@ def get_gen_scores(
                     bleu_auto,
                 ) in enumerate(
                     zip(
+                        baseline_sents,
                         auto_incl_sents,
                         manual_incl_sents,
                         cos_sim_scores_baseline,
@@ -442,6 +450,7 @@ def get_gen_scores(
                     writer.writerow(
                         [
                             i,
+                            baseline_sent,
                             auto_incl_sent,
                             manual_incl_sent,
                             cos_sim_base,
@@ -452,6 +461,7 @@ def get_gen_scores(
                             bleu_auto,
                         ]
                     )
+            print("Metrics saved to", out_file)
 
 
 def eval_deps(pred_deps: str, true_deps: str, dct=False) -> tuple[float, float]:
@@ -478,6 +488,10 @@ def eval_deps(pred_deps: str, true_deps: str, dct=False) -> tuple[float, float]:
                 print("Adding tp+1", dep, len(true_list))
                 tps.add(dep)
 
+        # ZeroDivisionError occurs when pred_list or true_list are empty,
+        # which means that no dependencies are predicted
+        # or are found in the sentence,
+        # so we consider the prediction to be accurate.
         try:
             precision = len(tps) / len(pred_list)
         except ZeroDivisionError:
