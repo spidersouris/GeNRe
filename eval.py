@@ -21,6 +21,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sacrebleu import corpus_bleu
 
+from sentence_transformers import SentenceTransformer
+
 from rbs import gender_neutralizer, deps_detect
 
 print("(eval) Loading spaCy model...")
@@ -31,6 +33,14 @@ print("(eval) Loading inflecteur...")
 inflecteur_instance = inflecteur()
 inflecteur_instance.load_dict()
 print("(eval) inflecteur loaded.")
+
+print("(eval) Loading cosine similarity model...")
+cos_sim_model = SentenceTransformer(
+    "dangvantuan/sentence-camembert-large",
+    cache_folder="C:/Users/spide/.cache/huggingface/hub",
+    local_files_only=True,
+)
+print("(eval) Cosine similarity model loaded.")
 
 
 def get_cos_sim(ref, hyp):
@@ -49,6 +59,13 @@ def get_cos_sim(ref, hyp):
     vector_matrix = count_vectorizer.fit_transform(array)
     cosine_similarity_matrix = cosine_similarity(vector_matrix)
     return round(cosine_similarity_matrix[0][1], 2) * 100
+
+
+def get_cos_sim_2(ref, hyp):
+    refemb = cos_sim_model.encode(ref).reshape(1, -1)
+    hypemb = cos_sim_model.encode(hyp).reshape(1, -1)
+
+    return round(cosine_similarity(refemb, hypemb)[0][0], 2) * 100
 
 
 def get_wer(ref, hyp):
@@ -263,7 +280,12 @@ def extract_eval_data(
 
 
 def get_gen_scores(
-    inp_file, out_file=None, write_to_file=False, auto_col=None, print_error_types=False
+    inp_file,
+    out_file=None,
+    write_to_file=False,
+    auto_col=None,
+    print_error_types=False,
+    save_diff: bool = False,
 ):
     """
     Calculates generation scores for automatically generated sentences.
@@ -276,6 +298,8 @@ def get_gen_scores(
         auto_col (int, optional): The index of the column containing
         the generated sentences. Defaults to None.
         print_error_types (bool, optional): Whether to print the error types.
+        save_diff (bool, optional): Whether to save the differences
+        between the baseline and generated sentences.
         Defaults to False.
     """
     types = {
@@ -295,10 +319,12 @@ def get_gen_scores(
     count_sents = 0
     count_errors = Counter()
     cos_sim_scores_auto = []
+    cos_sim_scores_2_auto = []
     wer_scores_auto = []
     bleu_scores_auto = []
 
     cos_sim_scores_baseline = []
+    cos_sim_scores_2_baseline = []
     wer_scores_baseline = []
     bleu_scores_baseline = []
 
@@ -311,157 +337,199 @@ def get_gen_scores(
         headers = next(reader)
         data = list(reader)
 
-        if len(headers) > 21:
-            raise ValueError("file not formatted correctly")
+    if len(headers) > 21:
+        raise ValueError("file not formatted correctly")
 
-        header_types = {header: types.get(header, "UNKNOWN") for header in headers}
-        header_type = header_types.get(headers[auto_col]) if auto_col else "RBS"
+    header_types = {header: types.get(header, "UNKNOWN") for header in headers}
+    header_type = header_types.get(headers[auto_col]) if auto_col else "RBS"
 
-        for row in data:
-            baseline_sent = normalize("NFKD", row[1])
-            if auto_col:
-                if auto_col not in range(2, 14):
-                    raise ValueError("Invalid auto_col", auto_col)
-                auto_incl_sent = normalize("NFKD", row[auto_col])
-            else:
-                auto_incl_sent = normalize("NFKD", row[2])
-            manual_incl_sent = normalize("NFKD", row[14])
-
-            if print_error_types:
-                if not header_type:
-                    raise ValueError("print_error_types requires auto_col")
-                if header_type == "RBS":
-                    error_types_row = row[15]
-                elif header_type == "LLM-T5":
-                    error_types_row = row[16]
-                elif header_type == "LLM-M2M100":
-                    error_types_row = row[17]
-                else:
-                    raise ValueError(
-                        f"print_error_types: unknown header_type {header_type}"
-                    )
-
-                error_types = error_types_row.split("\n")
-                for error_type in error_types:
-                    count_errors[error_type] += 1
-
-            if header_type == "LLM-T5":
-                note_row = row[18].split("\n")
-                if "GOOD_ALT_CHANGE_T5" in note_row:
-                    print("Found alternative for T5")
-                    print("Using alternative", row[19])
-                    auto_incl_sent = row[19]
-            elif header_type == "LLM-M2M100":
-                note_row = row[17].split("\n")
-                if "GOOD_ALT_CHANGE_M2M100" in note_row:
-                    print("Found alternative for M2M100")
-                    print("Using alternative", row[20])
-                    auto_incl_sent = row[20]
-
-            cos_sim_auto = get_cos_sim(auto_incl_sent, manual_incl_sent)
-            wer_auto = get_wer(auto_incl_sent, manual_incl_sent)
-            bleu_auto = get_bleu(auto_incl_sent, manual_incl_sent)
-
-            cos_sim_baseline = get_cos_sim(baseline_sent, manual_incl_sent)
-            wer_baseline = get_wer(baseline_sent, manual_incl_sent)
-            bleu_baseline = get_bleu(baseline_sent, manual_incl_sent)
-
-            cos_sim_scores_auto.append(cos_sim_auto)
-            wer_scores_auto.append(wer_auto)
-            bleu_scores_auto.append(bleu_auto)
-
-            cos_sim_scores_baseline.append(cos_sim_baseline)
-            wer_scores_baseline.append(wer_baseline)
-            bleu_scores_baseline.append(bleu_baseline)
-
-            baseline_sents.append(baseline_sent)
-            auto_incl_sents.append(auto_incl_sent)
-            manual_incl_sents.append(manual_incl_sent)
-
-            count_sents += 1
-
-            print(
-                f"""Sentence {count_sents}\n"""
-                f"""Cosine similarity: (BASELINE) {round(cos_sim_baseline, 3)}"""
-                f""" | ({header_type}) {round(cos_sim_auto, 3)}\n"""
-                f"""WER: (BASELINE) {round(wer_baseline*100, 3)}%"""
-                f""" | ({header_type}) {round(wer_auto*100, 3)}%\n"""
-                f"""BLEU: (BASELINE) {round(bleu_baseline, 3)}"""
-                f""" | ({header_type}) {round(bleu_auto, 3)}\n"""
-            )
-
-        print(
-            f"""Evaluation scores for {count_sents} sentences (file {inp_file}):\n
-        BASELINE Average cosine similarity, WER, BLEU:\n
-        {round(sum(cos_sim_scores_baseline)/count_sents, 3)}\t
-        {round((sum(wer_scores_baseline)/count_sents)*100, 3)}%\t
-        {round(sum(bleu_scores_baseline)/count_sents, 3)}\n
-        ---\n
-        {header_type} Average cosine similarity, WER, BLEU:\n
-        {round(sum(cos_sim_scores_auto)/count_sents, 3)}\t
-        {round((sum(wer_scores_auto)/count_sents)*100, 3)}%\t
-        {round(sum(bleu_scores_auto)/count_sents, 3)}\n\n"""
-        )
+    for row in data:
+        baseline_sent = normalize("NFKD", row[1])
+        if auto_col:
+            if auto_col not in range(2, 14):
+                raise ValueError("Invalid auto_col", auto_col)
+            auto_incl_sent = normalize("NFKD", row[auto_col])
+        else:
+            auto_incl_sent = normalize("NFKD", row[2])
+        manual_incl_sent = normalize("NFKD", row[14])
 
         if print_error_types:
-            print(count_errors)
-
-        if write_to_file and out_file is not None:
-            with open(out_file, "w", encoding="utf8", newline="") as out:
-                writer = csv.writer(out)
-                writer.writerow(
-                    [
-                        "id",
-                        "baseline_sent",
-                        "auto_incl_sent",
-                        "manual_incl_sent",
-                        "cos_sim_base",
-                        "cos_sim_auto",
-                        "wer_base",
-                        "wer_auto",
-                        "bleu_base",
-                        "bleu_auto",
-                    ]
+            if not header_type:
+                raise ValueError("print_error_types requires auto_col")
+            if header_type == "RBS":
+                error_types_row = row[15]
+            elif header_type == "LLM-T5":
+                error_types_row = row[16]
+            elif header_type == "LLM-M2M100":
+                error_types_row = row[17]
+            else:
+                raise ValueError(
+                    f"print_error_types: unknown header_type {header_type}"
                 )
 
-                for i, (
-                    baseline_sent,
-                    auto_incl_sent,
-                    manual_incl_sent,
-                    cos_sim_base,
-                    cos_sim_auto,
-                    wer_base,
-                    wer_auto,
-                    bleu_base,
-                    bleu_auto,
-                ) in enumerate(
-                    zip(
-                        baseline_sents,
-                        auto_incl_sents,
-                        manual_incl_sents,
-                        cos_sim_scores_baseline,
-                        cos_sim_scores_auto,
-                        wer_scores_baseline,
-                        wer_scores_auto,
-                        bleu_scores_baseline,
-                        bleu_scores_auto,
-                    )
-                ):
-                    writer.writerow(
-                        [
-                            i,
-                            baseline_sent,
-                            auto_incl_sent,
-                            manual_incl_sent,
-                            cos_sim_base,
-                            cos_sim_auto,
-                            wer_base,
-                            wer_auto,
-                            bleu_base,
-                            bleu_auto,
-                        ]
-                    )
-            print("Metrics saved to", out_file)
+            error_types = error_types_row.split("\n")
+            for error_type in error_types:
+                count_errors[error_type] += 1
+
+        if header_type == "LLM-T5":
+            note_row = row[18].split("\n")
+            if "GOOD_ALT_CHANGE_T5" in note_row:
+                print("Found alternative for T5")
+                print("Using alternative", row[19])
+                auto_incl_sent = row[19]
+        elif header_type == "LLM-M2M100":
+            note_row = row[17].split("\n")
+            if "GOOD_ALT_CHANGE_M2M100" in note_row:
+                print("Found alternative for M2M100")
+                print("Using alternative", row[20])
+                auto_incl_sent = row[20]
+
+        cos_sim_auto = get_cos_sim(auto_incl_sent, manual_incl_sent)
+        cos_sim_2_auto = get_cos_sim_2(auto_incl_sent, manual_incl_sent)
+        wer_auto = get_wer(auto_incl_sent, manual_incl_sent)
+        bleu_auto = get_bleu(auto_incl_sent, manual_incl_sent)
+
+        cos_sim_baseline = get_cos_sim(baseline_sent, manual_incl_sent)
+        cos_sim_2_baseline = get_cos_sim_2(baseline_sent, manual_incl_sent)
+        wer_baseline = get_wer(baseline_sent, manual_incl_sent)
+        bleu_baseline = get_bleu(baseline_sent, manual_incl_sent)
+
+        cos_sim_scores_auto.append(cos_sim_auto)
+        cos_sim_scores_2_auto.append(cos_sim_2_auto)
+        wer_scores_auto.append(wer_auto)
+        bleu_scores_auto.append(bleu_auto)
+
+        cos_sim_scores_baseline.append(cos_sim_baseline)
+        cos_sim_scores_2_baseline.append(cos_sim_2_baseline)
+        wer_scores_baseline.append(wer_baseline)
+        bleu_scores_baseline.append(bleu_baseline)
+
+        baseline_sents.append(baseline_sent)
+        auto_incl_sents.append(auto_incl_sent)
+        manual_incl_sents.append(manual_incl_sent)
+
+        count_sents += 1
+
+        print(
+            f"""Sentence {count_sents}\n"""
+            f"""Cosine similarity: (BASELINE) {round(cos_sim_baseline, 3)}"""
+            f""" | ({header_type}) {round(cos_sim_auto, 3)}\n"""
+            f"""Cosine similarity 2: (BASELINE) {round(cos_sim_2_baseline, 3)}"""
+            f""" | ({header_type}) {round(cos_sim_2_auto, 3)}\n"""
+            f"""WER: (BASELINE) {round(wer_baseline*100, 3)}%"""
+            f""" | ({header_type}) {round(wer_auto*100, 3)}%\n"""
+            f"""BLEU: (BASELINE) {round(bleu_baseline, 3)}"""
+            f""" | ({header_type}) {round(bleu_auto, 3)}\n"""
+        )
+
+    avg_baseline_cos_sim = round(sum(cos_sim_scores_baseline) / count_sents, 3)
+    avg_baseline_cos_sim_2 = round(sum(cos_sim_scores_2_baseline) / count_sents, 3)
+    avg_baseline_wer = round((sum(wer_scores_baseline) / count_sents) * 100, 3)
+    avg_baseline_bleu = round(sum(bleu_scores_baseline) / count_sents, 3)
+
+    avg_auto_cos_sim = round(sum(cos_sim_scores_auto) / count_sents, 3)
+    avg_auto_cos_sim_2 = round(sum(cos_sim_scores_2_auto) / count_sents, 3)
+    avg_auto_wer = round((sum(wer_scores_auto) / count_sents) * 100, 3)
+    avg_auto_bleu = round(sum(bleu_scores_auto) / count_sents, 3)
+
+    print(
+        f"""Evaluation scores for {count_sents} sentences (file {inp_file}):\n
+    BASELINE Average cosine similarity, WER, BLEU:\n
+    {avg_baseline_cos_sim}\t
+    {avg_baseline_cos_sim_2}\t
+    {avg_baseline_wer}%\t
+    {avg_baseline_bleu}\n\n
+    ---\n
+    {header_type} Average cosine similarity, WER, BLEU:\n
+    {avg_auto_cos_sim}\t
+    {avg_auto_cos_sim_2}\t
+    {avg_auto_wer}%\t
+    {avg_auto_bleu}\n\n"""
+    )
+
+    if print_error_types:
+        print(count_errors)
+
+    if write_to_file and out_file is not None:
+        with open(out_file, "w", encoding="utf8", newline="") as out:
+            writer = csv.writer(out)
+            writer.writerow(
+                [
+                    "id",
+                    "baseline_sent",
+                    "auto_incl_sent",
+                    "manual_incl_sent",
+                    "cos_sim_base",
+                    "cos_sim_auto",
+                    "cos_sim_2_base",
+                    "cos_sim_2_auto",
+                    "wer_base",
+                    "wer_auto",
+                    "bleu_base",
+                    "bleu_auto",
+                    "avg_cos_sim_base",
+                    "avg_cos_sim_auto",
+                    "avg_cos_sim_2_base",
+                    "avg_cos_sim_2_auto",
+                    "avg_wer_base",
+                    "avg_wer_auto",
+                    "avg_bleu_base",
+                    "avg_bleu_auto",
+                ]
+            )
+
+            for i, (
+                baseline_sent,
+                auto_incl_sent,
+                manual_incl_sent,
+                cos_sim_base,
+                cos_sim_auto,
+                cos_sim_2_base,
+                cos_sim_2_auto,
+                wer_base,
+                wer_auto,
+                bleu_base,
+                bleu_auto,
+            ) in enumerate(
+                zip(
+                    baseline_sents,
+                    auto_incl_sents,
+                    manual_incl_sents,
+                    cos_sim_scores_baseline,
+                    cos_sim_scores_auto,
+                    cos_sim_scores_2_baseline,
+                    cos_sim_scores_2_auto,
+                    wer_scores_baseline,
+                    wer_scores_auto,
+                    bleu_scores_baseline,
+                    bleu_scores_auto,
+                )
+            ):
+                writer.writerow(
+                    [
+                        i,
+                        baseline_sent,
+                        auto_incl_sent,
+                        manual_incl_sent,
+                        cos_sim_base,
+                        cos_sim_auto,
+                        cos_sim_2_base,
+                        cos_sim_2_auto,
+                        wer_base,
+                        wer_auto,
+                        bleu_base,
+                        bleu_auto,
+                        avg_baseline_cos_sim,
+                        avg_auto_cos_sim,
+                        avg_baseline_cos_sim_2,
+                        avg_auto_cos_sim_2,
+                        avg_baseline_wer,
+                        avg_auto_wer,
+                        avg_baseline_bleu,
+                        avg_auto_bleu,
+                    ]
+                )
+        print("Metrics saved to", out_file)
 
 
 def eval_deps(pred_deps: str, true_deps: str, dct=False) -> tuple[float, float]:

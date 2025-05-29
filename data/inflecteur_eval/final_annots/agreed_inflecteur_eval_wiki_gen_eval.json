@@ -1,0 +1,2111 @@
+[
+  {
+    "wiki_0": [
+      {
+        "original_sent": "L'histoire se déroule dans un monde où l'humanité vit isolée du reste du monde par trois murs impénétrables leur permettant de se défendre contre les Titans, de gigantesques humanoïdes qui dévorent les humains sans raison apparente.",
+        "converted_sent": "L'histoire se déroule dans un monde où l'humanité vit isolée du reste du monde par trois murs impénétrables leur permettant de se défendre contre les Titans, de gigantesques humanoïdes qui dévorent l'humanité sans raison apparente.",
+        "original_dep": "apparente",
+        "inflecteur_replacement": "apparente",
+        "genre_replacement": "apparente",
+        "manual": "apparente"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "wiki_7": [
+      {
+        "original_sent": "Cette complication est plus fréquente chez les hommes que chez les femmes.",
+        "converted_sent": "Cette complication est plus fréquente chez l'humanité que chez les femmes.",
+        "original_dep": "fréquente",
+        "inflecteur_replacement": "fréquente",
+        "genre_replacement": "fréquente",
+        "manual": "fréquente"
+      }
+    ]
+  },
+  {
+    "wiki_8": [
+      {
+        "original_sent": "Les acteurs du films sont non professionnels, « tous des paysans de l'Aude », le tournage est décrit dans L'Humanité comme économe \"une équipe d'amis techniciens a émargé au SMIC ou presque, les acteurs étant quasi bénévoles.",
+        "converted_sent": "l'actorat du films est non professionnels, « toute de la paysannerie de l'Aude », le tournage est décrit dans L'Humanité comme économe \"une équipe d'amis techniciens a émargé au SMIC ou presque, l'actorat étant quasi bénévoles.",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "est"
+      }
+    ]
+  },
+  {
+    "wiki_9": [
+      {
+        "original_sent": "Les deux peintures représentent le moment où le Christ arrive au sommet du Golgotha, après son chemin de croix, escorté par des soldats romains portant casques et armures des armées du roi d’Espagne Philippe II.",
+        "converted_sent": "Les deux peintures représentent le moment où le Christ arrive au sommet du Golgotha, après son chemin de croix, escorté par de l'armée romaine portant casques et armures des armées du roi d'Espagne Philippe II.",
+        "original_dep": "romains",
+        "inflecteur_replacement": "romaine",
+        "genre_replacement": "romaine",
+        "manual": "romaine"
+      }
+    ]
+  },
+  {
+    "wiki_10": [
+      {
+        "original_sent": "Un petit nombre de personnes déplacées d'Europe de l'Est, des Juifs et les chrétiens syriens et les Palestiniens qui ont fui l'Empire ottoman, sont arrivées au Chili.",
+        "converted_sent": "Un petit nombre de personnes déplacées d'Europe de l'Est, des Juifs et la chrétienté syrien s et les Palestiniens qui ont fui l'Empire ottoman, sont arrivées au Chili.",
+        "original_dep": "syriens",
+        "inflecteur_replacement": "syrien s",
+        "genre_replacement": "syriens",
+        "manual": "syrienne"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_12": [
+      {
+        "original_sent": "Les soldats arrivèrent avec une lance à eau pour disperser les détenus.",
+        "converted_sent": "l'armée arriva avec une lance à eau pour disperser les détenus.",
+        "original_dep": "arrivèrent",
+        "inflecteur_replacement": "arriva",
+        "genre_replacement": "arriva",
+        "manual": "arriva"
+      }
+    ]
+  },
+  {
+    "wiki_13": [
+      {
+        "original_sent": "Ses principaux lieutenants seront tous des Apôtres et ses soldats soit des humains, soit des démons.",
+        "converted_sent": "Ses principaux armée sera tous des Apôtres et son armée soit de l'humanité, soit des démons.",
+        "original_dep": "seront",
+        "inflecteur_replacement": "sera",
+        "genre_replacement": "sera",
+        "manual": "sera"
+      }
+    ]
+  },
+  {
+    "wiki_14": [
+      {
+        "original_sent": "Au second tour, les électeurs ont voté à 39,59 % pour François Hollande contre 60,41 % pour Nicolas Sarkozy avec un taux d’abstention de 80,6 %.",
+        "converted_sent": "Au second tour , l ' électorat a voté à 39 , 59 % pour François Hollande contre 60 , 41 % pour Nicolas Sarkozy avec un taux d ' abstention de 80 , 6 % .",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "a"
+      }
+    ]
+  },
+  {
+    "wiki_15": [
+      {
+        "original_sent": "La temporalité biographique est une dimension constitutive de l’expérience humaine, à travers laquelle les hommes donnent une forme à ce qu’ils vivent.",
+        "converted_sent": "La temporalité biographique est une dimension constitutive de l'expérience humaine, à travers laquelle l'humanité donnent une forme à ce qu'ils vivent.",
+        "original_dep": "donnent",
+        "inflecteur_replacement": "donnent",
+        "genre_replacement": "donnent",
+        "manual": "donne"
+      }
+    ]
+  },
+  {
+    "wiki_16": [
+      {
+        "original_sent": "Elle est composée des présidents et secrétaires généraux de chacune des 23 structures régionales.",
+        "converted_sent": "Elle est composée de la présidence et secrétaires générale de chacune des 23 structures régionales.",
+        "original_dep": "généraux",
+        "inflecteur_replacement": "générale",
+        "genre_replacement": "générale",
+        "manual": "généraux"
+      }
+    ]
+  },
+  {
+    "wiki_17": [
+      {
+        "original_sent": "À Vorzel, à l'ouest de Boutcha, des soldats russes ont tué une femme et son enfant de 14 ans après avoir lancé des grenades fumigènes dans le sous-sol dans lequel ils se cachaient.",
+        "converted_sent": "À Vorzel, à l'ouest de Boutcha, de l'armée russe ont tué une femme et son enfant de 14 ans après avoir lancé des grenades fumigènes dans le sous-sol dans lequel ils se cachaient.",
+        "original_dep": "russes",
+        "inflecteur_replacement": "russe",
+        "genre_replacement": "russe",
+        "manual": "russe"
+      },
+      {
+        "original_sent": "À Vorzel, à l'ouest de Boutcha, des soldats russes ont tué une femme et son enfant de 14 ans après avoir lancé des grenades fumigènes dans le sous-sol dans lequel ils se cachaient.",
+        "converted_sent": "À Vorzel, à l'ouest de Boutcha, de l'armée russe a tué une femme et son enfant de 14 ans après avoir lancé des grenades fumigènes dans le sous-sol dans lequel ils se cachaient.",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "a"
+      }
+    ]
+  },
+  {
+    "wiki_18": [
+      {
+        "original_sent": "L'Alliance rebelle et formée par des opposants secrets comme Bail Organa, alors que Palpatine profite de son pouvoir et de son emprise sur la Galaxie pour construire des armes surpuissantes comme l'Étoile de la Mort.",
+        "converted_sent": "L'Alliance rebelle et formée par de l'opposition secrète comme Bail Organa, alors que Palpatine profite de son pouvoir et de son emprise sur la Galaxie pour construire des armes surpuissantes comme l'Étoile de la Mort.",
+        "original_dep": "secrets",
+        "inflecteur_replacement": "secrète",
+        "genre_replacement": "secrète",
+        "manual": "secrète"
+      }
+    ]
+  },
+  {
+    "wiki_19": [
+      {
+        "original_sent": "Le moteur D12A original a été considéré comme ayant une puissance plutôt conservatrice (comprendre : modeste, à des fins de fiabilité), et des attentes concernant une puissance plus importantes ont toujours été à l’esprit, non seulement des concepteurs, mais aussi et surtout des clients.",
+        "converted_sent": "Le moteur D12A original a été considéré comme ayant une puissance plutôt conservatrice ( comprendre : modeste , à des fins de fiabilité ) , et des attentes concernant une puissance plus importantes ont toujours été à l ' esprit , non seulement des concepteurs , mais aussi et surtout la clientèle .",
+        "original_dep": "été",
+        "inflecteur_replacement": "été",
+        "genre_replacement": "été",
+        "manual": "été"
+      },
+      {
+        "original_sent": "Le moteur D12A original a été considéré comme ayant une puissance plutôt conservatrice (comprendre : modeste, à des fins de fiabilité), et des attentes concernant une puissance plus importantes ont toujours été à l’esprit, non seulement des concepteurs, mais aussi et surtout des clients.",
+        "converted_sent": "Le moteur D12A original a été considérée comme ayant une puissance plutôt conservatrice ( comprendre : modeste , à des fins de fiabilité ) , et des attentes concernant une puissance plus importantes ont toujours été à l ' esprit , non seulement des concepteurs , mais aussi et surtout la clientèle .",
+        "original_dep": "considéré",
+        "inflecteur_replacement": "considéré",
+        "genre_replacement": "considéré",
+        "manual": "considéré"
+      }
+    ]
+  },
+  {
+    "wiki_20": [
+      {
+        "original_sent": "Afin de former les futurs cadres de l'administration, il fit venir des professeurs originaires de Mésopotamie, d'Iran et créa également à Damas un collège spécialisé dans l'étude des hâdiths prophétiques (dar al-hâdith).",
+        "converted_sent": "Afin de former les futurs cadres de l'administration, il fit venir le professorat originaire de Mésopotamie, d'Iran et créa également à Damas un collège spécialisé dans l'étude des hâdiths prophétiques (dar al-hâdith).",
+        "original_dep": "originaires",
+        "inflecteur_replacement": "originaire",
+        "genre_replacement": "originaire",
+        "manual": "originaire"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_22": [
+      {
+        "original_sent": "L'influence de Chassériau se ressent également dans les figures masculines dont on pourrait rapprocher l'attitude de celle des soldats romains dans Groupe de soldats romains jouant aux dés la tunique du Christ.",
+        "converted_sent": "L ' influence de Chassériau se ressent également dans les figures masculines dont on pourrait rapprocher l ' attitude de celle de l ' armée romaine dans Groupe de armée romaine jouant aux dés la tunique du Christ .",
+        "original_dep": "romains",
+        "inflecteur_replacement": "romaine",
+        "genre_replacement": "romaine",
+        "manual": "romaine"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_25": [
+      {
+        "original_sent": "Durant la Première Guerre mondiale, elle remplace son mari mobilisé comme médecin chef du sanatorium qu’il a créé et soigne les soldats russes dans l’hôpital qui leur est dédié.",
+        "converted_sent": "Durant la Première Guerre mondiale, elle remplace son mari mobilisé comme médecin chef du sanatorium qu'il a créé et soigne l'armée russe dans l'hôpital qui leur est dédié.",
+        "original_dep": "russes",
+        "inflecteur_replacement": "russe",
+        "genre_replacement": "russe",
+        "manual": "russe"
+      }
+    ]
+  },
+  {
+    "wiki_26": [
+      {
+        "original_sent": "Barzanî et ses hommes, en majorité issus du clan de Barzan, se rendent alors à l'Est du Kurdistan en 1946, où ils assisteront en fin d'année à la chute de la République de Mahabad et à l'exécution des leaders, dont Qazi Mihemed.",
+        "converted_sent": "Barzanî et son humanité, en majorité issus du clan de Barzan, se rend alors à l'Est du Kurdistan en 1946, où ils assisteront en fin d'année à la chute de la République de Mahabad et à l'exécution des leaders, dont Qazi Mihemed.",
+        "original_dep": "rendent",
+        "inflecteur_replacement": "rend",
+        "genre_replacement": "rend",
+        "manual": "rendent"
+      }
+    ]
+  },
+  {
+    "wiki_27": [
+      {
+        "original_sent": "Il déclare que les concessions faites par les francophones lors des discussions sont « des pas de nains de jardin » aux yeux des Flamands.",
+        "converted_sent": "Il déclare que les concessions faites par la francophonie lors des discussions est « des pas de nains de jardin » aux yeux des Flamands.",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "sont"
+      }
+    ]
+  },
+  {
+    "wiki_28": [
+      {
+        "original_sent": "Oren pense alors qu'il s'agissait d'un navire plus lent qui avait soit ravitaillé le destroyer ou évacué des soldats ennemis de la plage.",
+        "converted_sent": "Oren pense alors qu'il s'agissait d'un navire plus lent qui avait soit ravitaillé le destroyer ou évacué de l'armée ennemi de la plage.",
+        "original_dep": "ennemis",
+        "inflecteur_replacement": "ennemi",
+        "genre_replacement": "ennemi",
+        "manual": "ennemie"
+      },
+      {
+        "original_sent": "Oren pense alors qu'il s'agissait d'un navire plus lent qui avait soit ravitaillé le destroyer ou évacué des soldats ennemis de la plage.",
+        "converted_sent": "Oren pense alors qu'il s'agissait d'un navire plus lent qui avait soit ravitaillé le destroyer ou évacué de l'armée ennemi de la plage.",
+        "original_dep": "évacué",
+        "inflecteur_replacement": "évacué",
+        "genre_replacement": "évacué",
+        "manual": "évacué"
+      }
+    ]
+  },
+  {
+    "wiki_29": [
+      {
+        "original_sent": "Pendant des décennies, il était impossible de soulever la question même de l'aménagement des lieux des fosses communes des soldats allemands, jusqu'à ce que récemment un tel travail, lancé et financé par la partie allemande, soit en cours.",
+        "converted_sent": "Pendant des décennies, il était impossible de soulever la question même de l'aménagement des lieux des fosses communes de l'armée allemande, jusqu'à ce que récemment un tel travail, lancé et financé par la partie allemande, soit en cours.",
+        "original_dep": "allemands",
+        "inflecteur_replacement": "allemande",
+        "genre_replacement": "allemande",
+        "manual": "allemande"
+      },
+      {
+        "original_sent": "Pendant des décennies, il était impossible de soulever la question même de l'aménagement des lieux des fosses communes des soldats allemands, jusqu'à ce que récemment un tel travail, lancé et financé par la partie allemande, soit en cours.",
+        "converted_sent": "Pendant des décennies , il était impossible de soulever la question même de l ' aménagement des lieux des fosses communes de l ' armée allemande , jusqu ' à ce que récemment un tel travail , lancé et financé par la partie allemande , soit en cours .",
+        "original_dep": "ce",
+        "inflecteur_replacement": "cette",
+        "genre_replacement": "cette",
+        "manual": "ce"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "wiki_33": [
+      {
+        "original_sent": "La situation des républicains devient critique mais les chouans manquent d'organisation et si Grisolles arrive enfin, ses soldats, épuisés et peu enthousiastes, ne refusent de passer à l'attaque, quelques autres compagnies, notamment celles d'Audran et Duchemin, agissent de même, quant à Guillemot, il n'avait pas réapparu.",
+        "converted_sent": "La situation des républicains devient critique mais les chouans manquent d'organisation et si Grisolles arrive enfin, son armée, épuisés et peu enthousiastes, ne refusent de passer à l'attaque, quelques autres compagnies, notamment celles d'Audran et Duchemin, agissent de même, quant à Guillemot, il n'avait pas réapparu.",
+        "original_dep": "épuisés",
+        "inflecteur_replacement": "épuisés",
+        "genre_replacement": "épuisés",
+        "manual": "épuisée"
+      },
+      {
+        "original_sent": "La situation des républicains devient critique mais les chouans manquent d'organisation et si Grisolles arrive enfin, ses soldats, épuisés et peu enthousiastes, ne refusent de passer à l'attaque, quelques autres compagnies, notamment celles d'Audran et Duchemin, agissent de même, quant à Guillemot, il n'avait pas réapparu.",
+        "converted_sent": "La situation des républicains devient critique mais les chouans manquent d'organisation et si Grisolles arrive enfin, son armée, épuisés et peu enthousiastes, ne refusent de passer à l'attaque, quelques autres compagnies, notamment celles d'Audran et Duchemin, agissent de même, quant à Guillemot, il n'avait pas réapparu.",
+        "original_dep": "chouans",
+        "inflecteur_replacement": "chouans",
+        "genre_replacement": "chouans",
+        "manual": "chouans"
+      },
+      {
+        "original_sent": "La situation des républicains devient critique mais les chouans manquent d'organisation et si Grisolles arrive enfin, ses soldats, épuisés et peu enthousiastes, ne refusent de passer à l'attaque, quelques autres compagnies, notamment celles d'Audran et Duchemin, agissent de même, quant à Guillemot, il n'avait pas réapparu.",
+        "converted_sent": "La situation des républicains devient critique mais les chouans manquent d'organisation et si Grisolles arrive enfin, son armée, épuisés et peu enthousiastes, ne refuse de passer à l'attaque, quelques autres compagnies, notamment celles d'Audran et Duchemin, agissent de même, quant à Guillemot, il n'avait pas réapparu.",
+        "original_dep": "refusent",
+        "inflecteur_replacement": "refuse",
+        "genre_replacement": "refuse",
+        "manual": "refuse"
+      },
+      {
+        "original_sent": "La situation des républicains devient critique mais les chouans manquent d'organisation et si Grisolles arrive enfin, ses soldats, épuisés et peu enthousiastes, ne refusent de passer à l'attaque, quelques autres compagnies, notamment celles d'Audran et Duchemin, agissent de même, quant à Guillemot, il n'avait pas réapparu.",
+        "converted_sent": "La situation des républicains devient critique mais les chouans manquent d'organisation et si Grisolles arrive enfin, son armée, épuisés et peu enthousiastes, ne refuse de passer à l'attaque, quelques autres compagnies, notamment celles d'Audran et Duchemin, agissent de même, quant à Guillemot, il n'avait pas réapparu.",
+        "original_dep": "avait",
+        "inflecteur_replacement": "avait",
+        "genre_replacement": "avait",
+        "manual": "avait"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_36": [
+      {
+        "original_sent": "Les élections partielles qui suivent marquent cependant une nouvelle tendance puisque pas un des candidats de la tendance du National n'est élu, cédant la place à des hommes liés soit aux tendances monarchistes (notamment Adolphe Thiers) soit au socialisme.",
+        "converted_sent": "Les élections partielles qui suivent marquent cependant une nouvelle tendance puisque pas un des candidats de la tendance du National n'est élu, cédant la place à de l'humanité liés soit aux tendances monarchistes (notamment Adolphe Thiers) soit au socialisme.",
+        "original_dep": "liés",
+        "inflecteur_replacement": "liés",
+        "genre_replacement": "liés",
+        "manual": "liée"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_38": [
+      {
+        "original_sent": "Les professeurs sont invités à un cocktail : Juan y va avec Ingrid mais celle-ci se retrouve avec la même robe de soirée que sa rivale, c'est-à-dire Diana...",
+        "converted_sent": "le professorat est invité à un cocktail : Juan y va avec Ingrid mais celle-ci se retrouve avec la même robe de soirée que sa rivale, c'est-à-dire Diana...",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "est"
+      },
+      {
+        "original_sent": "Les professeurs sont invités à un cocktail : Juan y va avec Ingrid mais celle-ci se retrouve avec la même robe de soirée que sa rivale, c'est-à-dire Diana...",
+        "converted_sent": "le professorat est invité à un cocktail : Juan y va avec Ingrid mais celle-ci se retrouve avec la même robe de soirée que sa rivale, c'est-à-dire Diana...",
+        "original_dep": "invités",
+        "inflecteur_replacement": "invité",
+        "genre_replacement": "invité",
+        "manual": "invité"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_41": [
+      {
+        "original_sent": "Les mouvements répétitifs et les difficultés de communication et de relation sociale constatés chez ces enfants ont initialement été décrits comme typiques d'une forme d'autisme, cependant une description symptomatologique poussée montre des différences.",
+        "converted_sent": "Les mouvements répétitifs et les difficultés de communication et de relation sociale constatés chez cette enfance ont initialement été décrits comme typiques d'une forme d'autisme, cependant une description symptomatologique poussée montre des différences.",
+        "original_dep": "décrits",
+        "inflecteur_replacement": "décrits",
+        "genre_replacement": "décrits",
+        "manual": "décrits"
+      },
+      {
+        "original_sent": "Les mouvements répétitifs et les difficultés de communication et de relation sociale constatés chez ces enfants ont initialement été décrits comme typiques d'une forme d'autisme, cependant une description symptomatologique poussée montre des différences.",
+        "converted_sent": "Les mouvements répétitifs et les difficultés de communication et de relation sociale constatés chez cette enfance ont initialement été décrits comme typiques d'une forme d'autisme, cependant une description symptomatologique poussée montre des différences.",
+        "original_dep": "été",
+        "inflecteur_replacement": "été",
+        "genre_replacement": "été",
+        "manual": "été"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_43": [
+      {
+        "original_sent": "Les auteurs de l'émission se montrent souvent critiques vis-à-vis des aménagements qu'ils montrent dans leurs reportages.",
+        "converted_sent": "l ' autorat de l ' émission se montrent souvent critiques vis - à - vis des aménagements qu ' ils montrent dans leurs reportages .",
+        "original_dep": "montrent",
+        "inflecteur_replacement": "montre",
+        "genre_replacement": "montre",
+        "manual": "montre"
+      },
+      {
+        "original_sent": "Les auteurs de l'émission se montrent souvent critiques vis-à-vis des aménagements qu'ils montrent dans leurs reportages.",
+        "converted_sent": "l ' autorat de l ' émission se montrent souvent critique vis - à - vis des aménagements qu ' ils montrent dans leurs reportages .",
+        "original_dep": "critiques",
+        "inflecteur_replacement": "critique",
+        "genre_replacement": "critique",
+        "manual": "critique"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_45": [
+      {
+        "original_sent": "Dans son Commentaire aux épidémies, il présente ses professeurs alexandrins comme des savants seulement en parole, qui sont complètement incapables de reconnaître une maladie.",
+        "converted_sent": "Dans son Commentaire aux épidémies, il présente son professorat a lex andrins comme des savants seulement en parole, qui sont complètement incapables de reconnaître une maladie.",
+        "original_dep": "alexandrins",
+        "inflecteur_replacement": "a lex andrins",
+        "genre_replacement": "alexandrins",
+        "manual": "alexandrin"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_48": [
+      {
+        "original_sent": "Les pompiers ont dû se retirer temporairement pour retrouver trois hommes qui s'étaient brièvement perdus dans la fumée, et se sont retirés à nouveau parce que les hommes étaient temporairement portés disparus lorsqu'une partie du toit s'est effondrée.",
+        "converted_sent": "Les pompiers ont dû se retirer temporairement pour retrouver trois humanité qui s'étaient brièvement perdus dans la fumée, et se sont retirés à nouveau parce que l'humanité étaient temporairement portés disparus lorsqu'une partie du toit s'est effondrée.",
+        "original_dep": "brièvement",
+        "inflecteur_replacement": "brièvement",
+        "genre_replacement": "brièvement",
+        "manual": "brièvement"
+      },
+      {
+        "original_sent": "Les pompiers ont dû se retirer temporairement pour retrouver trois hommes qui s'étaient brièvement perdus dans la fumée, et se sont retirés à nouveau parce que les hommes étaient temporairement portés disparus lorsqu'une partie du toit s'est effondrée.",
+        "converted_sent": "Les pompiers ont dû se retirer temporairement pour retrouver trois humanité qui s ' était brièvement perdus dans la fumée , et se sont retirés à nouveau parce que l ' humanité était temporairement portés disparus lorsqu ' une partie du toit s ' est effondrée .",
+        "original_dep": "étaient",
+        "inflecteur_replacement": "était",
+        "genre_replacement": "était",
+        "manual": "était"
+      },
+      {
+        "original_sent": "Les pompiers ont dû se retirer temporairement pour retrouver trois hommes qui s'étaient brièvement perdus dans la fumée, et se sont retirés à nouveau parce que les hommes étaient temporairement portés disparus lorsqu'une partie du toit s'est effondrée.",
+        "converted_sent": "Les pompiers ont dû se retirer temporairement pour retrouver trois humanité qui s ' était brièvement perdus dans la fumée , et se sont retirés à nouveau parce que l ' humanité était temporairement portée disparus lorsqu ' une partie du toit s ' est effondrée .",
+        "original_dep": "portés",
+        "inflecteur_replacement": "portés",
+        "genre_replacement": "portée",
+        "manual": "portée"
+      },
+      {
+        "original_sent": "Les pompiers ont dû se retirer temporairement pour retrouver trois hommes qui s'étaient brièvement perdus dans la fumée, et se sont retirés à nouveau parce que les hommes étaient temporairement portés disparus lorsqu'une partie du toit s'est effondrée.",
+        "converted_sent": "Les pompiers ont dû se retirer temporairement pour retrouver trois humanité qui s ' était brièvement perdus dans la fumée , et se sont retirés à nouveau parce que l ' humanité était temporairement portée disparu s lorsqu ' une partie du toit s ' est effondrée .",
+        "original_dep": "disparus",
+        "inflecteur_replacement": "disparu s",
+        "genre_replacement": "disparus",
+        "manual": "disparue"
+      },
+      {
+        "original_sent": "Les pompiers ont dû se retirer temporairement pour retrouver trois hommes qui s'étaient brièvement perdus dans la fumée, et se sont retirés à nouveau parce que les hommes étaient temporairement portés disparus lorsqu'une partie du toit s'est effondrée.",
+        "converted_sent": "Les pompiers ont dû se retirer temporairement pour retrouver trois humanité qui s ' était brièvement perdus dans la fumée , et se est retirés à nouveau parce que l ' humanité était temporairement portée disparu s lorsqu ' une partie du toit s ' est effondrée .",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "est"
+      }
+    ]
+  },
+  {
+    "wiki_49": [
+      {
+        "original_sent": "Les hommes de loi, avocats, notaires, et conseillers travaillant à la sénéchaussée ou au Parlement, se font plus nombreux.",
+        "converted_sent": "l'humanité de loi, barreau, notaires, et conseil travaillant à la sénéchaussée ou au Parlement, se fait plus nombreux.",
+        "original_dep": "font",
+        "inflecteur_replacement": "fait",
+        "genre_replacement": "fait",
+        "manual": "font"
+      },
+      {
+        "original_sent": "Les hommes de loi, avocats, notaires, et conseillers travaillant à la sénéchaussée ou au Parlement, se font plus nombreux.",
+        "converted_sent": "l'humanité de loi, barreau, notaires, et conseil travaillant à la sénéchaussée ou au Parlement, se fait plus nombreux.",
+        "original_dep": "nombreux",
+        "inflecteur_replacement": "nombreux",
+        "genre_replacement": "nombreux",
+        "manual": "nombreux"
+      },
+      {
+        "original_sent": "Les hommes de loi, avocats, notaires, et conseillers travaillant à la sénéchaussée ou au Parlement, se font plus nombreux.",
+        "converted_sent": "l'humanité de loi, barreau, notaires, et conseil travaillant à la sénéchaussée ou au Parlement, se font plus nombreux.",
+        "original_dep": "travaillant",
+        "inflecteur_replacement": "travaillant",
+        "genre_replacement": "travaillant",
+        "manual": "travaillant"
+      }
+    ]
+  },
+  {
+    "wiki_50": [
+      {
+        "original_sent": "Il parcourut ensuite les autres cités qui avaient renversé les statues de Maximin, punit de mort les principaux habitants et de l'exil les citoyens obscurs ».",
+        "converted_sent": "Il parcourut ensuite les autres cités qui avaient renversé les statues de Maximin, punit de mort les principaux habitants et de l'exil la citoyenneté obscure ».",
+        "original_dep": "obscurs",
+        "inflecteur_replacement": "obscure",
+        "genre_replacement": "obscure",
+        "manual": "obscure"
+      }
+    ]
+  },
+  {
+    "wiki_51": [
+      {
+        "original_sent": "Les évaluations réalisées par les troupes sud-vietnamiennes avec des conseillers américains montrent que les Viet-Congs ont quitté la zone avant le raid et laissent à penser que l'infiltration des forces du sud pourrait avoir donné l'alerte au nord à cause des troupes de l'Armée de la République du Viêt Nam impliquées dans les inspections post-bombardement.",
+        "converted_sent": "Les évaluations réalisées par les troupes sud-vietnamiennes avec le conseil américain montrent que les Viet-Congs ont quitté la zone avant le raid et laissent à penser que l'infiltration des forces du sud pourrait avoir donné l'alerte au nord à cause des troupes de l'Armée de la République du Viêt Nam impliquées dans les inspections post-bombardement.",
+        "original_dep": "américains",
+        "inflecteur_replacement": "américain",
+        "genre_replacement": "américain",
+        "manual": "américain"
+      },
+      {
+        "original_sent": "Les évaluations réalisées par les troupes sud-vietnamiennes avec des conseillers américains montrent que les Viet-Congs ont quitté la zone avant le raid et laissent à penser que l'infiltration des forces du sud pourrait avoir donné l'alerte au nord à cause des troupes de l'Armée de la République du Viêt Nam impliquées dans les inspections post-bombardement.",
+        "converted_sent": "Les évaluations réalisées par les troupes sud-vietnamiennes avec le conseil américain montre que les Viet-Congs ont quitté la zone avant le raid et laissent à penser que l'infiltration des forces du sud pourrait avoir donné l'alerte au nord à cause des troupes de l'Armée de la République du Viêt Nam impliquées dans les inspections post-bombardement.",
+        "original_dep": "montrent",
+        "inflecteur_replacement": "montre",
+        "genre_replacement": "montre",
+        "manual": "montrent"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_54": [
+      {
+        "original_sent": "Même quand il était demandé à ses partisans de porter atteinte à la dignité et l'honneur de Marie II de Portugal et à la Cour, il a catégoriquement refusé, écrivant que un foyer de corruption politique ne ferait pas de la Cour un lieu de dépravation morale.",
+        "converted_sent": "Même quand il était demandé à son parti de porter atteinte à la dignité et l'honneur de Marie II de Portugal et à la Cour, il a catégoriquement refusé, écrivant que un foyer de corruption politique ne ferait pas de la Cour un lieu de dépravation morale.",
+        "original_dep": "refusé",
+        "inflecteur_replacement": "refusé",
+        "genre_replacement": "refusé",
+        "manual": "refusé"
+      }
+    ]
+  },
+  {
+    "wiki_55": [
+      {
+        "original_sent": "Un an plus tard, François Le Poulchre établit une sorte de classification élémentaire des lutins, en disant que les créatures liées au feu sont colériques et causent des misères aux hommes, tout comme celles de la terre et de l'eau.",
+        "converted_sent": "Un an plus tard, François Le Poulchre établit une sorte de classification élémentaire des lutins, en disant que les créatures liées au feu sont colériques et causent des misères à l'humanité, tout comme celles de la terre et de l'eau.",
+        "original_dep": "celles",
+        "inflecteur_replacement": "celles",
+        "genre_replacement": "celles",
+        "manual": "celles"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_57": [
+      {
+        "original_sent": "L'inactivité des policiers est meublée par quelques gags récurrents : un inspecteur s'empare du cigare que vient d'allumer son collègue, le chauffeur du commissaire astique sa Bentley en toutes circonstances, etc.",
+        "converted_sent": "L'inactivité de la police est meublée par quelques gags récurrents : un inspecteur s'empare du cigare que vient d'allumer son collègue, le chauffeur du commissaire astique sa Bentley en toutes circonstances, etc.",
+        "original_dep": "est",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "est"
+      },
+      {
+        "original_sent": "L'inactivité des policiers est meublée par quelques gags récurrents : un inspecteur s'empare du cigare que vient d'allumer son collègue, le chauffeur du commissaire astique sa Bentley en toutes circonstances, etc.",
+        "converted_sent": "L'inactivité de la police est meublée par quelques gags récurrents : un inspecteur s'empare du cigare que vient d'allumer son collègue, le chauffeur du commissaire astique sa Bentley en toutes circonstances, etc.",
+        "original_dep": "meublée",
+        "inflecteur_replacement": "meublée",
+        "genre_replacement": "meublée",
+        "manual": "meublée"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {
+    "wiki_62": [
+      {
+        "original_sent": "Dans la première année de ses activités commerciales, Jagriti avait réussi à faire paraître douze publications, dont l'œuvre acclamée par la critique, « Ami Birangona Bolchhi » (En tant qu'héroïne de guerre, je parle) de Nilima Ibrahim, qui raconte les histoires de femmes et de filles bengalies violées et torturées par des soldats pakistanais et leurs collaborateurs pendant la guerre de libération du Bangladesh en 1971.",
+        "converted_sent": "Dans la première année de ses activités commerciales, Jagriti avait réussi à faire paraître douze publications, dont l'œuvre acclamée par la critique, « Ami Birangona Bolchhi » (En tant qu'héroïne de guerre, je parle) de Nilima Ibrahim, qui raconte les histoires de femmes et de filles bengalies violées et torturées par de l'armée pakistanaise et leurs collaboration pendant la guerre de libération du Bangladesh en 1971.",
+        "original_dep": "pakistanais",
+        "inflecteur_replacement": "pakistanaise",
+        "genre_replacement": "pakistanaise",
+        "manual": "pakistanaise"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_64": [
+      {
+        "original_sent": "Il parvient à s'enfuir sous les tirs des guerriers d'Ollokot et à rejoindre l'arrière mais deux de ses hommes sont tués par les Nez-Percés.",
+        "converted_sent": "Il parvient à s'enfuir sous les tirs des guerriers d'Ollokot et à rejoindre l'arrière mais deux de son humanité est tués par les Nez-Percés.",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "est"
+      },
+      {
+        "original_sent": "Il parvient à s'enfuir sous les tirs des guerriers d'Ollokot et à rejoindre l'arrière mais deux de ses hommes sont tués par les Nez-Percés.",
+        "converted_sent": "Il parvient à s'enfuir sous les tirs des guerriers d'Ollokot et à rejoindre l'arrière mais deux de son humanité est tuée par les Nez-Percés.",
+        "original_dep": "tués",
+        "inflecteur_replacement": "tués",
+        "genre_replacement": "tuée",
+        "manual": "tuée"
+      }
+    ]
+  },
+  {
+    "wiki_65": [
+      {
+        "original_sent": "Les théories de Darwin ont montré que les humains et les animaux se sont développés par un processus évolutif.",
+        "converted_sent": "Les théories de Darwin ont montré que l'humanité et les animaux se est développés par un processus évolutif.",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "sont"
+      },
+      {
+        "original_sent": "Les théories de Darwin ont montré que les humains et les animaux se sont développés par un processus évolutif.",
+        "converted_sent": "Les théories de Darwin ont montré que l'humanité et les animaux se est développés par un processus évolutif.",
+        "original_dep": "développés",
+        "inflecteur_replacement": "développés",
+        "genre_replacement": "développés",
+        "manual": "développés"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_68": [
+      {
+        "original_sent": "Aucun de ces symptôme pris individuellement n’est spécifique ; c’est leur combinaison, souvent associée à des anomalies révélées par les analyses de laboratoire, leur gravité et des changements temporels (qui peuvent être très rapides) qui permettent de poser le diagnostic d’une part et d’autre part de différencier les origines ou antécédents des patients touchés (via le profil des cytokines en cause).",
+        "converted_sent": "Aucun de ces symptôme pris individuellement n'est spécifique ; c'est leur combinaison, souvent associée à des anomalies révélées par les analyses de laboratoire, leur gravité et des changements temporels (qui peuvent être très rapides) qui permettent de poser le diagnostic d'une part et d'autre part de différencier les origines ou antécédents de la patientèle touchés (via le profil des cytokines en cause).",
+        "original_dep": "touchés",
+        "inflecteur_replacement": "touchés",
+        "genre_replacement": "touchés",
+        "manual": "touchée"
+      }
+    ]
+  },
+  {
+    "wiki_69": [
+      {
+        "original_sent": "Les photos représentant la Vierge penchée furent diffusées par les soldats britanniques et la presse dans le reste du monde.",
+        "converted_sent": "Les photos représentant la Vierge penchée furent diffusées par l'armée britannique et la presse dans le reste du monde.",
+        "original_dep": "britanniques",
+        "inflecteur_replacement": "britannique",
+        "genre_replacement": "britannique",
+        "manual": "britannique"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "wiki_75": [
+      {
+        "original_sent": "Un an après la fin de la guerre, la plupart des soldats rentrent chez eux, mais seulement 2 millions de soldats rentrent des goulags et autres camps de prisonniers russes.",
+        "converted_sent": "Un an après la fin de la guerre , la plupart de l ' armée rentrent chez eux , mais seulement 2 millions de armée rentrent des goulags et autres camps de prisonniers russes .",
+        "original_dep": "rentrent",
+        "inflecteur_replacement": "rentrent",
+        "genre_replacement": "rentrent",
+        "manual": "rentre"
+      }
+    ]
+  },
+  {
+    "wiki_76": [
+      {
+        "original_sent": "Les décrets s'appliquent à tous les Français, car ils ont été votés par les représentants du peuple souverain.",
+        "converted_sent": "Les décrets s'appliquent à tous les Français, car ils ont été votés par la représentation du peuple souveraine.",
+        "original_dep": "souverain",
+        "inflecteur_replacement": "souveraine",
+        "genre_replacement": "souveraine",
+        "manual": "souverain"
+      },
+      {
+        "original_sent": "Les décrets s'appliquent à tous les Français, car ils ont été votés par les représentants du peuple souverain.",
+        "converted_sent": "Les décrets s'appliquent à tous les Français, car ils ont été votés par la représentation du peuple souveraine.",
+        "original_dep": "été",
+        "inflecteur_replacement": "été",
+        "genre_replacement": "été",
+        "manual": "été"
+      },
+      {
+        "original_sent": "Les décrets s'appliquent à tous les Français, car ils ont été votés par les représentants du peuple souverain.",
+        "converted_sent": "Les décrets s'appliquent à tous les Français, car ils ont été votée par la représentation du peuple souveraine.",
+        "original_dep": "votés",
+        "inflecteur_replacement": "votés",
+        "genre_replacement": "votée",
+        "manual": "votés"
+      }
+    ]
+  },
+  {
+    "wiki_77": [
+      {
+        "original_sent": "En pratique les nouveaux arrivants dans les années 1950-1960, pour beaucoup des juifs orientaux ou séfarades, ont été envoyés loin du centre dans des villes de développement.",
+        "converted_sent": "En pratique les nouveaux arrivants dans les années 1950-1960, pour beaucoup de la judaïcité orientale ou séfarades, ont été envoyés loin du centre dans des villes de développement.",
+        "original_dep": "orientaux",
+        "inflecteur_replacement": "orientale",
+        "genre_replacement": "orientale",
+        "manual": "orientale"
+      }
+    ]
+  },
+  {
+    "wiki_78": [
+      {
+        "original_sent": "Mais les soldats protestants, toujours agressifs, restaient à la charge des habitants et constituaient une lourde charge.",
+        "converted_sent": "Mais l'armée protestante, toujours agressifs, restaient à la charge des habitants et constituaient une lourde charge.",
+        "original_dep": "protestants",
+        "inflecteur_replacement": "protestante",
+        "genre_replacement": "protestante",
+        "manual": "protestante"
+      },
+      {
+        "original_sent": "Mais les soldats protestants, toujours agressifs, restaient à la charge des habitants et constituaient une lourde charge.",
+        "converted_sent": "Mais l'armée protestante, toujours agressive, restaient à la charge des habitants et constituaient une lourde charge.",
+        "original_dep": "agressifs",
+        "inflecteur_replacement": "agressive",
+        "genre_replacement": "agressive",
+        "manual": "agressive"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_81": [
+      {
+        "original_sent": "Dans un rapport de 2006 couvrant 357 enquêtes, l'Office fédéral de police criminelle (BKA) signalait que seuls 43 % des suspects étaient des citoyens allemands (dont 20 % nés hors d'Allemagne).",
+        "converted_sent": "Dans un rapport de 2006 couvrant 357 enquêtes, l'Office fédéral de police criminelle (BKA) signalait que seuls 43 % des suspects étaient la citoyenneté allemande (dont 20 % nés hors d'Allemagne).",
+        "original_dep": "allemands",
+        "inflecteur_replacement": "allemande",
+        "genre_replacement": "allemande",
+        "manual": "allemande"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_84": [
+      {
+        "original_sent": "Les Mokomokai sont des chefs conservés de Māoris, peuple indigène de la Nouvelle-Zélande et des îles Cook, dont les visages ont été décorés par des tatouages tā moko.",
+        "converted_sent": "Les Mokomokai sont la chefferie conservés de Māoris, peuple indigène de la Nouvelle-Zélande et des îles Cook, dont les visages ont été décorée par des tatouages tā moko.",
+        "original_dep": "été",
+        "inflecteur_replacement": "été",
+        "genre_replacement": "été",
+        "manual": "été"
+      },
+      {
+        "original_sent": "Les Mokomokai sont des chefs conservés de Māoris, peuple indigène de la Nouvelle-Zélande et des îles Cook, dont les visages ont été décorés par des tatouages tā moko.",
+        "converted_sent": "Les Mokomokai sont la chefferie conservés de Māoris, peuple indigène de la Nouvelle-Zélande et des îles Cook, dont les visages ont été décorée par des tatouages tā moko.",
+        "original_dep": "conservés",
+        "inflecteur_replacement": "conservés",
+        "genre_replacement": "conservés",
+        "manual": "conservée"
+      },
+      {
+        "original_sent": "Les Mokomokai sont des chefs conservés de Māoris, peuple indigène de la Nouvelle-Zélande et des îles Cook, dont les visages ont été décorés par des tatouages tā moko.",
+        "converted_sent": "Les Mokomokai sont la chefferie conservés de Māoris, peuple indigène de la Nouvelle-Zélande et des îles Cook, dont les visages ont été décorée par des tatouages tā moko.",
+        "original_dep": "décorés",
+        "inflecteur_replacement": "décorés",
+        "genre_replacement": "décorés",
+        "manual": "décorés"
+      }
+    ]
+  },
+  {
+    "wiki_85": [
+      {
+        "original_sent": "Le cortège est composé des enfants de l'école juive, de la fanfare, des dames patronnesses, des porteuses des clefs de la nouvelle synagogue, des porteurs des rouleaux de Torah, des deux rabbins, de la direction de la communauté, des autorités de la ville avec à leur tête le chef du district, le comte von Löw en grand uniforme, des membres du clergé des différents églises et de nombreux habitants de la ville.",
+        "converted_sent": "Le cortège est composé de l'enfance de l'école juive, de la fanfare, des dames patronnesses, des porteuses des clefs de la nouvelle synagogue, des porteurs des rouleaux de Torah, des deux rabbinat, de la direction de la communauté, des autorités de la ville avec à leur tête le chef du district, le comte von Löw en grand uniforme, des membres du clergé des différents églises et de nombreux habitants de la ville.",
+        "original_dep": "est",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "est"
+      },
+      {
+        "original_sent": "Le cortège est composé des enfants de l'école juive, de la fanfare, des dames patronnesses, des porteuses des clefs de la nouvelle synagogue, des porteurs des rouleaux de Torah, des deux rabbins, de la direction de la communauté, des autorités de la ville avec à leur tête le chef du district, le comte von Löw en grand uniforme, des membres du clergé des différents églises et de nombreux habitants de la ville.",
+        "converted_sent": "Le cortège est composé de l'enfance de l'école juive, de la fanfare, des dames patronnesses, des porteuses des clefs de la nouvelle synagogue, des porteurs des rouleaux de Torah, des deux rabbinat, de la direction de la communauté, des autorités de la ville avec à leur tête le chef du district, le comte von Löw en grand uniforme, des membres du clergé des différents églises et de nombreux habitants de la ville.",
+        "original_dep": "composé",
+        "inflecteur_replacement": "composé",
+        "genre_replacement": "composé",
+        "manual": "composé"
+      }
+    ]
+  },
+  {
+    "wiki_86": [
+      {
+        "original_sent": "Les patients peuvent consentir à faire don d'échantillons et des données sous forme « codée » (lien avec le dossier médical du donneur est possible seulement avec un code), de manière « anonymisée » (lien avec le donneur définitivement supprimé) ou choisir de ne pas participer à la recherche scientifique.",
+        "converted_sent": "la patientèle peut consentir à faire don d'échantillons et des données sous forme « codée » (lien avec le dossier médical du donneur est possible seulement avec un code), de manière « anonymisée » (lien avec le donneur définitivement supprimé) ou choisir de ne pas participer à la recherche scientifique.",
+        "original_dep": "peuvent",
+        "inflecteur_replacement": "peut",
+        "genre_replacement": "peut",
+        "manual": "peut"
+      },
+      {
+        "original_sent": "Les patients peuvent consentir à faire don d'échantillons et des données sous forme « codée » (lien avec le dossier médical du donneur est possible seulement avec un code), de manière « anonymisée » (lien avec le donneur définitivement supprimé) ou choisir de ne pas participer à la recherche scientifique.",
+        "converted_sent": "la patientèle peut consentir à faire don d'échantillons et des données sous forme « codé e » (lien avec le dossier médical du donneur est possible seulement avec un code), de manière « anonymisée » (lien avec le donneur définitivement supprimé) ou choisir de ne pas participer à la recherche scientifique.",
+        "original_dep": "codée",
+        "inflecteur_replacement": "codé e",
+        "genre_replacement": "codée",
+        "manual": "codée"
+      }
+    ]
+  },
+  {
+    "wiki_87": [
+      {
+        "original_sent": "De plus, la demande d’emploi étant supérieure à l’offre, les employeurs peuvent davantage imposer leurs conditions et choisir d’embaucher des enfants (moins payés et plus dociles) que des adultes : dans de nombreuses situations, les enfants travaillent alors que les parents sont au chômage, entrant ainsi en « concurrence involontaire ».",
+        "converted_sent": "De plus, la demande d'emploi étant supérieure à l'offre, les employeurs peuvent davantage imposer leurs conditions et choisir d'embaucher de l'enfance (moins payés et plus dociles) que des adultes : dans de nombreuses situations, l'enfance travaille alors que les parents sont au chômage, entrant ainsi en « concurrence involontaire ».",
+        "original_dep": "travaillent",
+        "inflecteur_replacement": "travaille",
+        "genre_replacement": "travaille",
+        "manual": "travaille"
+      }
+    ]
+  },
+  {
+    "wiki_88": [
+      {
+        "original_sent": "Les noms des intellectuels ukrainiens assassinés sont gravés dans un mur en acier, dont la rouille donne le sentiment que le monument saigne indéfiniment.",
+        "converted_sent": "Les noms de l'intelligentsia ukrainienne assassinés sont gravés dans un mur en acier, dont la rouille donne le sentiment que le monument saigne indéfiniment.",
+        "original_dep": "ukrainiens",
+        "inflecteur_replacement": "ukrainienne",
+        "genre_replacement": "ukrainienne",
+        "manual": "ukrainienne"
+      },
+      {
+        "original_sent": "Les noms des intellectuels ukrainiens assassinés sont gravés dans un mur en acier, dont la rouille donne le sentiment que le monument saigne indéfiniment.",
+        "converted_sent": "Les noms de l'intelligentsia ukrainienne assassinés sont gravé s dans un mur en acier, dont la rouille donne le sentiment que le monument saigne indéfiniment.",
+        "original_dep": "gravés",
+        "inflecteur_replacement": "gravé s",
+        "genre_replacement": "gravés",
+        "manual": "gravés"
+      },
+      {
+        "original_sent": "Les noms des intellectuels ukrainiens assassinés sont gravés dans un mur en acier, dont la rouille donne le sentiment que le monument saigne indéfiniment.",
+        "converted_sent": "Les noms de l'intelligentsia ukrainienne assassinés est gravé s dans un mur en acier, dont la rouille donne le sentiment que le monument saigne indéfiniment.",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "sont"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_90": [
+      {
+        "original_sent": "Jean-Yves Camus souligne les ambiguïtés de ce programme sur les questions de l'immigration, où le lien avec le chômage n'est pas encore établi, ainsi que la position sur la natalité où il « réclame la révision de la loi de 1920 sur l'avortement, alors que la même mesure, prise par S. Veil, ouvrira la campagne frontiste sur le prétendu “génocide des enfants français” ».",
+        "converted_sent": "Jean-Yves Camus souligne les ambiguïtés de ce programme sur les questions de l'immigration, où le lien avec le chômage n'est pas encore établi, ainsi que la position sur la natalité où il « réclame la révision de la loi de 1920 sur l'avortement, alors que la même mesure, prise par S. Veil, ouvrira la campagne frontiste sur le prétendu “ génocide de l'enfance française ” ».",
+        "original_dep": "français",
+        "inflecteur_replacement": "française",
+        "genre_replacement": "française",
+        "manual": "française"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_93": [
+      {
+        "original_sent": "Selon eux « l'admission dans l'étage le plus ancien du Sud-Oranais des béliers à sphéroïde ne peut guère convenir dans le Sud-Algérois, où leurs figurations les plus achevées sont souvent associées à des hommes au vêtement évolué, tandis que d'autres, liés à des bœufs, sont d'époque clairement pastorale » ().",
+        "converted_sent": "Selon eux « l'admission dans l'étage le plus ancien du Sud-Oranais des béliers à sphéroïde ne peut guère convenir dans le Sud-Algérois, où leurs figurations les plus achevées sont souvent associées à de l'humanité au vêtement évoluée, tandis que d'autres, liés à des bœufs, sont d'époque clairement pastorale » ().",
+        "original_dep": "évolué",
+        "inflecteur_replacement": "évolué",
+        "genre_replacement": "évoluée",
+        "manual": "évolué"
+      }
+    ]
+  },
+  {
+    "wiki_94": [
+      {
+        "original_sent": "Larson et ses collaborateurs ont observé des adolescents en leur demandant de noter leurs états émotionnels régulièrement dans leur vie quotidienne.",
+        "converted_sent": "Larson et sa collaboration a observé la jeunesse en leur demandant de noter leurs états émotionnels régulièrement dans leur vie quotidienne.",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "ont"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_96": [
+      {
+        "original_sent": "La municipalité régionale est dirigée par un maire et des conseillers représentant les cinq quartiers de la MR.",
+        "converted_sent": "La municipalité régionale est dirigée par un maire et du conseil représentant les cinq quartiers de la MR.",
+        "original_dep": "représentant",
+        "inflecteur_replacement": "représentant",
+        "genre_replacement": "représentant",
+        "manual": "représentant"
+      }
+    ]
+  },
+  {
+    "wiki_97": [
+      {
+        "original_sent": "Il prévoit que l'effectif des salariés en CDI sera ramené de 52 à 46.",
+        "converted_sent": "Il prévoit que l'effectif du salariat en CDI sera ramené de 52 à 46.",
+        "original_dep": "ramené",
+        "inflecteur_replacement": "ramené",
+        "genre_replacement": "ramené",
+        "manual": "ramené"
+      },
+      {
+        "original_sent": "Il prévoit que l'effectif des salariés en CDI sera ramené de 52 à 46.",
+        "converted_sent": "Il prévoit que l'effectif du salariat en CDI sera ramené de 52 à 46.",
+        "original_dep": "sera",
+        "inflecteur_replacement": "sera",
+        "genre_replacement": "sera",
+        "manual": "sera"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_99": [
+      {
+        "original_sent": "Il réalise alors de nombreux croquis des soldats transitant par la Normandie, et notamment des régiments anglais.",
+        "converted_sent": "Il réalise alors de nombreux croquis de l'armée transitant par la Normandie, et notamment des régiments anglais.",
+        "original_dep": "transitant",
+        "inflecteur_replacement": "transitant",
+        "genre_replacement": "transitant",
+        "manual": "transitant"
+      }
+    ]
+  },
+  {
+    "wiki_100": [
+      {
+        "original_sent": "Elle reste à la cour de Versailles jusqu'en 1789, lorsque l'impératrice rappelle les aristocrates russes en Russie, à cause de la Révolution française.",
+        "converted_sent": "Elle reste à la cour de Versailles jusqu'en 1789, lorsque l'impératrice rappelle l'aristocratie russe en Russie, à cause de la Révolution française.",
+        "original_dep": "russes",
+        "inflecteur_replacement": "russe",
+        "genre_replacement": "russe",
+        "manual": "russe"
+      }
+    ]
+  },
+  {
+    "wiki_101": [
+      {
+        "original_sent": "La légende veut qu’elle ait menacé à plusieurs reprises d’un révolver des policiers qu’elle avait surpris en train de maltraiter des Aborigènes qu’elle estimait être sous sa protection.",
+        "converted_sent": "La légende veut qu'elle ait menacé à plusieurs reprises d'un révolver de la police qu'elle avait surpris en train de maltraiter des Aborigènes qu'elle estimait être sous sa protection.",
+        "original_dep": "avait",
+        "inflecteur_replacement": "avait",
+        "genre_replacement": "avait",
+        "manual": "avait"
+      },
+      {
+        "original_sent": "La légende veut qu’elle ait menacé à plusieurs reprises d’un révolver des policiers qu’elle avait surpris en train de maltraiter des Aborigènes qu’elle estimait être sous sa protection.",
+        "converted_sent": "La légende veut qu'elle ait menacé à plusieurs reprises d'un révolver de la police qu'elle avait surpris en train de maltraiter des Aborigènes qu'elle estimait être sous sa protection.",
+        "original_dep": "qu’",
+        "inflecteur_replacement": "qu ’",
+        "genre_replacement": "qu’",
+        "manual": "qu’"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "wiki_107": [
+      {
+        "original_sent": "Quand sa chef de file Leyla Zana a prêté serment en kurde, elle et ses compagnons ont été déchus de leur mandat et condamnés à quinze ans de prison pour trahison et liens avec le terrorisme.",
+        "converted_sent": "Quand sa chef de file Leyla Zana a prêté serment en kurde, elle et sa compagnie ont été déchus de leur mandat et condamnés à quinze ans de prison pour trahison et liens avec le terrorisme.",
+        "original_dep": "été",
+        "inflecteur_replacement": "été",
+        "genre_replacement": "été",
+        "manual": "été"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "wiki_111": [
+      {
+        "original_sent": "Les hommes revinrent et Taylor et Richard firent aussi des dons.",
+        "converted_sent": "l'humanité revint et Taylor et Richard firent aussi des dons.",
+        "original_dep": "revinrent",
+        "inflecteur_replacement": "revint",
+        "genre_replacement": "revint",
+        "manual": "revint"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_113": [
+      {
+        "original_sent": "1940 : entrée des soldats allemands.",
+        "converted_sent": "1940 : entrée de l'armée allemande.",
+        "original_dep": "allemands",
+        "inflecteur_replacement": "allemande",
+        "genre_replacement": "allemande",
+        "manual": "allemande"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_115": [
+      {
+        "original_sent": "Ce Robotnik n'a jamais été appelé Eggman, ce n'est pas non plus un humain mais un Overlander, les humains de Mobius qui ont muté à cause d'une attaque alienne ; Julian était méprisé par son peuple et sa famille, il aida les Mobiens durant la guerre contre les Overlanders, puis les trahis.",
+        "converted_sent": "Ce Robotnik n ' a jamais été appelé Eggman , ce n ' est pas non plus un humain mais un Overlander , l ' humanité de Mobius qui ont muté à cause d ' une attaque alienne ; Julian était méprisé par son peuple et sa famille , il aida les Mobiens durant la guerre contre les Overlanders , puis les trahis .",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "a"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_117": [
+      {
+        "original_sent": "À l'aube, la cavalerie de Mehmet Rechid Pacha contourna par leur droite l'avant-garde des Grecs, composée des soldats réguliers, des philhellènes, des Crétois et des Souliotes, puis attaqua la redoute qu'elle occupait.",
+        "converted_sent": "À l'aube, la cavalerie de Mehmet Rechid Pacha contourna par leur droite l'avant-garde des Grecs, composée de l'armée régulière, des philhellènes, des Crétois et des Souliotes, puis attaqua la redoute qu'elle occupait.",
+        "original_dep": "réguliers",
+        "inflecteur_replacement": "régulière",
+        "genre_replacement": "régulière",
+        "manual": "régulière"
+      }
+    ]
+  },
+  {
+    "wiki_118": [
+      {
+        "original_sent": "Il assomme les policiers qui étaient avec lui à l'intérieur de la tour et monte au dernier étage de la tour par l'ascenseur et croise Conan qui a découvert que c'était un agent de l'organisation des hommes en noir.",
+        "converted_sent": "Il assomme la police qui étaient avec lui à l'intérieur de la tour et monte au dernier étage de la tour par l'ascenseur et croise Conan qui a découvert que c'était un agent de l'organisation de l'humanité en noir.",
+        "original_dep": "lui",
+        "inflecteur_replacement": "lui",
+        "genre_replacement": "lui",
+        "manual": "lui"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_120": [
+      {
+        "original_sent": "L'armée nigérienne déplore également la perte d'un blindé type 92A, détruit par les soldats nigériens, de 6 autres véhicules armés, de deux canons de 122mm, d'une centaine d'armes légères et d'un million de munitions.",
+        "converted_sent": "L'armée nigérienne déplore également la perte d'un blindé type 92A, détruit par l'armée nigérienne, de 6 autres véhicules armés, de deux canons de 122 mm, d'une centaine d'armes légères et d'un million de munitions.",
+        "original_dep": "nigériens",
+        "inflecteur_replacement": "nigérienne",
+        "genre_replacement": "nigérienne",
+        "manual": "nigérienne"
+      }
+    ]
+  },
+  {
+    "wiki_121": [
+      {
+        "original_sent": "Le concert se terminait par le Requiem de Fauré dirigé par Hewitt, présenté par l'International Herald Tribune du 13 novembre comme \"le chef d'orchestre des Concerts de la Pléiade, ancien professeur de violon au Cleveland Institute of Music, qui avait été déporté à Buchenwald et libéré par les soldats américains.\".",
+        "converted_sent": "Le concert se terminait par le Requiem de Fauré dirigé par Hewitt, présenté par l'International Herald Tribune du 13 novembre comme \"le chef d'orchestre des Concerts de la Pléiade, ancien professeur de violon au Cleveland Institute of Music, qui avait été déporté à Buchenwald et libéré par l'armée américaine.\".",
+        "original_dep": "américains",
+        "inflecteur_replacement": "américaine",
+        "genre_replacement": "américaine",
+        "manual": "américaine"
+      }
+    ]
+  },
+  {
+    "wiki_122": [
+      {
+        "original_sent": "Après avoir bombardé la ville et le château avec des lance-grenades, les soldats allemands ont commencé à attaquer le château lui-même qui était défendu et fortifié par quatre membres de la milice luxembourgeoise.",
+        "converted_sent": "Après avoir bombardé la ville et le château avec des lance-grenades, l'armée allemande ont commencé à attaquer le château lui-même qui était défendu et fortifié par quatre membres de la milice luxembourgeoise.",
+        "original_dep": "allemands",
+        "inflecteur_replacement": "allemande",
+        "genre_replacement": "allemande",
+        "manual": "allemande"
+      },
+      {
+        "original_sent": "Après avoir bombardé la ville et le château avec des lance-grenades, les soldats allemands ont commencé à attaquer le château lui-même qui était défendu et fortifié par quatre membres de la milice luxembourgeoise.",
+        "converted_sent": "Après avoir bombardé la ville et le château avec des lance-grenades, l'armée allemande a commencé à attaquer le château lui-même qui était défendu et fortifié par quatre membres de la milice luxembourgeoise.",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "a"
+      }
+    ]
+  },
+  {
+    "wiki_123": [
+      {
+        "original_sent": "Goodacre et ses collaborateurs ont identifié des centaines de domaines à fonction inconnue (eDUFS en anglais).",
+        "converted_sent": "Goodacre et sa collaboration a identifié des centaines de domaines à fonction inconnue (eDUFS en anglais).",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "ont"
+      }
+    ]
+  },
+  {
+    "wiki_124": [
+      {
+        "original_sent": "En décembre 2016, l'organisation État islamique diffuse une vidéo montrant de graves exactions commises sur des soldats turcs fait prisonniers, sans réaction publique du gouvernement turc, dont le silence est dénoncé par l'opposition politique.",
+        "converted_sent": "En décembre 2016, l'organisation État islamique diffuse une vidéo montrant de graves exactions commises sur de l'armée turque fait prisonniers, sans réaction publique du gouvernement turc, dont le silence est dénoncé par l'opposition politique.",
+        "original_dep": "turcs",
+        "inflecteur_replacement": "turque",
+        "genre_replacement": "turque",
+        "manual": "turque"
+      },
+      {
+        "original_sent": "En décembre 2016, l'organisation État islamique diffuse une vidéo montrant de graves exactions commises sur des soldats turcs fait prisonniers, sans réaction publique du gouvernement turc, dont le silence est dénoncé par l'opposition politique.",
+        "converted_sent": "En décembre 2016, l'organisation État islamique diffuse une vidéo montrant de graves exactions commises sur de l'armée turque fait prisonniers, sans réaction publique du gouvernement turc, dont le silence est dénoncé par l'opposition politique.",
+        "original_dep": "dénoncé",
+        "inflecteur_replacement": "dénoncé",
+        "genre_replacement": "dénoncé",
+        "manual": "dénoncé"
+      },
+      {
+        "original_sent": "En décembre 2016, l'organisation État islamique diffuse une vidéo montrant de graves exactions commises sur des soldats turcs fait prisonniers, sans réaction publique du gouvernement turc, dont le silence est dénoncé par l'opposition politique.",
+        "converted_sent": "En décembre 2016, l'organisation État islamique diffuse une vidéo montrant de graves exactions commises sur de l'armée turque fait prisonniers, sans réaction publique du gouvernement turc, dont le silence est dénoncé par l'opposition politique.",
+        "original_dep": "est",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "est"
+      }
+    ]
+  },
+  {
+    "wiki_125": [
+      {
+        "original_sent": "Il reçoit l'hommage des princes lombards de Salerne et de Capoue.",
+        "converted_sent": "Il reçoit l'hommage de la princerie lombarde de Salerne et de Capoue.",
+        "original_dep": "lombards",
+        "inflecteur_replacement": "lombards",
+        "genre_replacement": "lombarde",
+        "manual": "lombarde"
+      }
+    ]
+  },
+  {
+    "wiki_126": [
+      {
+        "original_sent": "Seuls 47 % des enfants sont scolarisés dans le primaire en 2013, et ce taux baisse à 27 % pour l'enseignement secondaire.",
+        "converted_sent": "Seuls 47 % de l'enfance sont sco lar isés dans le primaire en 2013, et ce taux baisse à 27 % pour l'enseignement secondaire.",
+        "original_dep": "scolarisés",
+        "inflecteur_replacement": "sco lar isés",
+        "genre_replacement": "scolarisés",
+        "manual": "scolarisés"
+      },
+      {
+        "original_sent": "Seuls 47 % des enfants sont scolarisés dans le primaire en 2013, et ce taux baisse à 27 % pour l'enseignement secondaire.",
+        "converted_sent": "Seuls 47 % de l'enfance est sco lar isés dans le primaire en 2013, et ce taux baisse à 27 % pour l'enseignement secondaire.",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "sont"
+      }
+    ]
+  },
+  {
+    "wiki_127": [
+      {
+        "original_sent": "Depuis des années il affirme que la DPJ doit être fermée et remplacée par la police pour réaliser des enquêtes auprès des enfants abusés.",
+        "converted_sent": "Depuis des années il affirme que la DPJ doit être fermée et remplacée par la police pour réaliser des enquêtes auprès de l'enfance abusés.",
+        "original_dep": "abusés",
+        "inflecteur_replacement": "abusés",
+        "genre_replacement": "abusés",
+        "manual": "abusée"
+      },
+      {
+        "original_sent": "Depuis des années il affirme que la DPJ doit être fermée et remplacée par la police pour réaliser des enquêtes auprès des enfants abusés.",
+        "converted_sent": "Depuis des années il affirme que la DPJ doit être fermée et remplacée par la police pour réaliser des enquêtes auprès de l'enfance abusés.",
+        "original_dep": "remplacée",
+        "inflecteur_replacement": "remplacée",
+        "genre_replacement": "remplacée",
+        "manual": "remplacée"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_129": [
+      {
+        "original_sent": "Ecbatane : le siège des rois perses.",
+        "converted_sent": "Ecbatane : le siège de la monarchie pers es.",
+        "original_dep": "perses",
+        "inflecteur_replacement": "pers es",
+        "genre_replacement": "perses",
+        "manual": "perse"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {
+    "wiki_134": [
+      {
+        "original_sent": "Cinq fonctionnaires kényans sont enlevés en Somalie par des hommes armés dans la localité frontalière de Bulohawo (sud de la Somalie) alors qu'ils avaient traversé la frontière depuis la localité kényane de Mandera pour faire des achats.",
+        "converted_sent": "Cinq fonctionnaires kényans sont enlevés en Somalie par de l'humanité armée dans la localité frontalière de Bulohawo (sud de la Somalie) alors qu'ils avaient traversé la frontière depuis la localité kényane de Mandera pour faire des achats.",
+        "original_dep": "armés",
+        "inflecteur_replacement": "armée",
+        "genre_replacement": "armée",
+        "manual": "armée"
+      }
+    ]
+  },
+  {
+    "wiki_135": [
+      {
+        "original_sent": "En vertu du projet, seuls les électeurs équipés de téléphones portables fournis avec des cartes SIM certifiées pourront participer à ce type de vote.",
+        "converted_sent": "En vertu du projet, seuls l'électorat équipés de téléphones portables fournis avec des cartes SIM certifiées pourront participer à ce type de vote.",
+        "original_dep": "équipés",
+        "inflecteur_replacement": "équipés",
+        "genre_replacement": "équipés",
+        "manual": "équipé"
+      }
+    ]
+  },
+  {
+    "wiki_136": [
+      {
+        "original_sent": "Le courage des soldats semble augmenter avec l’étendue des privations et des dangers.",
+        "converted_sent": "Le courage de l'armée semble augmenter avec l'étendue des privations et des dangers.",
+        "original_dep": "semble",
+        "inflecteur_replacement": "semble",
+        "genre_replacement": "semble",
+        "manual": "semble"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "wiki_140": [
+      {
+        "original_sent": "Les vêtements étaient fabriqués à partir de draps de lin blanc simple qui ont été blanchis, les hommes et les femmes riches ne portaient pas toujours des perruques contrairement aux croyances, mais des bijoux et cosmétiques.",
+        "converted_sent": "Les vêtements étaient fabriqués à partir de draps de lin blanc simple qui ont été blanchis, l'humanité et les femmes riches ne portait pas toujours des perruques contrairement aux croyances, mais des bijoux et cosmétiques.",
+        "original_dep": "portaient",
+        "inflecteur_replacement": "portait",
+        "genre_replacement": "portait",
+        "manual": "portaient"
+      }
+    ]
+  },
+  {
+    "wiki_141": [
+      {
+        "original_sent": "Il exécuta cet ordre avec bravoure et sang froid, mais les pertes sont lourdes, puisque la moitié de ses hommes sont tués, lui-même étant touché par un boulet à la cuisse.",
+        "converted_sent": "Il exécuta cet ordre avec bravoure et sang froid , mais les pertes sont lourdes , puisque la moitié de son humanité est tués , lui - même étant touché par un boulet à la cuisse .",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "est"
+      },
+      {
+        "original_sent": "Il exécuta cet ordre avec bravoure et sang froid, mais les pertes sont lourdes, puisque la moitié de ses hommes sont tués, lui-même étant touché par un boulet à la cuisse.",
+        "converted_sent": "Il exécuta cet ordre avec bravoure et sang froid , mais les pertes sont lourdes , puisque la moitié de son humanité est tués , lui - même étant touché par un boulet à la cuisse .",
+        "original_dep": "tués",
+        "inflecteur_replacement": "tués",
+        "genre_replacement": "tués",
+        "manual": "tuée"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_143": [
+      {
+        "original_sent": "Les soldats restés dans cette place sont totalement désorganisés, beaucoup étant même ivres.",
+        "converted_sent": "l'armée restés dans cette place sont totalement désorganisée, beaucoup étant même ivres.",
+        "original_dep": "désorganisés",
+        "inflecteur_replacement": "désorganisés",
+        "genre_replacement": "désorganisée",
+        "manual": "désorganisée"
+      },
+      {
+        "original_sent": "Les soldats restés dans cette place sont totalement désorganisés, beaucoup étant même ivres.",
+        "converted_sent": "l'armée restés dans cette place sont totalement désorganisée, beaucoup étant même ivres.",
+        "original_dep": "restés",
+        "inflecteur_replacement": "restés",
+        "genre_replacement": "restés",
+        "manual": "restée"
+      }
+    ]
+  },
+  {
+    "wiki_144": [
+      {
+        "original_sent": "Aimé de ses soldats mais également redouté et respecté de l'ennemi, la figure du maréchal de La Palice apparaît aussi dans de vieilles chroniques espagnoles, dont celle d'Hernan Perez del Pulgar, ancien capitaine castillan au service de Gonzalve de Cordoue.",
+        "converted_sent": "Aimé de son armée mais également redouté et respecté de l'ennemi, la figure du maréchal de La Palice apparaît aussi dans de vieilles chroniques espagnoles, dont celle d'Hernan Perez del Pulgar, ancien capitaine castillan au service de Gonzalve de Cordoue.",
+        "original_dep": "apparaît",
+        "inflecteur_replacement": "apparaît",
+        "genre_replacement": "apparaît",
+        "manual": "apparaît"
+      }
+    ]
+  },
+  {
+    "wiki_145": [
+      {
+        "original_sent": "En outre, les chefs d'État ou de gouvernement sont parvenus à un accord sur les noms des personnalités devant être nommées, sur recommandation du Conseil, membres du directoire de la Banque centrale européenne (BCE).",
+        "converted_sent": "En outre, la chefferie d'État ou de gouvernement sont parvenue à un accord sur les noms des personnalités devant être nommées, sur recommandation du Conseil, membres du directoire de la Banque centrale européenne (BCE).",
+        "original_dep": "parvenus",
+        "inflecteur_replacement": "parvenus",
+        "genre_replacement": "parvenue",
+        "manual": "parvenue"
+      },
+      {
+        "original_sent": "En outre, les chefs d'État ou de gouvernement sont parvenus à un accord sur les noms des personnalités devant être nommées, sur recommandation du Conseil, membres du directoire de la Banque centrale européenne (BCE).",
+        "converted_sent": "En outre, la chefferie d'État ou de gouvernement est parvenue à un accord sur les noms des personnalités devant être nommées, sur recommandation du Conseil, membres du directoire de la Banque centrale européenne (BCE).",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "est"
+      }
+    ]
+  },
+  {
+    "wiki_146": [
+      {
+        "original_sent": "Les soldats aménagent sommairement leurs postes en creusant des abris jusqu'au petit matin.",
+        "converted_sent": "l'armée aménage sommairement leurs postes en creusant des abris jusqu'au petit matin.",
+        "original_dep": "aménagent",
+        "inflecteur_replacement": "aménage",
+        "genre_replacement": "aménage",
+        "manual": "aménage"
+      }
+    ]
+  },
+  {
+    "wiki_147": [
+      {
+        "original_sent": "Elle se veut éloignée du modèle bancaire traditionnel et se revendique comme communautaire en ayant recours à ses clients qui participent au développement de ses produits et services.",
+        "converted_sent": "Elle se veut éloignée du modèle bancaire traditionnel et se revendique comme communautaire en ayant recours à sa clientèle qui participe au développement de ses produits et services.",
+        "original_dep": "participent",
+        "inflecteur_replacement": "participe",
+        "genre_replacement": "participe",
+        "manual": "participe"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_149": [
+      {
+        "original_sent": "Les hommes comme les femmes peuvent pratiquer le travestissement afin de masquer leur identité réelle.",
+        "converted_sent": "l'humanité comme les femmes peut pratiquer le travestissement afin de masquer leur identité réelle.",
+        "original_dep": "peuvent",
+        "inflecteur_replacement": "peut",
+        "genre_replacement": "peut",
+        "manual": "peuvent"
+      }
+    ]
+  },
+  {
+    "wiki_150": [
+      {
+        "original_sent": "On compte parmi les auteurs célèbres des poètes comme Alcée, Sappho, Praxilla, Timocréon, Simonides ou encore Pindare.",
+        "converted_sent": "On compte parmi l'autorat célèbre des poètes comme Alcée, Sappho, Praxilla, Timocréon, Simonides ou encore Pindare.",
+        "original_dep": "célèbres",
+        "inflecteur_replacement": "célèbre",
+        "genre_replacement": "célèbre",
+        "manual": "célèbre"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_152": [
+      {
+        "original_sent": "Des fossiles de Deinotherium ont été découverts à plusieurs emplacements africains où des restes des parents hominidés relatifs aux humains modernes ont aussi été trouvés.",
+        "converted_sent": "Des fossiles de Deinotherium ont été découverts à plusieurs emplacements africains où des restes des parents hominidés relatifs à l'humanité moderne ont aussi été trouvés.",
+        "original_dep": "modernes",
+        "inflecteur_replacement": "moderne",
+        "genre_replacement": "moderne",
+        "manual": "moderne"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_154": [
+      {
+        "original_sent": "Les censeurs nomment Scaurus princeps senatus.",
+        "converted_sent": "la censure nom ment Scaurus princeps senatus.",
+        "original_dep": "nomment",
+        "inflecteur_replacement": "nom ment",
+        "genre_replacement": "nomment",
+        "manual": "nomme"
+      }
+    ]
+  },
+  {
+    "wiki_155": [
+      {
+        "original_sent": "Il décrit des soldats courageux mais brutaux et incultes, dont le comportement rappelle celui des cosaques de l’ancien temps (ceux, par exemple, évoqués par Nicolas Gogol dans Tarass Boulba) et dont les convictions politiques sont assez floues.",
+        "converted_sent": "Il décrit de l'armée courageuse mais brutaux et incultes, dont le comportement rappelle celui des cosaques de l'ancien temps (ceux, par exemple, évoqués par Nicolas Gogol dans Tarass Boulba) et dont les convictions politiques sont assez floues.",
+        "original_dep": "courageux",
+        "inflecteur_replacement": "courageuse",
+        "genre_replacement": "courageuse",
+        "manual": "courageuse"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "wiki_159": [
+      {
+        "original_sent": "Les jeunes aristocrates démontrent leur habilité lors de concours athlétiques et ramènent les trophées collectés lors de la chasse avec le concours fidèle d’un molosse, signe social de richesse, démontrant ainsi l’agilité et la rapidité dans la course au lièvre et à la perdrix.",
+        "converted_sent": "la jeunesse aristocratie démontre leur habilité lors de concours athlétiques et ramènent les trophées collectés lors de la chasse avec le concours fidèle d'un molosse, signe social de richesse, démontrant ainsi l'agilité et la rapidité dans la course au lièvre et à la perdrix.",
+        "original_dep": "démontrent",
+        "inflecteur_replacement": "démontre",
+        "genre_replacement": "démontre",
+        "manual": "démontre"
+      }
+    ]
+  },
+  {
+    "wiki_160": [
+      {
+        "original_sent": "En juin 2022, il inaugure une exposition commandée par le Mémorial de la Shoah en hommage aux enfants déportés.",
+        "converted_sent": "En juin 2022, il inaugure une exposition commandée par le Mémorial de la Shoah en hommage à l'enfance déporté s.",
+        "original_dep": "déportés",
+        "inflecteur_replacement": "déporté s",
+        "genre_replacement": "déportés",
+        "manual": "déportée"
+      }
+    ]
+  },
+  {
+    "wiki_161": [
+      {
+        "original_sent": "Il devient un des acteurs principaux du futurisme dans les Pouilles.",
+        "converted_sent": "Il devient un de l'actorat principal du futurisme dans les Pouilles.",
+        "original_dep": "principaux",
+        "inflecteur_replacement": "principal",
+        "genre_replacement": "principal",
+        "manual": "principal"
+      }
+    ]
+  },
+  {
+    "wiki_162": [
+      {
+        "original_sent": "Il est, par exemple, responsable de l'affaire de la bête du Gévaudan, qui a attisé la haine des hommes envers les loups.",
+        "converted_sent": "Il est, par exemple, responsable de l'affaire de la bête du Gévaudan, qui a attisé la haine de l'humanité envers les loups.",
+        "original_dep": "envers",
+        "inflecteur_replacement": "envers",
+        "genre_replacement": "envers",
+        "manual": "envers"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "wiki_166": [
+      {
+        "original_sent": "Les soldats allemands démobilisés sont en partie frustrés car leur pays leur laisse une image biaisée du rapport de force ayant mené à leur défaite militaire totale (→ Dolchstoßlegende, « légende du coup de poignard [dans le dos] »).",
+        "converted_sent": "l'armée allemande démobilisés sont en partie frustrés car leur pays leur laisse une image biaisée du rapport de force ayant mené à leur défaite militaire totale (→ Dolchstoßlegende, « légende du coup de poignard [dans le dos] »).",
+        "original_dep": "allemands",
+        "inflecteur_replacement": "allemande",
+        "genre_replacement": "allemande",
+        "manual": "allemande"
+      },
+      {
+        "original_sent": "Les soldats allemands démobilisés sont en partie frustrés car leur pays leur laisse une image biaisée du rapport de force ayant mené à leur défaite militaire totale (→ Dolchstoßlegende, « légende du coup de poignard [dans le dos] »).",
+        "converted_sent": "l'armée allemande démobilisés sont en partie frustré s car leur pays leur laisse une image biaisée du rapport de force ayant mené à leur défaite militaire totale (→ Dolchstoßlegende, « légende du coup de poignard [dans le dos] »).",
+        "original_dep": "frustrés",
+        "inflecteur_replacement": "frustré s",
+        "genre_replacement": "frustrés",
+        "manual": "frustrée"
+      }
+    ]
+  },
+  {
+    "wiki_167": [
+      {
+        "original_sent": "Raditz, alors qu'il agonisait, avait fait la révélation à Piccolo que deux autres Saiyans comptant parmi ses compagnons ont suivi l'enregistrement du combat via le détecteur de puissance qu'il portait en permanence.",
+        "converted_sent": "Raditz, alors qu'il agonisait, avait fait la révélation à Piccolo que deux autres Saiyans comptant parmi sa compagnie a suivi l'enregistrement du combat via le détecteur de puissance qu'il portait en permanence.",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "ont"
+      }
+    ]
+  },
+  {
+    "wiki_168": [
+      {
+        "original_sent": "Le second, l'attaque du poste Drakkar, fait cinquante-huit morts et une quinzaine de blessés parmi les soldats français, et coûte la vie aux six membres de la famille du gardien de l'immeuble.",
+        "converted_sent": "Le second, l'attaque du poste Drakkar, fait cinquante-huit morts et une quinzaine de blessés parmi l'armée française, et coûte la vie aux six membres de la famille du gardien de l'immeuble.",
+        "original_dep": "français",
+        "inflecteur_replacement": "française",
+        "genre_replacement": "française",
+        "manual": "française"
+      }
+    ]
+  },
+  {
+    "wiki_169": [
+      {
+        "original_sent": "La majorité des soldats refusent, rejoignant les rangs des révolutionnaires, mais les compagnies de grenadiers et de chasseurs, fidèles au comte, patrouillent en ville afin de protéger l'hôtel de Blossac et son résident, l'intendant de Bretagne.",
+        "converted_sent": "La majorité de l'armée refuse, rejoignant les rangs des révolutionnaires, mais les compagnies de grenadiers et de chasseurs, fidèles au comte, patrouillent en ville afin de protéger l'hôtel de Blossac et son résident, l'intendant de Bretagne.",
+        "original_dep": "refusent",
+        "inflecteur_replacement": "refuse",
+        "genre_replacement": "refuse",
+        "manual": "refuse"
+      },
+      {
+        "original_sent": "La majorité des soldats refusent, rejoignant les rangs des révolutionnaires, mais les compagnies de grenadiers et de chasseurs, fidèles au comte, patrouillent en ville afin de protéger l'hôtel de Blossac et son résident, l'intendant de Bretagne.",
+        "converted_sent": "La majorité de l'armée refuse, rejoignant les rangs des révolutionnaires, mais les compagnies de grenadiers et de chasseurs, fidèles au comte, patrouillent en ville afin de protéger l'hôtel de Blossac et son résident, l'intendant de Bretagne.",
+        "original_dep": "rejoignant",
+        "inflecteur_replacement": "rejoignant",
+        "genre_replacement": "rejoignant",
+        "manual": "rejoignant"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_172": [
+      {
+        "original_sent": "Plusieurs associations offrent une assistance aux personnes âgées et aux enfants polyhandicapés.",
+        "converted_sent": "Plusieurs associations offrent une assistance aux personnes âgées et à l'enfance polyhandicapés.",
+        "original_dep": "polyhandicapés",
+        "inflecteur_replacement": "polyhandicapés",
+        "genre_replacement": "polyhandicapés",
+        "manual": "polyhandicapée"
+      }
+    ]
+  },
+  {
+    "wiki_173": [
+      {
+        "original_sent": "Ils ont joué une chanson avant que des policiers annulent finalement le concert.",
+        "converted_sent": "Ils ont joué une chanson avant que la police annule finalement le concert.",
+        "original_dep": "annulent",
+        "inflecteur_replacement": "annule",
+        "genre_replacement": "annule",
+        "manual": "annule"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "wiki_177": [
+      {
+        "original_sent": "L’opéra de Toulon aurait la scène la plus en pente de France avec un dénivelé de 7%, ce qui donne une impression de profondeur, une meilleure visibilité pour tous les spectateurs mais peut s’avérer être également une contrainte pour danseurs et comédiens se produisant.",
+        "converted_sent": "L'opéra de Toulon aurait la scène la plus en pente de France avec un dénivelé de 7 %, ce qui donne une impression de profondeur, une meilleure visibilité pour tout le public mais peut s'avérer être également une contrainte pour ballet et comédiens se produisant.",
+        "original_dep": "aurait",
+        "inflecteur_replacement": "aurait",
+        "genre_replacement": "aurait",
+        "manual": "aurait"
+      },
+      {
+        "original_sent": "L’opéra de Toulon aurait la scène la plus en pente de France avec un dénivelé de 7%, ce qui donne une impression de profondeur, une meilleure visibilité pour tous les spectateurs mais peut s’avérer être également une contrainte pour danseurs et comédiens se produisant.",
+        "converted_sent": "L'opéra de Toulon aurait la scène la plus en pente de France avec un dénivelé de 7 %, ce qui donne une impression de profondeur, une meilleure visibilité pour tout le public mais peut s'avérer être également une contrainte pour ballet et comédiens se produisant.",
+        "original_dep": "être",
+        "inflecteur_replacement": "être",
+        "genre_replacement": "être",
+        "manual": "être"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_180": [
+      {
+        "original_sent": "Plusieurs d'entre eux, au même titre que les enseignants membres de l'Alliance des professeurs, se voient toutefois contraints de ne pas travailler par les lignes de piquetage dressés par les employés des autres secteurs.",
+        "converted_sent": "Plusieurs d'entre eux, au même titre que les enseignants membres de l'Alliance du professorat, se voit toutefois contraints de ne pas travailler par les lignes de piquetage dressés par le personnel des autres secteurs.",
+        "original_dep": "voient",
+        "inflecteur_replacement": "voit",
+        "genre_replacement": "voit",
+        "manual": "voient"
+      },
+      {
+        "original_sent": "Plusieurs d'entre eux, au même titre que les enseignants membres de l'Alliance des professeurs, se voient toutefois contraints de ne pas travailler par les lignes de piquetage dressés par les employés des autres secteurs.",
+        "converted_sent": "Plusieurs d'entre eux, au même titre que les enseignants membres de l'Alliance du professorat, se voit toutefois contraints de ne pas travailler par les lignes de piquetage dressés par le personnel des autres secteurs.",
+        "original_dep": "contraints",
+        "inflecteur_replacement": "contraints",
+        "genre_replacement": "contraints",
+        "manual": "contraints"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_183": [
+      {
+        "original_sent": "En outre, le service peut être garanti aux citoyens s’il est considéré conforme aux lignes directrices définies par la politique linguistique régionale.",
+        "converted_sent": "En outre, le service peut être garanti à la citoyenneté s'il est considéré conforme aux lignes directrices définies par la politique linguistique régionale.",
+        "original_dep": "considéré",
+        "inflecteur_replacement": "considéré",
+        "genre_replacement": "considéré",
+        "manual": "considéré"
+      },
+      {
+        "original_sent": "En outre, le service peut être garanti aux citoyens s’il est considéré conforme aux lignes directrices définies par la politique linguistique régionale.",
+        "converted_sent": "En outre, le service peut être garanti à la citoyenneté s'il est considéré conforme aux lignes directrices définies par la politique linguistique régionale.",
+        "original_dep": "est",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "est"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "wiki_190": [
+      {
+        "original_sent": "Située près des trois centres industriels de Lille, Tourcoing et Roubaix, cette maison a été financée en grande partie grâce aux dons des patrons catholiques du nord.",
+        "converted_sent": "Située près des trois centres industriels de Lille, Tourcoing et Roubaix, cette maison a été financée en grande partie grâce aux dons du patronat catholique du nord.",
+        "original_dep": "catholiques",
+        "inflecteur_replacement": "catholique",
+        "genre_replacement": "catholique",
+        "manual": "catholique"
+      }
+    ]
+  },
+  {
+    "wiki_191": [
+      {
+        "original_sent": "1412 Les représentants de la population catholique, conduits par l'évêque de Baia, assistent au Concile de Constance.",
+        "converted_sent": "1412 la représentation de la population catholique, conduits par l'évêque de Baia, assiste au Concile de Constance.",
+        "original_dep": "assistent",
+        "inflecteur_replacement": "assiste",
+        "genre_replacement": "assiste",
+        "manual": "assiste"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_194": [
+      {
+        "original_sent": "Concerné à propos des mauvaises influences dans Los Angeles, la mère de Polamalu l'envoie vivre en Oregon avec son oncle, sa tante et ses cousins lorsqu'il avait neuf ans.",
+        "converted_sent": "Concerné à propos des mauvaises influences dans Los Angeles, la mère de Polamalu l'envoie vivre en Oregon avec son oncle, sa tante et son cousinage lorsqu'il avait neuf ans.",
+        "original_dep": "avait",
+        "inflecteur_replacement": "avait",
+        "genre_replacement": "avait",
+        "manual": "avait"
+      }
+    ]
+  },
+  {
+    "wiki_195": [
+      {
+        "original_sent": "Les miliciens sur la route qui suivent les soldats sont trop nombreux et désorganisés pour monter une attaque franche.",
+        "converted_sent": "la milice sur la route qui suivent l'armée est trop nombreux et désorganisés pour monter une attaque franche.",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "est"
+      },
+      {
+        "original_sent": "Les miliciens sur la route qui suivent les soldats sont trop nombreux et désorganisés pour monter une attaque franche.",
+        "converted_sent": "la milice sur la route qui suivent l'armée est trop nombreuse et désorganisés pour monter une attaque franche.",
+        "original_dep": "nombreux",
+        "inflecteur_replacement": "nombreuse",
+        "genre_replacement": "nombreuse",
+        "manual": "nombreuse"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "wiki_199": [
+      {
+        "original_sent": "Bien que la plupart des témoignages de pillage et d'incendies aient été exagérés plus tard par les colons à des fins de propagande (et pour obtenir une compensation financière du gouvernement colonial), il est certainement vrai que les tavernes le long de la route sont saccagées et les bouteilles d'alcool volées par les soldats, qui dans certains cas en sont même devenus ivres.",
+        "converted_sent": "Bien que la plupart des témoignages de pillage et d'incendies aient été exagérés plus tard par la colonie à des fins de propagande (et pour obtenir une compensation financière du gouvernement colonial), il est certainement vrai que les tavernes le long de la route sont saccagées et les bouteilles d'alcool volées par l'armée, qui dans certains cas en sont même devenus ivres.",
+        "original_dep": "été",
+        "inflecteur_replacement": "été",
+        "genre_replacement": "été",
+        "manual": "été"
+      },
+      {
+        "original_sent": "Bien que la plupart des témoignages de pillage et d'incendies aient été exagérés plus tard par les colons à des fins de propagande (et pour obtenir une compensation financière du gouvernement colonial), il est certainement vrai que les tavernes le long de la route sont saccagées et les bouteilles d'alcool volées par les soldats, qui dans certains cas en sont même devenus ivres.",
+        "converted_sent": "Bien que la plupart des témoignages de pillage et d'incendies aient été exagérés plus tard par la colonie à des fins de propagande (et pour obtenir une compensation financière du gouvernement colonial), il est certainement vrai que les tavernes le long de la route sont saccagées et les bouteilles d'alcool volées par l'armée, qui dans certains cas en sont même devenus ivres.",
+        "original_dep": "exagérés",
+        "inflecteur_replacement": "exagérés",
+        "genre_replacement": "exagérés",
+        "manual": "exagérés"
+      },
+      {
+        "original_sent": "Bien que la plupart des témoignages de pillage et d'incendies aient été exagérés plus tard par les colons à des fins de propagande (et pour obtenir une compensation financière du gouvernement colonial), il est certainement vrai que les tavernes le long de la route sont saccagées et les bouteilles d'alcool volées par les soldats, qui dans certains cas en sont même devenus ivres.",
+        "converted_sent": "Bien que la plupart des témoignages de pillage et d'incendies aient été exagérés plus tard par la colonie à des fins de propagande (et pour obtenir une compensation financière du gouvernement colonial), il est certainement vrai que les tavernes le long de la route sont saccagées et les bouteilles d'alcool volées par l'armée, qui dans certains cas en sont même devenus ivres.",
+        "original_dep": "est",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "est"
+      }
+    ]
+  },
+  {
+    "wiki_200": [
+      {
+        "original_sent": "Mais avant cela, le roi Radama Ier avait déjà creusé le lac pour le bain des soldats.",
+        "converted_sent": "Mais avant cela, le roi Radama Ier avait déjà creusé le lac pour le bain de l'armée.",
+        "original_dep": "cela",
+        "inflecteur_replacement": "cela",
+        "genre_replacement": "cela",
+        "manual": "cela"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_202": [
+      {
+        "original_sent": "Le premier usage systématique de ce terme, défini dans un glossaire et revendiqué par d'autres que des créationnistes, remonte à Des pandas et des hommes (Of Pandas and people), co-écrit par Davis et Kenyon.",
+        "converted_sent": "Le premier usage systématique de ce terme, défini dans un glossaire et revendiquée par d'autres que des créationnistes, remonte à Des pandas et de l'humanité (Of Pandas and people), co-écrit par Davis et Kenyon.",
+        "original_dep": "revendiqué",
+        "inflecteur_replacement": "revendiqué",
+        "genre_replacement": "revendiquée",
+        "manual": "revendiqué"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_205": [
+      {
+        "original_sent": "Le 27 juillet, à la suite de sa convocation devant les magistrats chargés de l'instruction, il est effectivement mis en examen pour « complicité de dénonciation calomnieuse, recel de vol, recel d'abus de confiance et complicité d'usage de faux ».",
+        "converted_sent": "Le 27 juillet, à la suite de sa convocation devant la cour chargée de l'instruction, il est effectivement mis en examen pour « complicité de dénonciation calomnieuse, recel de vol, recel d'abus de confiance et complicité d'usage de faux ».",
+        "original_dep": "chargés",
+        "inflecteur_replacement": "chargés",
+        "genre_replacement": "chargée",
+        "manual": "chargée"
+      },
+      {
+        "original_sent": "Le 27 juillet, à la suite de sa convocation devant les magistrats chargés de l'instruction, il est effectivement mis en examen pour « complicité de dénonciation calomnieuse, recel de vol, recel d'abus de confiance et complicité d'usage de faux ».",
+        "converted_sent": "Le 27 juillet, à la suite de sa convocation devant la cour chargée de l'instruction, il est effectivement mie en examen pour « complicité de dénonciation calomnieuse, recel de vol, recel d'abus de confiance et complicité d'usage de faux ».",
+        "original_dep": "mis",
+        "inflecteur_replacement": "mis",
+        "genre_replacement": "mie",
+        "manual": "mis"
+      }
+    ]
+  },
+  {
+    "wiki_206": [
+      {
+        "original_sent": "Pour la première fois, les rebelles réussissent à prendre le contrôle de toute la Province de Liang.",
+        "converted_sent": "Pour la première fois, la rébellion réussit à prendre le contrôle de toute la Province de Liang.",
+        "original_dep": "réussissent",
+        "inflecteur_replacement": "réussit",
+        "genre_replacement": "réussit",
+        "manual": "réussit"
+      }
+    ]
+  },
+  {
+    "wiki_207": [
+      {
+        "original_sent": "Les Canadiens-anglais sont favorables à une participation des soldats canadiens à la guerre en Europe, contrairement aux Canadiens-français.",
+        "converted_sent": "Les Canadiens-anglais sont favorables à une participation de l'armée canadienne à la guerre en Europe, contrairement aux Canadiens-français.",
+        "original_dep": "canadiens",
+        "inflecteur_replacement": "canadienne",
+        "genre_replacement": "canadienne",
+        "manual": "canadienne"
+      }
+    ]
+  },
+  {
+    "wiki_208": [
+      {
+        "original_sent": "Les clients (utilisateurs) appellent un flux vidéo qu'ils regardent à partir de leur navigateur ou d'un lecteur multimédia.",
+        "converted_sent": "la clientèle (utilisateurs) appelle un flux vidéo qu'ils regardent à partir de leur navigateur ou d'un lecteur multimédia.",
+        "original_dep": "appellent",
+        "inflecteur_replacement": "appelle",
+        "genre_replacement": "appelle",
+        "manual": "appelle"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_211": [
+      {
+        "original_sent": "Dans la version pour Zizi Jeanmaire, des soldats qui partent pour la guerre se souviendront d’Élisa : \"Tu seras notre infirmière / Notre fille à soldats\".",
+        "converted_sent": "Dans la version pour Zizi Jeanmaire, de l'armée qui part pour la guerre se souviendront d'Élisa : \"Tu seras notre infirmière / Notre fille à armée\".",
+        "original_dep": "partent",
+        "inflecteur_replacement": "part",
+        "genre_replacement": "part",
+        "manual": "part"
+      },
+      {
+        "original_sent": "Dans la version pour Zizi Jeanmaire, des soldats qui partent pour la guerre se souviendront d’Élisa : \"Tu seras notre infirmière / Notre fille à soldats\".",
+        "converted_sent": "Dans la version pour Zizi Jeanmaire, de l'armée qui part pour la guerre se souviendra d'Élisa : \"Tu seras notre infirmière / Notre fille à armée\".",
+        "original_dep": "souviendront",
+        "inflecteur_replacement": "souviendra",
+        "genre_replacement": "souviendra",
+        "manual": "souviendra"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_213": [
+      {
+        "original_sent": "Ensuite, dans le cadre de la réforme agraire de Piotr Stolypine au Kazakhstan, des paysans russes ont été massivement réinstallés, la terre est devenue un facteur d'un litige frontalier.",
+        "converted_sent": "Ensuite, dans le cadre de la réforme agraire de Piotr Stolypine au Kazakhstan, la paysannerie russes ont été massivement réinstallée, la terre est devenue un facteur d'un litige frontalier.",
+        "original_dep": "réinstallés",
+        "inflecteur_replacement": "réinstallés",
+        "genre_replacement": "réinstallée",
+        "manual": "réinstallée"
+      },
+      {
+        "original_sent": "Ensuite, dans le cadre de la réforme agraire de Piotr Stolypine au Kazakhstan, des paysans russes ont été massivement réinstallés, la terre est devenue un facteur d'un litige frontalier.",
+        "converted_sent": "Ensuite, dans le cadre de la réforme agraire de Piotr Stolypine au Kazakhstan, la paysannerie russe ont été massivement réinstallée, la terre est devenue un facteur d'un litige frontalier.",
+        "original_dep": "russes",
+        "inflecteur_replacement": "russe",
+        "genre_replacement": "russe",
+        "manual": "russe"
+      },
+      {
+        "original_sent": "Ensuite, dans le cadre de la réforme agraire de Piotr Stolypine au Kazakhstan, des paysans russes ont été massivement réinstallés, la terre est devenue un facteur d'un litige frontalier.",
+        "converted_sent": "Ensuite, dans le cadre de la réforme agraire de Piotr Stolypine au Kazakhstan, la paysannerie russe ont été massivement réinstallée, la terre est devenue un facteur d'un litige frontalier.",
+        "original_dep": "été",
+        "inflecteur_replacement": "été",
+        "genre_replacement": "été",
+        "manual": "été"
+      }
+    ]
+  },
+  {
+    "wiki_214": [
+      {
+        "original_sent": "Les délégués refusent l’action directe comme moyen de lutte.",
+        "converted_sent": "la délégation refuse l'action directe comme moyen de lutte.",
+        "original_dep": "refusent",
+        "inflecteur_replacement": "refuse",
+        "genre_replacement": "refuse",
+        "manual": "refuse"
+      }
+    ]
+  },
+  {
+    "wiki_215": [
+      {
+        "original_sent": "Les officiers et hommes du rang qu'il capture sont considérés comme des prisonniers de guerre, même si les officiers peuvent être libérés sur parole et les hommes du rang, selon son appréciation peuvent être relâchés après avoir prêter serment de ne pas prendre les armes contre les États confédérés d'Amérique.",
+        "converted_sent": "Les officiers et humanité du rang qu ' il capture sont considérés comme des prisonniers de guerre , même si les officiers peuvent être libérés sur parole et l ' humanité du rang , selon son appréciation peuvent être relâchés après avoir prêter serment de ne pas prendre les armes contre les États confédérés d ' Amérique .",
+        "original_dep": "peuvent",
+        "inflecteur_replacement": "peut",
+        "genre_replacement": "peut",
+        "manual": "peut"
+      },
+      {
+        "original_sent": "Les officiers et hommes du rang qu'il capture sont considérés comme des prisonniers de guerre, même si les officiers peuvent être libérés sur parole et les hommes du rang, selon son appréciation peuvent être relâchés après avoir prêter serment de ne pas prendre les armes contre les États confédérés d'Amérique.",
+        "converted_sent": "Les officiers et humanité du rang qu ' il capture sont considérés comme des prisonniers de guerre , même si les officiers peuvent être libérée sur parole et l ' humanité du rang , selon son appréciation peuvent être relâchés après avoir prêter serment de ne pas prendre les armes contre les États confédérés d ' Amérique .",
+        "original_dep": "libérés",
+        "inflecteur_replacement": "libérés",
+        "genre_replacement": "libérée",
+        "manual": "libérés"
+      }
+    ]
+  },
+  {
+    "wiki_216": [
+      {
+        "original_sent": "Les organisateurs des trois grands tours refusent d'inviter l'équipe aux compétitions qu'elles organisent.",
+        "converted_sent": "l'organisation des trois grands tours refuse d'inviter l'équipe aux compétitions qu'elles organisent.",
+        "original_dep": "refusent",
+        "inflecteur_replacement": "refuse",
+        "genre_replacement": "refuse",
+        "manual": "refuse"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "wiki_220": [
+      {
+        "original_sent": "Engagé dans la résistance française pendant la Seconde Guerre mondiale, il cache notamment à son domicile des aviateurs alliés qu'il parvient à faire passer en zone libre.",
+        "converted_sent": "Engagé dans la résistance française pendant la Seconde Guerre mondiale, il cache notamment à son domicile de l'aviation allié qu'il parvient à faire passer en zone libre.",
+        "original_dep": "alliés",
+        "inflecteur_replacement": "allié",
+        "genre_replacement": "allié",
+        "manual": "alliée"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_222": [
+      {
+        "original_sent": "Dans ce cimetière sont enterrés les soldats belges blessés au combat mais morts à l'hôpital.",
+        "converted_sent": "Dans ce cimetière sont enterrés l'armée belge blessés au combat mais morts à l'hôpital.",
+        "original_dep": "belges",
+        "inflecteur_replacement": "belge",
+        "genre_replacement": "belge",
+        "manual": "belge"
+      },
+      {
+        "original_sent": "Dans ce cimetière sont enterrés les soldats belges blessés au combat mais morts à l'hôpital.",
+        "converted_sent": "Dans ce cimetière est enterrés l'armée belge blessés au combat mais morts à l'hôpital.",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "est"
+      },
+      {
+        "original_sent": "Dans ce cimetière sont enterrés les soldats belges blessés au combat mais morts à l'hôpital.",
+        "converted_sent": "Dans ce cimetière est enterrée l'armée belge blessés au combat mais morts à l'hôpital.",
+        "original_dep": "enterrés",
+        "inflecteur_replacement": "enterrés",
+        "genre_replacement": "enterrée",
+        "manual": "enterrée"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_224": [
+      {
+        "original_sent": "OVH avait déjà indemnisé ses clients suite à incident en 2017.",
+        "converted_sent": "OVH avait déjà indemnisé sa clientèle suite à incident en 2017.",
+        "original_dep": "indemnisé",
+        "inflecteur_replacement": "indemnisé",
+        "genre_replacement": "indemnisé",
+        "manual": "indemnisé"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_226": [
+      {
+        "original_sent": "Certains de ces enfants et adolescents ont des difficultés à développer correctement leur personnalité.",
+        "converted_sent": "Certains de cette enfance et jeunesse a des difficultés à développer correctement leur personnalité.",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "ont"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_228": [
+      {
+        "original_sent": "Les Hui du Gansu et les Boxers attaquent et tuent des chrétiens chinois pour se venger des attaques étrangères contre les Chinois, et sont les plus féroces attaquants lors du siège des légations du 20 juin au 14 août 1900.",
+        "converted_sent": "Les Hui du Gansu et les Boxers attaquent et tuent de la chrétienté chinoise pour se venger des attaques étrangères contre les Chinois, et sont les plus féroces attaquants lors du siège des légations du 20 juin au 14 août 1900.",
+        "original_dep": "chinois",
+        "inflecteur_replacement": "chinoise",
+        "genre_replacement": "chinoise",
+        "manual": "chinoise"
+      }
+    ]
+  },
+  {
+    "wiki_229": [
+      {
+        "original_sent": "L'un des hommes a tiré sur le poignet de sa mère, la balle traversant ensuite la poitrine de Pratt-Korbel.",
+        "converted_sent": "L ' un de l ' humanité a tiré sur le poignet de sa mère , la balle traversant ensuite la poitrine de Pratt - Korbel .",
+        "original_dep": "a",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "a"
+      }
+    ]
+  },
+  {
+    "wiki_230": [
+      {
+        "original_sent": "Lorsque par la suite il revint au palais impérial pour protester contre les traitements cruels réservés aux chrétiens, il fut de nouveau arrêté et mis à mort au Colisée.",
+        "converted_sent": "Lorsque par la suite il revint au palais impérial pour protester contre les traitements cruels réservés à la chrétienté, il fut de nouveau arrêtée et mis à mort au Colisée.",
+        "original_dep": "arrêté",
+        "inflecteur_replacement": "arrêté",
+        "genre_replacement": "arrêtée",
+        "manual": "arrêté"
+      }
+    ]
+  },
+  {
+    "wiki_231": [
+      {
+        "original_sent": "Khrouchtchev qui vient de réprimer Budapest, qui a très mal accepté l'arrivée de Gomułka ne peut tolérer que des ouvriers exercent un pouvoir dans une « démocratie populaire ».",
+        "converted_sent": "Khrouchtchev qui vient de réprimer Budapest, qui a très mal accepté l'arrivée de Gomułka ne peut tolérer que la main-d'œuvre exerce un pouvoir dans une « démocratie populaire ».",
+        "original_dep": "exercent",
+        "inflecteur_replacement": "exerce",
+        "genre_replacement": "exerce",
+        "manual": "exerce"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_233": [
+      {
+        "original_sent": "Le point culminant est une attaque contre les rebelles cachés dans les montagnes, au cours de laquelle beaucoup sont tués et d'autres sont faits prisonniers.",
+        "converted_sent": "Le point culminant est une attaque contre la rébellion cachés dans les montagnes, au cours de laquelle beaucoup sont tués et d'autres sont faits prisonniers.",
+        "original_dep": "cachés",
+        "inflecteur_replacement": "cachés",
+        "genre_replacement": "cachés",
+        "manual": "cachée"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_235": [
+      {
+        "original_sent": "Toutefois, parce qu'elle est une femme, l'un de ses opposants défaits, le conservateur Beresford Hope, dépose une requête contre son élection.",
+        "converted_sent": "Toutefois, parce qu'elle est une femme, l'un de son opposition défaits, le conservateur Beresford Hope, dépose une requête contre son élection.",
+        "original_dep": "défaits",
+        "inflecteur_replacement": "défaits",
+        "genre_replacement": "défaits",
+        "manual": "défaite"
+      },
+      {
+        "original_sent": "Toutefois, parce qu'elle est une femme, l'un de ses opposants défaits, le conservateur Beresford Hope, dépose une requête contre son élection.",
+        "converted_sent": "Toutefois, parce qu'elle est une femme, l'un de son opposition défaits, le conservateur Beresford Hope, dépose une requête contre son élection.",
+        "original_dep": "dépose",
+        "inflecteur_replacement": "dépose",
+        "genre_replacement": "dépose",
+        "manual": "dépose"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "wiki_238": [
+      {
+        "original_sent": "Fisher a dit que lorsqu'elle a commencé à faire des recherches pour sa dissertation, elle a pris en compte la seule chose que tous les humains ont en commun – leurs stratégies de reproduction.",
+        "converted_sent": "Fisher a dit que lorsqu'elle a commencé à faire des recherches pour sa dissertation, elle a pris en compte la seule chose que toute l'humanité a en commun – leurs stratégies de reproduction.",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "a"
+      }
+    ]
+  },
+  {},
+  {
+    "wiki_240": [
+      {
+        "original_sent": "C’est une langue en danger : elle n’a qu’une dizaine de locuteurs et les jeunes parlent désormais une langue voisine, le vurës.",
+        "converted_sent": "C'est une langue en danger : elle n'a qu'une dizaine de locuteurs et la jeunesse parlent désormais une langue voisine, le vurës.",
+        "original_dep": "parlent",
+        "inflecteur_replacement": "parlent",
+        "genre_replacement": "parlent",
+        "manual": "parle"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {
+    "wiki_245": [
+      {
+        "original_sent": "Ils sont alors les premiers frères à servir simultanément au sein de la Chambre des représentants pennsylvanienne.",
+        "converted_sent": "Ils sont alors les premiers frères à servir simultanément au sein de la Chambre de la représentation pennsylvanienne.",
+        "original_dep": "pennsylvanienne",
+        "inflecteur_replacement": "pennsylvanienne",
+        "genre_replacement": "pennsylvanienne",
+        "manual": "pennsylvanienne"
+      }
+    ]
+  },
+  {
+    "wiki_246": [
+      {
+        "original_sent": "Le but de cette collection est de proposer un support écrit et visuel aux enfants sensibilisés à une autre langue que le français dans le cadre familial, social ou scolaire.",
+        "converted_sent": "Le but de cette collection est de proposer un support écrit et visuel à l'enfance sensibilisés à une autre langue que le français dans le cadre familial, social ou scolaire.",
+        "original_dep": "est",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "est"
+      }
+    ]
+  },
+  {},
+  {},
+  {}
+]
