@@ -7,13 +7,15 @@ import csv
 import os
 import re
 import fr_core_news_md
+import nltk
 
 from utils import load_member_nouns, get_regex, get_member_nouns
 
 MULT_N_PATTERN = r"<n-\d+><n-\d+>.*<\/n><\/n>"
 WRITE_TO_FILE = True
 OUTPUT_FILE = "europarl.csv"
-EUROPARL_CORPUS = "../europarl/europarl-v7.fr-en.fr"
+FRENCH_EUROPARL_CORPUS = "../europarl/europarl-v7.fr-en.fr"
+ENGLISH_EUROPARL_CORPUS = "../europarl/europarl-v7.fr-en.en"
 
 print("Downloading NLTK punkt...")
 nltk.download("punkt")
@@ -23,15 +25,11 @@ member_nouns = load_member_nouns("../collective_nouns/collective_nouns.csv")
 member_noun_regex = get_regex("../collective_nouns/collective_nouns.csv")
 member_nouns_dict = {number: noun for number, noun in member_nouns}
 
-count = 0
-
-member_nouns_ids = []
-member_nouns_text = []
-
 print("Loading spacy model...")
 nlp = fr_core_news_md.load()
 
 all_member_nouns = get_member_nouns("../collective_nouns/collective_nouns.csv")
+
 
 def split_sentences_n(sent: str) -> set[str]:
     """
@@ -57,7 +55,8 @@ def split_sentences_n(sent: str) -> set[str]:
             sentences.add(s)
     return sentences
 
-def get_member_id(member_phrase: str) -> list[int]:
+
+def get_member_id(member_phrase: str) -> list[str]:
     """
     Retrieves the member ID associated with the given member noun in the member phrase.
 
@@ -70,66 +69,93 @@ def get_member_id(member_phrase: str) -> list[int]:
     member_noun = member_phrase.split()[1]
     return [k for k, v in member_nouns_dict.items() if v == member_noun]
 
+
 if not os.path.exists(OUTPUT_FILE):
     print(f"{OUTPUT_FILE} does not exist, creating...")
     with open(OUTPUT_FILE, "w", newline="", encoding="utf8") as f:
         writer = csv.writer(f)
-        writer.writerow(["id", "member_noun", "non_incl_sent"])
+        writer.writerow(["id", "member_noun", "non_incl_sent", "europarl_english_sent"])
+
 
 def main():
     """
     Main function to extract member nouns from the French Wikipedia dataset.
     """
-    with open(EUROPARL_CORPUS, "r", encoding="utf8") as f:
+    member_nouns_ids = []
+    member_nouns_text = []
+    count = 0
+
+    with open(FRENCH_EUROPARL_CORPUS, "r", encoding="utf8") as f:
         sents = f.readlines()
-        for sent in sents:
-            f_sents = None
-            ambiguous = False
-            sent = sent.strip()
-            pattern = member_noun_regex
-            # remove previous <n> tags if any (for collective nouns with multiple member nouns)
-            if re.search(pattern, sent):
-                sent = re.sub(r"<n>", "", sent)
-                sent = re.sub(r"<n-\d+>", "", sent)
-                sent = re.sub(r"</n>", "", sent)
 
-                doc = nlp(sent)
-                for token in doc:
-                    if token.text in all_member_nouns:
-                        if token.pos_ != "NOUN":
-                            ambiguous = True
-                            print("Found ambiguous sent", sent)
-                            break
+    with open(ENGLISH_EUROPARL_CORPUS, "r", encoding="utf8") as f:
+        english_sents = f.readlines()
 
-                if not ambiguous:
-                    for match in re.finditer(pattern, sent):
-                        print(match, match.groups())
-                        for i in range(len(match.groups())):
-                            id = get_member_id(match.group(i).lower())
+    for i, sent in enumerate(sents):
+        f_sents = None
+        ambiguous = False
+        sent = sent.strip()
+        english_sent = english_sents[i].strip()
+        pattern = member_noun_regex
+        # remove previous <n> tags if any (for collnouns with multiple member nouns)
+        if re.search(pattern, sent):
+            sent = re.sub(r"<n>", "", sent)
+            sent = re.sub(r"<n-\d+>", "", sent)
+            sent = re.sub(r"</n>", "", sent)
 
-                            for j in id:
-                                sent = re.sub(fr"({match.group(i)})", fr"<n-{j}>\1</n>", sent)
-                                member_nouns_ids.append(j)
-                                member_nouns_text.append(match.group(i).lower().split()[1])
+            doc = nlp(sent)
+            for token in doc:
+                if token.text in all_member_nouns:
+                    if token.pos_ != "NOUN":
+                        ambiguous = True
+                        print("Found ambiguous sent", sent)
+                        break
 
-                                if re.search(MULT_N_PATTERN, sent):
-                                    f_sents = split_sentences_n(sent)
+            if not ambiguous:
+                for match in re.finditer(pattern, sent):
+                    print(match, match.groups())
+                    for i in range(len(match.groups())):
+                        id = get_member_id(match.group(i).lower())
 
-                    if WRITE_TO_FILE:
-                        with open(OUTPUT_FILE, "a", newline="", encoding="utf8") as f:
-                            writer = csv.writer(f)
-                            if f_sents:
-                                for f_sent in f_sents:
-                                    writer.writerow([f"{member_nouns_ids}", f"{member_nouns_text}", f"{f_sent}"])
-                            else:
-                                writer.writerow([f"{member_nouns_ids}", f"{member_nouns_text}", f"{sent}"])
+                        for j in id:
+                            sent = re.sub(
+                                rf"({match.group(i)})", rf"<n-{j}>\1</n>", sent
+                            )
+                            member_nouns_ids.append(j)
+                            member_nouns_text.append(match.group(i).lower().split()[1])
 
+                            if re.search(MULT_N_PATTERN, sent):
+                                f_sents = split_sentences_n(sent)
 
-                    member_nouns_ids = []
-                    member_nouns_text = []
-                    count += 1
+                if WRITE_TO_FILE:
+                    with open(OUTPUT_FILE, "a", newline="", encoding="utf8") as f:
+                        writer = csv.writer(f)
+                        if f_sents:
+                            for f_sent in f_sents:
+                                writer.writerow(
+                                    [
+                                        f"{member_nouns_ids}",
+                                        f"{member_nouns_text}",
+                                        f"{f_sent}",
+                                        f"{english_sent}",
+                                    ]
+                                )
+                        else:
+                            writer.writerow(
+                                [
+                                    f"{member_nouns_ids}",
+                                    f"{member_nouns_text}",
+                                    f"{sent}",
+                                    f"{english_sent}",
+                                ]
+                            )
 
-                    print(f"Processed {count} sentences")
+                member_nouns_ids = []
+                member_nouns_text = []
+                count += 1
+
+                print(f"Processed {count} sentences")
+
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,2153 @@
+[
+  {
+    "eupr_0": [
+      {
+        "original_sent": "Le Conseil des ministres a également reconnu que le train de mesures convenu lors du Conseil d'octobre avait pour but de traiter les conséquences à court terme découlant en particulier de la crise de l'ESB, et pense que des changements supplémentaires en ce qui concerne les primes pour le boeuf sont nécessaires pour aligner les fournitures de boeuf au sein de l'Union sur le niveau de demande interne et externe probable à long terme.",
+        "converted_sent": "Le Conseil de la ministraille a également reconnu que le train de mesures convenu lors du Conseil d'octobre avait pour but de traiter les conséquences à court terme découlant en particulier de la crise de l'ESB, et pense que des changements supplémentaires en ce qui concerne les primes pour le boeuf sont nécessaires pour aligner les fournitures de boeuf au sein de l'Union sur le niveau de demande interne et externe probable à long terme.",
+        "original_dep": "reconnu",
+        "inflecteur_replacement": "reconnu",
+        "genre_replacement": "reconnu",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_1": [
+      {
+        "original_sent": "par écrit. - (PT) Tout en étant fondamentalement d'accord avec les positions et les préoccupations de la Commission en ce qui concerne la politique de communication, en particulier le besoin de transparence et d'engagement vis-à-vis des citoyens, il demeure selon moi nécessaire de dire clairement qu'une politique de communication ne constitue pas une fin en soi, mais seulement un moyen.",
+        "converted_sent": "par écrit.-(PT) Tout en étant fondamentalement d'accord avec les positions et les préoccupations de la Commission en ce qui concerne la politique de communication, en particulier le besoin de transparence et d'engagement vis-à-vis de la citoyenneté, il demeure selon moi nécessaire de dire clairement qu'une politique de communication ne constitue pas une fin en soi, mais seulement un moyen.",
+        "original_dep": "demeure",
+        "inflecteur_replacement": "demeure",
+        "genre_replacement": "demeure",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "eupr_5": [
+      {
+        "original_sent": "C'est pour cela qu'immédiatement après son entrée en vigueur, les chefs d'État et de gouvernement, réunis à l'occasion du Conseil européen de Tampere, ont inclus le terrorisme dans l'approche globale de la lutte contre toutes les formes de criminalité.",
+        "converted_sent": "C'est pour cela qu'immédiatement après son entrée en vigueur, la chefferie d'État et de gouvernement, réunis à l'occasion du Conseil européen de Tampere, ont inclus le terrorisme dans l'approche globale de la lutte contre toutes les formes de criminalité.",
+        "original_dep": "cela",
+        "inflecteur_replacement": "cela",
+        "genre_replacement": "cela",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "eupr_8": [
+      {
+        "original_sent": "Elle pourrait l'être encore si les réponses aux questions parvenaient aux députés européens dans un délai raisonnable, de sorte que la Commission ne fasse pas simplement lecture des réponses, mais fournisse véritablement matière à débat.",
+        "converted_sent": "Elle pourrait l'être encore si les réponses aux questions parvenaient au parlement européen dans un délai raisonnable, de sorte que la Commission ne fasse pas simplement lecture des réponses, mais fournisse véritablement matière à débat.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européen",
+        "genre_replacement": "européen",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Elle pourrait l'être encore si les réponses aux questions parvenaient aux députés européens dans un délai raisonnable, de sorte que la Commission ne fasse pas simplement lecture des réponses, mais fournisse véritablement matière à débat.",
+        "converted_sent": "Elle pourrait l'être encore si les réponses aux questions parvenaient au parlement européen dans un délai raisonnable, de sorte que la Commission ne fasse pas simplement lecture des réponses, mais fournisse véritablement matière à débat.",
+        "original_dep": "fournisse",
+        "inflecteur_replacement": "fournisse",
+        "genre_replacement": "fournisse",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_9": [
+      {
+        "original_sent": "Il faut en revenir aux négociations, si difficile que cela puisse paraître aux dirigeants russes.",
+        "converted_sent": "Il faut en revenir aux négociations, si difficile que cela puisse paraître à la direction russe.",
+        "original_dep": "russes",
+        "inflecteur_replacement": "russe",
+        "genre_replacement": "russe",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_11": [
+      {
+        "original_sent": "Le deuxième et dernier point que je voudrais soulever est le fait que les députés de cette Assemblée ont condamné de manière véhémente le terrorisme au cours de notre débat d'aujourd'hui.",
+        "converted_sent": "Le deuxième et dernier point que je voudrais soulever est le fait que le parlement de cette Assemblée a condamné de manière véhémente le terrorisme au cours de notre débat d'aujourd'hui.",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Le deuxième et dernier point que je voudrais soulever est le fait que les députés de cette Assemblée ont condamné de manière véhémente le terrorisme au cours de notre débat d'aujourd'hui.",
+        "converted_sent": "Le deuxième et dernier point que je voudrais soulever est le fait que le parlement de cette Assemblée a condamné de manière véhémente le terrorisme au cours de notre débat d'aujourd'hui.",
+        "original_dep": "est",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_13": [
+      {
+        "original_sent": "Pour être franc, la situation en Europe est un affront fait à une société civilisée; l'exploitation des enfants, le retour de l'équivalent de l'esclavage en Europe sont autant d'insultes à la civilisation.",
+        "converted_sent": "Pour être franc, la situation en Europe est un affront fait à une société civilisée ; l'exploitation de l'enfance, le retour de l'équivalent de l'esclavage en Europe est autant d'insultes à la civilisation.",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "eupr_21": [
+      {
+        "original_sent": "Nous ne consacrons pas assez de temps ni d'efforts politiques à expliquer notre raison d'être et les citoyens européens ne sont pas au courant de ce que l'Union européenne fait.",
+        "converted_sent": "Nous ne consacrons pas assez de temps ni d'efforts politiques à expliquer notre raison d'être et la citoyenneté européenne ne sont pas au courant de ce que l'Union européenne fait.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_22": [
+      {
+        "original_sent": "Monsieur le Président en exercice, j'ai eu le privilège d'être rapporteur lors de la réunion des députés nationaux, à laquelle vous avez participé, dans le cadre de l'agenda de Lisbonne.",
+        "converted_sent": "Monsieur le Président en exercice, j'ai eu le privilège d'être rapporteur lors de la réunion du parlement national, à laquelle vous avez participé, dans le cadre de l'agenda de Lisbonne.",
+        "original_dep": "nationaux",
+        "inflecteur_replacement": "national",
+        "genre_replacement": "national",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_23": [
+      {
+        "original_sent": "Programme d'action annuel pour 2009 pour le programme thématique «les acteurs non étatiques et les autorités locales dans le développement» (Partie II: actions ciblées) (",
+        "converted_sent": "Programme d'action annuel pour 2009 pour le programme thématique « l'actorat non étatique et les autorités locales dans le développement » (Partie II : actions ciblées) (",
+        "original_dep": "étatiques",
+        "inflecteur_replacement": "étatique",
+        "genre_replacement": "étatique",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_24": [
+      {
+        "original_sent": "Big Brother Europe est en marche, mais apparemment, personne ne doit le savoir, même pas les députés européens.",
+        "converted_sent": "Big Brother Europe est en marche, mais apparemment, personne ne doit le savoir, même pas le parlement européen.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européen",
+        "genre_replacement": "européen",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "eupr_28": [
+      {
+        "original_sent": "Personne ne veut réfléchir sur le fait que les motifs justifiés des électeurs de la Ligue contre l'Etat centralisateur, rapace, bureaucratique et inefficace peuvent être utilisés par le député européen Bossi, démagogue et sans scrupules, à des fins de pouvoir personnel, avec des risques très graves d'instabilité dans toute l'Europe.",
+        "converted_sent": "Personne ne veut réfléchir sur le fait que les motifs justifiés de l'électorat de la Ligue contre l'Etat centralisateur, rapace, bureaucratique et inefficace peut être utilisés par le député européen Bossi, démagogue et sans scrupules, à des fins de pouvoir personnel, avec des risques très graves d'instabilité dans toute l'Europe.",
+        "original_dep": "peuvent",
+        "inflecteur_replacement": "peut",
+        "genre_replacement": "peut",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Personne ne veut réfléchir sur le fait que les motifs justifiés des électeurs de la Ligue contre l'Etat centralisateur, rapace, bureaucratique et inefficace peuvent être utilisés par le député européen Bossi, démagogue et sans scrupules, à des fins de pouvoir personnel, avec des risques très graves d'instabilité dans toute l'Europe.",
+        "converted_sent": "Personne ne veut réfléchir sur le fait que les motifs justifiés de l'électorat de la Ligue contre l'Etat centralisateur, rapace, bureaucratique et inefficace peut être utilisé par le député européen Bossi, démagogue et sans scrupules, à des fins de pouvoir personnel, avec des risques très graves d'instabilité dans toute l'Europe.",
+        "original_dep": "utilisés",
+        "inflecteur_replacement": "utilisés",
+        "genre_replacement": "utilisé",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_30": [
+      {
+        "original_sent": "Comme le droit d'entrée et de séjour des ressortissants de pays tiers est régi, même pour les séjours de courte durée, par les dispositions intérieures des États membres et que celles-ci ne sont ni coordonnées ni harmonisées, de nouveaux obstacles bureaucratiques se dressent devant les citoyens individuels.",
+        "converted_sent": "Comme le droit d'entrée et de séjour des ressortissants de pays tiers est régi, même pour les séjours de courte durée, par les dispositions intérieures des États membres et que celles-ci ne sont ni coordonnées ni harmonisées, de nouveaux obstacles bureaucratiques se dressent devant la citoyenneté individuelle.",
+        "original_dep": "individuels",
+        "inflecteur_replacement": "individuelle",
+        "genre_replacement": "individuelle",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_31": [
+      {
+        "original_sent": "Je sais bien que la décision formelle des ministres des Finances ne peut intervenir qu'après le 2 mai, ou le 2 mai, c'est-à-dire juste après la décision des chefs d'État et de gouvernement, mais pour des raisons techniques et pratiques que vous comprendrez bien, compte tenu du nombre de pièces, vous imaginez qu'il est important d'avoir bouclé ce dossier au niveau du Conseil, au niveau des principes, au niveau de l'accord formel, avant la fin de cette année.",
+        "converted_sent": "Je sais bien que la décision formelle de la ministraille des Finances ne peut intervenir qu'après le 2 mai, ou le 2 mai, c'est-à-dire juste après la décision de la chefferie d'État et de gouvernement, mais pour des raisons techniques et pratiques que vous comprendrez bien, compte tenu du nombre de pièces, vous imaginez qu'il est important d'avoir bouclé ce dossier au niveau du Conseil, au niveau des principes, au niveau de l'accord formel, avant la fin de cette année.",
+        "original_dep": "peut",
+        "inflecteur_replacement": "peut",
+        "genre_replacement": "peut",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_32": [
+      {
+        "original_sent": "La tenue des prochaines élections n'offrant aucune garantie démocratique, l'Union européenne devrait devenir une référence qualifiée d'exigence d'une telle garantie pour les citoyens péruviens et pour les partis démocratiques de ce pays.",
+        "converted_sent": "La tenue des prochaines élections n'offrant aucune garantie démocratique, l'Union européenne devrait devenir une référence qualifiée d'exigence d'une telle garantie pour la citoyenneté péruvienne et pour les partis démocratiques de ce pays.",
+        "original_dep": "péruviens",
+        "inflecteur_replacement": "péruvienne",
+        "genre_replacement": "péruvienne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_33": [
+      {
+        "original_sent": "Les chrétiens irakiens doivent choisir entre l'exil - s'ils arrivent à s'échapper -, la conversion et la persécution.",
+        "converted_sent": "la chrétienté irakienne doivent choisir entre l'exil-s'ils arrivent à s'échapper-, la conversion et la persécution.",
+        "original_dep": "irakiens",
+        "inflecteur_replacement": "irakienne",
+        "genre_replacement": "irakienne",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Les chrétiens irakiens doivent choisir entre l'exil - s'ils arrivent à s'échapper -, la conversion et la persécution.",
+        "converted_sent": "la chrétienté irakienne doit choisir entre l'exil-s'ils arrivent à s'échapper-, la conversion et la persécution.",
+        "original_dep": "doivent",
+        "inflecteur_replacement": "doit",
+        "genre_replacement": "doit",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_35": [
+      {
+        "original_sent": "Contrairement à ce que demande la Commission européenne, nous rejetons l'idée d'une réaffectation des crédits du programme Progress sur l'instrument européen de microfinancement car cela donnerait un signal négatif aux acteurs économiques.",
+        "converted_sent": "Contrairement à ce que demande la Commission européenne, nous rejetons l'idée d'une réaffectation des crédits du programme Progress sur l'instrument européen de microfinancement car cela donnerait un signal négatif à l'actorat économique.",
+        "original_dep": "économiques",
+        "inflecteur_replacement": "économique",
+        "genre_replacement": "économique",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_36": [
+      {
+        "original_sent": "La position des libéraux allemands est difficile à comprendre car, avec cette résolution, ils demandent une réglementation du paysage médiatique au niveau européen, alors que les représentants des médias allemands et européens considèrent que cette proposition représente une restriction de la liberté des médias et une violation de la subsidiarité.",
+        "converted_sent": "La position des libéraux allemands est difficile à comprendre car , avec cette résolution , ils demandent une réglementation du paysage médiatique au niveau européen , alors que la représentation des médias allemands et européens considèrent que cette proposition représente une restriction de la liberté des médias et une violation de la subsidiarité .",
+        "original_dep": "allemands",
+        "inflecteur_replacement": "allemande",
+        "genre_replacement": "allemande",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "La position des libéraux allemands est difficile à comprendre car, avec cette résolution, ils demandent une réglementation du paysage médiatique au niveau européen, alors que les représentants des médias allemands et européens considèrent que cette proposition représente une restriction de la liberté des médias et une violation de la subsidiarité.",
+        "converted_sent": "La position des libéraux allemands est difficile à comprendre car , avec cette résolution , ils demande une réglementation du paysage médiatique au niveau européen , alors que la représentation des médias allemands et européens considèrent que cette proposition représente une restriction de la liberté des médias et une violation de la subsidiarité .",
+        "original_dep": "demandent",
+        "inflecteur_replacement": "demande",
+        "genre_replacement": "demande",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_37": [
+      {
+        "original_sent": "Les compétences européennes en matière commerciale et technologique peuvent profiter de l'apprentissage auprès des professeurs américains et en compagnie des étudiants américains.",
+        "converted_sent": "Les compétences européennes en matière commerciale et technologique peuvent profiter de l ' apprentissage auprès du professorat américain et en compagnie des étudiants américains .",
+        "original_dep": "américains",
+        "inflecteur_replacement": "américain",
+        "genre_replacement": "américain",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "eupr_40": [
+      {
+        "original_sent": "Nous avons besoin d'une institution claire, transparente, accessible aux citoyens européens, qui clarifie la situation en matière de désinformation dont l'origine est généralement extérieure à l'Europe et qui est contraire aux intérêts européens et, vu sous un autre angle, une institution qui intervient en cas de fraude et qui garantit la suppression de ces fraudes.",
+        "converted_sent": "Nous avons besoin d ' une institution claire , transparente , accessible à la citoyenneté européenne , qui clarifie la situation en matière de désinformation dont l ' origine est généralement extérieure à l ' Europe et qui est contraire aux intérêts européens et , vu sous un autre angle , une institution qui intervient en cas de fraude et qui garantit la suppression de ces fraudes .",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_41": [
+      {
+        "original_sent": "Eux les enfants du monde, les zoulous blancs, les chamans du rite mondialiste se convertissent au protectionnisme, découvrent les bienfaits des protections nationales et en appellent à la souveraineté de l'État.",
+        "converted_sent": "Eux l'enfance du monde, les zoulous blancs, les chamans du rite mondialiste se convertissent au protectionnisme, découvrent les bienfaits des protections nationales et en appellent à la souveraineté de l'État.",
+        "original_dep": "Eux",
+        "inflecteur_replacement": "Eux",
+        "genre_replacement": "Eux",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "eupr_44": [
+      {
+        "original_sent": "J'espère que lorsque les dirigeants européens se réuniront en mars prochain pour discuter de la politique énergétique, ils auront tous une copie de ce rapport et qu'ils prendront ses recommandations au sérieux.",
+        "converted_sent": "J'espère que lorsque la direction européenne se réuniront en mars prochain pour discuter de la politique énergétique, ils auront tous une copie de ce rapport et qu'ils prendront ses recommandations au sérieux.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "J'espère que lorsque les dirigeants européens se réuniront en mars prochain pour discuter de la politique énergétique, ils auront tous une copie de ce rapport et qu'ils prendront ses recommandations au sérieux.",
+        "converted_sent": "J'espère que lorsque la direction européenne se réunira en mars prochain pour discuter de la politique énergétique, ils auront tous une copie de ce rapport et qu'ils prendront ses recommandations au sérieux.",
+        "original_dep": "réuniront",
+        "inflecteur_replacement": "réunira",
+        "genre_replacement": "réunira",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_45": [
+      {
+        "original_sent": "Nous espérons non seulement de la présidence portugaise mais de l'ensemble des chefs d'État et de gouvernement que, s'appuyant sur cette photographie, ils imprimeront une impulsion volontariste pour les six mois qui restent, afin de réussir - je dis bien réussir - à Nice la réforme des institutions.",
+        "converted_sent": "Nous espérons non seulement de la présidence portugaise mais de l'ensemble de la chefferie d'État et de gouvernement que, s'appuyant sur cette photographie, ils imprimer a une impulsion volontariste pour les six mois qui restent, afin de réussir-je dis bien réussir-à Nice la réforme des institutions.",
+        "original_dep": "imprimeront",
+        "inflecteur_replacement": "imprimer a",
+        "genre_replacement": "imprimeront",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_47": [
+      {
+        "original_sent": "Aujourd'hui, les citoyens européens ont besoin d'une Union capable de mettre ce principe en pratique.",
+        "converted_sent": "Aujourd'hui, la citoyenneté européenne ont besoin d'une Union capable de mettre ce principe en pratique.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Aujourd'hui, les citoyens européens ont besoin d'une Union capable de mettre ce principe en pratique.",
+        "converted_sent": "Aujourd'hui, la citoyenneté européenne a besoin d'une Union capable de mettre ce principe en pratique.",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_48": [
+      {
+        "original_sent": "Cela ne se justifie pas réellement dans le cas des petits pays, mais nous ne parlons pas ici uniquement de lignes locales, mais aussi internationales, et je pense donc que pour les citoyens européens en déplacement, ce document garantira leurs droits en accordant une attention particulière aux droits des personnes handicapées.",
+        "converted_sent": "Cela ne se justifie pas réellement dans le cas des petits pays, mais nous ne parlons pas ici uniquement de lignes locales, mais aussi internationales, et je pense donc que pour la citoyenneté européenne en déplacement, ce document garantira leurs droits en accordant une attention particulière aux droits des personnes handicapées.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_49": [
+      {
+        "original_sent": "Les citoyens n'ont pas besoin d'une \"Constitution européenne\". Ils ont à peine besoin d'une Union européenne.",
+        "converted_sent": "la citoyenneté n ' ont pas besoin d ' une \" Constitution européenne \" . Ils ont à peine besoin d ' une Union européenne .",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_50": [
+      {
+        "original_sent": "Cette position a été confirmée à l'occasion de la réunion informelle des ministres des Affaires étrangères de l'UE, qui s'est tenue à Elseneur les 30 et 31 août ainsi que lors de la réunion des ministres des Affaires étrangères organisée le 30 septembre et le 1er octobre à Bruxelles.",
+        "converted_sent": "Cette position a été confirmée à l ' occasion de la réunion informelle de la ministraille des Affaires étrangères de l ' UE , qui s ' est tenue à Elseneur les 30 et 31 août ainsi que lors de la réunion de la ministraille des Affaires étrangères organisée le 30 septembre et le 1er octobre à Bruxelles .",
+        "original_dep": "étrangères",
+        "inflecteur_replacement": "étrangère",
+        "genre_replacement": "étrangère",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Cette position a été confirmée à l'occasion de la réunion informelle des ministres des Affaires étrangères de l'UE, qui s'est tenue à Elseneur les 30 et 31 août ainsi que lors de la réunion des ministres des Affaires étrangères organisée le 30 septembre et le 1er octobre à Bruxelles.",
+        "converted_sent": "Cette position a été confirmée à l ' occasion de la réunion informelle de la ministraille des Affaires étrangères de l ' UE , qui s ' est tenue à Elseneur les 30 et 31 août ainsi que lors de la réunion de la ministraille des Affaires étrangères organisée le 30 septembre et le 1er octobre à Bruxelles .",
+        "original_dep": "organisée",
+        "inflecteur_replacement": "organisée",
+        "genre_replacement": "organisée",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Cette position a été confirmée à l'occasion de la réunion informelle des ministres des Affaires étrangères de l'UE, qui s'est tenue à Elseneur les 30 et 31 août ainsi que lors de la réunion des ministres des Affaires étrangères organisée le 30 septembre et le 1er octobre à Bruxelles.",
+        "converted_sent": "Cette position a été confirmée à l ' occasion de la réunion informelle de la ministraille des Affaires étrangères de l ' UE , qui s ' est tenue à Elseneur les 30 et 31 août ainsi que lors de la réunion de la ministraille des Affaires étrangères organisée le 30 septembre et le 1er octobre à Bruxelles .",
+        "original_dep": "est",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_52": [
+      {
+        "original_sent": "C'est là un type de coopération tout à fait concrète entre les institutions européennes et les citoyens européens qui se déroule actuellement dans mon pays à propos d'un autre thème européen, la question des réfugiés à l'intérieur et en provenance du Kosovo.",
+        "converted_sent": "C'est là un type de coopération tout à fait concrète entre les institutions européennes et la citoyenneté européenne qui se déroule actuellement dans mon pays à propos d'un autre thème européen, la question des réfugiés à l'intérieur et en provenance du Kosovo.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_54": [
+      {
+        "original_sent": "Si les citoyens ne manifestent pas de manière responsable contre les actes inhumains accomplis par leurs gouvernements, ceux-ci sombrent dans l'irresponsabilité et la corruption.",
+        "converted_sent": "Si la citoyenneté ne manifeste pas de manière responsable contre les actes inhumains accomplis par leurs gouvernements, ceux-ci sombrent dans l'irresponsabilité et la corruption.",
+        "original_dep": "manifestent",
+        "inflecteur_replacement": "manifeste",
+        "genre_replacement": "manifeste",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_55": [
+      {
+        "original_sent": "Je crois fermement que les obstacles auxquels les Roms sont confrontés, particulièrement les femmes et les enfants roms, sont l'héritage d'un conflit de longue durée entre deux principes différents de civilisation.",
+        "converted_sent": "Je crois fermement que les obstacles auxquels les Roms sont confrontés, particulièrement les femmes et l'enfance roms, sont l'héritage d'un conflit de longue durée entre deux principes différents de civilisation.",
+        "original_dep": "roms",
+        "inflecteur_replacement": "roms",
+        "genre_replacement": "roms",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_56": [
+      {
+        "original_sent": "Je crois, quoi qu'il arrive, que \"plus d'Europe\" signifie une Europe plus proche, plus proche des citoyens européens, dont ceux-ci auront une image plus positive et, indubitablement - c'est sur ces mots que je terminerai, Madame la Présidente -, une étape supplémentaire de la construction européenne, comme l'auraient dit nos prédécesseurs.",
+        "converted_sent": "Je crois, quoi qu'il arrive, que \"plus d'Europe\"signifie une Europe plus proche, plus proche de la citoyenneté européenne, dont ceux-ci auront une image plus positive et, indubitablement-c'est sur ces mots que je terminerai, Madame la Présidente-, une étape supplémentaire de la construction européenne, comme l'auraient dit nos prédécesseurs.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_58": [
+      {
+        "original_sent": "Enfin, je voudrais aussi me joindre au président pour souhaiter à tous les députés qui s'en vont nos meilleurs vœux de réussite dans leur future carrière, quelle qu'elle puisse être.",
+        "converted_sent": "Enfin, je voudrais aussi me joindre au président pour souhaiter à tout le parlement qui s'en va nos meilleurs vœux de réussite dans leur future carrière, quelle qu'elle puisse être.",
+        "original_dep": "vont",
+        "inflecteur_replacement": "va",
+        "genre_replacement": "va",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_59": [
+      {
+        "original_sent": "Que ce soit en termes d'emploi, où bien plus que les hommes, les femmes occupent des postes précaires, en termes de salaire, puisqu'à compétence égale, une femme gagne en moyenne 18 % de moins qu'un homme, ou encore en termes de perspectives de carrière, la gent féminine reste bloquée par le fameux plafond de verre.",
+        "converted_sent": "Que ce soit en termes d'emploi, où bien plus que l'humanité, les femmes occupe des postes précaires, en termes de salaire, puisqu'à compétence égale, une femme gagne en moyenne 18 % de moins qu'un homme, ou encore en termes de perspectives de carrière, la gent féminine reste bloquée par le fameux plafond de verre.",
+        "original_dep": "occupent",
+        "inflecteur_replacement": "occupe",
+        "genre_replacement": "occupe",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Que ce soit en termes d'emploi, où bien plus que les hommes, les femmes occupent des postes précaires, en termes de salaire, puisqu'à compétence égale, une femme gagne en moyenne 18 % de moins qu'un homme, ou encore en termes de perspectives de carrière, la gent féminine reste bloquée par le fameux plafond de verre.",
+        "converted_sent": "Que ce soit en termes d'emploi, où bien plus que l'humanité, les femmes occupe des postes précaires, en termes de salaire, puisqu'à compétence égale, une femme gagne en moyenne 18 % de moins qu'un homme, ou encore en termes de perspectives de carrière, la gent féminine reste bloquée par le fameux plafond de verre.",
+        "original_dep": "reste",
+        "inflecteur_replacement": "reste",
+        "genre_replacement": "reste",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Que ce soit en termes d'emploi, où bien plus que les hommes, les femmes occupent des postes précaires, en termes de salaire, puisqu'à compétence égale, une femme gagne en moyenne 18 % de moins qu'un homme, ou encore en termes de perspectives de carrière, la gent féminine reste bloquée par le fameux plafond de verre.",
+        "converted_sent": "Que ce soit en termes d'emploi, où bien plus que l'humanité, les femmes occupe des postes précaires, en termes de salaire, puisqu'à compétence égale, une femme gagne en moyenne 18 % de moins qu'un homme, ou encore en termes de perspectives de carrière, la gent féminine reste bloquée par le fameux plafond de verre.",
+        "original_dep": "bloquée",
+        "inflecteur_replacement": "bloquée",
+        "genre_replacement": "bloquée",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "eupr_62": [
+      {
+        "original_sent": "Je voudrais remercier une fois de plus M. Howitt, mais aussi tous les députés qui ont pris part à ce débat qui n'est pas du tout facile. Votre rapport constitue la dernière contribution en date, mais aussi la plus importante, au dialogue et à la concertation sur le Livre vert.",
+        "converted_sent": "Je voudrais remercier une fois de plus M. Howitt, mais aussi tout le parlement qui ont pri part à ce débat qui n'est pas du tout facile. Votre rapport constitue la dernière contribution en date, mais aussi la plus importante, au dialogue et à la concertation sur le Livre vert.",
+        "original_dep": "pris",
+        "inflecteur_replacement": "pris",
+        "genre_replacement": "pri",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Je voudrais remercier une fois de plus M. Howitt, mais aussi tous les députés qui ont pris part à ce débat qui n'est pas du tout facile. Votre rapport constitue la dernière contribution en date, mais aussi la plus importante, au dialogue et à la concertation sur le Livre vert.",
+        "converted_sent": "Je voudrais remercier une fois de plus M . Howitt , mais aussi tout le parlement qui a pri part à ce débat qui n ' est pas du tout facile . Votre rapport constitue la dernière contribution en date , mais aussi la plus importante , au dialogue et à la concertation sur le Livre vert .",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_64": [
+      {
+        "original_sent": "Je voudrais remercier nos invités d'Espagne, de France, d'Allemagne et les présidents de nos institutions, la Commission et le Conseil, d'être présents parmi nous.",
+        "converted_sent": "Je voudrait remercier nos invités d'Espagne, de France, d'Allemagne et la présidence de nos institutions, la Commission et le Conseil, d'être présents parmi nous.",
+        "original_dep": "voudrais",
+        "inflecteur_replacement": "voudrait",
+        "genre_replacement": "voudrait",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Je voudrais remercier nos invités d'Espagne, de France, d'Allemagne et les présidents de nos institutions, la Commission et le Conseil, d'être présents parmi nous.",
+        "converted_sent": "Je voudrait remercier nos invités d'Espagne, de France, d'Allemagne et la présidence de nos institutions, la Commission et le Conseil, d'être présente parmi nous.",
+        "original_dep": "présents",
+        "inflecteur_replacement": "présente",
+        "genre_replacement": "présente",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_65": [
+      {
+        "original_sent": "Si je sais que parvenir à un accord lundi prochain lors du sommet des chefs d'État ou de gouvernement européens sera particulièrement difficile, je refuse néanmoins que l'échec soit inévitable.",
+        "converted_sent": "Si je sais que parvenir à un accord lundi prochain lors du sommet de la chefferie d'État ou de gouvernement européens sera particulièrement difficile, je refuse néanmoins que l'échec soit inévitable.",
+        "original_dep": "refuse",
+        "inflecteur_replacement": "refuse",
+        "genre_replacement": "refuse",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_67": [
+      {
+        "original_sent": "Les citoyens américains et européens méritent mieux aussi.",
+        "converted_sent": "la citoyenneté américaine et européens méritent mieux aussi.",
+        "original_dep": "américains",
+        "inflecteur_replacement": "américaine",
+        "genre_replacement": "américaine",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_69": [
+      {
+        "original_sent": "Par leur position, le Conseil et la Commission ont laissé passer une occasion d'adresser un message clair aux citoyens européens, de montrer leur engagement à mettre en œuvre le Traité, de montrer une Europe démocratique des citoyens.",
+        "converted_sent": "Par leur position, le Conseil et la Commission ont laissé passer une occasion d'adresser un message clair à la citoyenneté européenne, de montrer leur engagement à mettre en œuvre le Traité, de montrer une Europe démocratique de la citoyenneté.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_70": [
+      {
+        "original_sent": "Le plus étonnant de cette manipulation est l'attitude du Conseil: pendant toute la négociation du traité d'Amsterdam, il avait résisté farouchement aux regroupements, dans un titre distinct du traité, de tous les droits des citoyens épars dans ce texte.",
+        "converted_sent": "Le plus étonnant de cette manipulation est l'attitude du Conseil : pendant toute la négociation du traité d'Amsterdam, il avait résisté farouchement aux regroupements, dans un titre distinct du traité, de tous les droits de la citoyenneté éparse dans ce texte.",
+        "original_dep": "épars",
+        "inflecteur_replacement": "éparse",
+        "genre_replacement": "éparse",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_71": [
+      {
+        "original_sent": "(NL) Monsieur le Président, M. Solana, Mme la Commissaire, je partage pleinement l'opinion des députés qui ont affirmé qu'il n'est plus temps d'exprimer notre inquiétude au sujet des événements tragiques et de la situation humanitaire à Gaza, et que donner de l'argent ne suffit pas.",
+        "converted_sent": "(NL) Monsieur le Président, M. Solana, Mme la Commissaire, je partage pleinement l'opinion du parlement qui ont affirmé qu'il n'est plus temps d'exprimer notre inquiétude au sujet des événements tragiques et de la situation humanitaire à Gaza, et que donner de l'argent ne suffit pas.",
+        "original_dep": "affirmé",
+        "inflecteur_replacement": "affirmé",
+        "genre_replacement": "affirmé",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "(NL) Monsieur le Président, M. Solana, Mme la Commissaire, je partage pleinement l'opinion des députés qui ont affirmé qu'il n'est plus temps d'exprimer notre inquiétude au sujet des événements tragiques et de la situation humanitaire à Gaza, et que donner de l'argent ne suffit pas.",
+        "converted_sent": "(NL) Monsieur le Président, M. Solana, Mme la Commissaire, je partage pleinement l'opinion du parlement qui a affirmé qu'il n'est plus temps d'exprimer notre inquiétude au sujet des événements tragiques et de la situation humanitaire à Gaza, et que donner de l'argent ne suffit pas.",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "(NL) Monsieur le Président, M. Solana, Mme la Commissaire, je partage pleinement l'opinion des députés qui ont affirmé qu'il n'est plus temps d'exprimer notre inquiétude au sujet des événements tragiques et de la situation humanitaire à Gaza, et que donner de l'argent ne suffit pas.",
+        "converted_sent": "(NL) Monsieur le Président, M. Solana, Mme la Commissaire, je partage pleinement l'opinion du parlement qui a affirmé qu'il n'est plus temps d'exprimer notre inquiétude au sujet des événements tragiques et de la situation humanitaire à Gaza, et que donner de l'argent ne suffit pas.",
+        "original_dep": "suffit",
+        "inflecteur_replacement": "suffit",
+        "genre_replacement": "suffit",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_73": [
+      {
+        "original_sent": "Monsieur le Président, Mesdames, Messieurs, le moment est venu d'adresser deux messages clairs: le premier au Conseil parce que, pour la première fois en une semaine, il y a eu un Conseil de ministres lundi qui a adopté une position commune, une réunion du groupe de contact, une réunion du Conseil des ministres de la défense de l'OTAN et une réunion du Conseil européen.",
+        "converted_sent": "Monsieur le Président , Mesdames , Messieurs , le moment est venu d ' adresser deux messages clairs : le premier au Conseil parce que , pour la première fois en une semaine , il y a eu un Conseil de ministraille lundi qui a adopté une position commune , une réunion du groupe de contact , une réunion du Conseil de la ministraille de la défense de l ' OTAN et une réunion du Conseil européen .",
+        "original_dep": "a",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Monsieur le Président, Mesdames, Messieurs, le moment est venu d'adresser deux messages clairs: le premier au Conseil parce que, pour la première fois en une semaine, il y a eu un Conseil de ministres lundi qui a adopté une position commune, une réunion du groupe de contact, une réunion du Conseil des ministres de la défense de l'OTAN et une réunion du Conseil européen.",
+        "converted_sent": "Monsieur le Président , Mesdames , Messieurs , le moment est venu d ' adresser deux messages clairs : le premier au Conseil parce que , pour la première fois en une semaine , il y a eu un Conseil de ministraille lundi qui a adopté une position commune , une réunion du groupe de contact , une réunion du Conseil de la ministraille de la défense de l ' OTAN et une réunion du Conseil européen .",
+        "original_dep": "lundi",
+        "inflecteur_replacement": "lundi",
+        "genre_replacement": "lundi",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Monsieur le Président, Mesdames, Messieurs, le moment est venu d'adresser deux messages clairs: le premier au Conseil parce que, pour la première fois en une semaine, il y a eu un Conseil de ministres lundi qui a adopté une position commune, une réunion du groupe de contact, une réunion du Conseil des ministres de la défense de l'OTAN et une réunion du Conseil européen.",
+        "converted_sent": "Monsieur le Président , Mesdames , Messieurs , le moment est venu d ' adresser deux messages clairs : le premier au Conseil parce que , pour la première fois en une semaine , il y a eu un Conseil de ministraille lundi qui a adopté une position commune , une réunion du groupe de contact , une réunion du Conseil de la ministraille de la défense de l ' OTAN et une réunion du Conseil européen .",
+        "original_dep": "est",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Monsieur le Président, Mesdames, Messieurs, le moment est venu d'adresser deux messages clairs: le premier au Conseil parce que, pour la première fois en une semaine, il y a eu un Conseil de ministres lundi qui a adopté une position commune, une réunion du groupe de contact, une réunion du Conseil des ministres de la défense de l'OTAN et une réunion du Conseil européen.",
+        "converted_sent": "Monsieur le Président , Mesdames , Messieurs , le moment est venue d ' adresser deux messages clairs : le premier au Conseil parce que , pour la première fois en une semaine , il y a eu un Conseil de ministraille lundi qui a adopté une position commune , une réunion du groupe de contact , une réunion du Conseil de la ministraille de la défense de l ' OTAN et une réunion du Conseil européen .",
+        "original_dep": "est",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Monsieur le Président, Mesdames, Messieurs, le moment est venu d'adresser deux messages clairs: le premier au Conseil parce que, pour la première fois en une semaine, il y a eu un Conseil de ministres lundi qui a adopté une position commune, une réunion du groupe de contact, une réunion du Conseil des ministres de la défense de l'OTAN et une réunion du Conseil européen.",
+        "converted_sent": "Monsieur le Président , Mesdames , Messieurs , le moment est venue d ' adresser deux messages clairs : le premier au Conseil parce que , pour la première fois en une semaine , il y a eu un Conseil de ministraille lundi qui a adopté une position commune , une réunion du groupe de contact , une réunion du Conseil de la ministraille de la défense de l ' OTAN et une réunion du Conseil européen .",
+        "original_dep": "venu",
+        "inflecteur_replacement": "venu",
+        "genre_replacement": "venu",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Monsieur le Président, Mesdames, Messieurs, le moment est venu d'adresser deux messages clairs: le premier au Conseil parce que, pour la première fois en une semaine, il y a eu un Conseil de ministres lundi qui a adopté une position commune, une réunion du groupe de contact, une réunion du Conseil des ministres de la défense de l'OTAN et une réunion du Conseil européen.",
+        "converted_sent": "Monsieur le Président , Mesdames , Messieurs , le moment est venue d ' adresser deux messages clairs : le premier au Conseil parce que , pour la première fois en une semaine , il y a eu un Conseil de ministraille lundi qui a adopté une position commune , une réunion du groupe de contact , une réunion du Conseil de la ministraille de la défense de l ' OTAN et une réunion du Conseil européen .",
+        "original_dep": "a",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "eupr_76": [
+      {
+        "original_sent": "Monsieur le Président, Monsieur le Commissaire, le rapport qui nous est soumis est consacré à la proposition de la Commission concernant l'élaboration d'un code de conduite pour l'application de l'égalité de rémunération entre les femmes et les hommes à travail égal.",
+        "converted_sent": "Monsieur le Président , Monsieur le Commissaire , le rapport qui nous est soumis est consacré à la proposition de la Commission concernant l ' élaboration d ' un code de conduite pour l ' application de l ' égalité de rémunération entre les femmes et l ' humanité à travail égal .",
+        "original_dep": "égal",
+        "inflecteur_replacement": "égale",
+        "genre_replacement": "égale",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_77": [
+      {
+        "original_sent": "Des accords existent également, permettant de mener rapidement un débat sur l'étude avec les députés intéressés du Parlement.",
+        "converted_sent": "Des accords existent également, permettant de mener rapidement un débat sur l'étude avec le parlement intéressé du Parlement.",
+        "original_dep": "intéressés",
+        "inflecteur_replacement": "intéressé",
+        "genre_replacement": "intéressé",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_79": [
+      {
+        "original_sent": "Permettez-moi d'affirmer clairement que ce droit des patients ne doit en aucun cas nuire à la capacité des États membres à fournir des soins de santé de qualité à tous leurs citoyens.",
+        "converted_sent": "Permettez-moi d'affirmer clairement que ce droit de la patientèle ne doit en aucun cas nuire à la capacité des États membres à fournir des soins de santé de qualité à tous leurs citoyenneté.",
+        "original_dep": "doit",
+        "inflecteur_replacement": "doit",
+        "genre_replacement": "doit",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_81": [
+      {
+        "original_sent": "Monsieur le Président, Messieurs les députés, je vous suis très reconnaissant de m'avoir donné la possibilité en ce jour de commenter la situation de l'industrie automobile européenne, afin de vous informer sur plusieurs aspects de la réaction européenne à la crise et des évolutions relatives au groupe General Motors.",
+        "converted_sent": "Monsieur le Président, Messieurs le parlement, je vous suis très reconnaissant de m'avoir donné la possibilité en ce jour de commenter la situation de l'industrie automobile européenne, afin de vous informer sur plusieurs aspects de la réaction européenne à la crise et des évolutions relatives au groupe General Motors.",
+        "original_dep": "reconnaissant",
+        "inflecteur_replacement": "reconnaissant",
+        "genre_replacement": "reconnaissant",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_82": [
+      {
+        "original_sent": "La BCE, gardienne de la monnaie unique, continuera à poursuivre sa politique monétaire de stabilité afin de remplir son mandat et de livrer les résultats attendus, à juste titre, par les citoyens européens.",
+        "converted_sent": "La BCE, gardienne de la monnaie unique, continuera à poursuivre sa politique monétaire de stabilité afin de remplir son mandat et de livrer les résultats attendus, à juste titre, par la citoyenneté européenne.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_83": [
+      {
+        "original_sent": "Je crois enfin qu'il est clair que l'adhésion à l'OMC n'est qu'un élément, peut-être essentiel, mais seulement un élément du processus de réforme qui a été lancé par Deng Xiaoping en 1978 et que ses successeurs ont poursuivi.",
+        "converted_sent": "Je crois enfin qu'il est clair que l'adhésion à l'OMC n'est qu'un élément, peut-être essentiel, mais seulement un élément du processus de réforme qui a été lancé par Deng Xiaoping en 1978 et que sa succession a poursuivi.",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_85": [
+      {
+        "original_sent": "Lui et Khamenei président à la répression brutale des citoyens iraniens par des pendaisons, tortures, lapidations, amputations et flagellations, qui sont monnaie courante; quotidiennement, ils font exécuter des enfants, voire même des femmes enceintes.",
+        "converted_sent": "Lui et Khamenei président à la répression brutale de la citoyenneté iranienne par des pendaisons, tortures, lapidations, amputations et flagellations, qui sont monnaie courante ; quotidiennement, ils font exécuter de l'enfance, voire même des femmes enceintes.",
+        "original_dep": "iraniens",
+        "inflecteur_replacement": "iranienne",
+        "genre_replacement": "iranienne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_86": [
+      {
+        "original_sent": "Toutes les mesures qui sont mises en uvre pour lutter contre le terrorisme et qui sont en vigueur, ce sont les mesures qui découlent déjà du cadre législatif existant, ou bien ce sont des mesures telles que le mandat d'arrêt européen ou la décision-cadre \"terrorisme\", qui était en préparation bien avant le 11 septembre et, en plus, dans le cas du mandat d'arrêt européen il n'y a pas d'équivoque, il nous a été demandé par les chefs d'État et de gouvernement en octobre 1999 pour remplacer l'extradition.",
+        "converted_sent": "Toutes les mesures qui sont mises en uvre pour lutter contre le terrorisme et qui sont en vigueur, ce sont les mesures qui découlent déjà du cadre législatif existant, ou bien ce sont des mesures telles que le mandat d'arrêt européen ou la décision-cadre \"terrorisme\", qui était en préparation bien avant le 11 septembre et, en plus, dans le cas du mandat d'arrêt européen il n'y a pas d'équivoque, il nous a été demandé par la chefferie d'État et de gouvernement en octobre 1999 pour remplacer l'extradition.",
+        "original_dep": "été",
+        "inflecteur_replacement": "été",
+        "genre_replacement": "été",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Toutes les mesures qui sont mises en uvre pour lutter contre le terrorisme et qui sont en vigueur, ce sont les mesures qui découlent déjà du cadre législatif existant, ou bien ce sont des mesures telles que le mandat d'arrêt européen ou la décision-cadre \"terrorisme\", qui était en préparation bien avant le 11 septembre et, en plus, dans le cas du mandat d'arrêt européen il n'y a pas d'équivoque, il nous a été demandé par les chefs d'État et de gouvernement en octobre 1999 pour remplacer l'extradition.",
+        "converted_sent": "Toutes les mesures qui sont mises en uvre pour lutter contre le terrorisme et qui sont en vigueur, ce sont les mesures qui découlent déjà du cadre législatif existant, ou bien ce sont des mesures telles que le mandat d'arrêt européen ou la décision-cadre \"terrorisme\", qui était en préparation bien avant le 11 septembre et, en plus, dans le cas du mandat d'arrêt européen il n'y a pas d'équivoque, il nous a été demandée par la chefferie d'État et de gouvernement en octobre 1999 pour remplacer l'extradition.",
+        "original_dep": "demandé",
+        "inflecteur_replacement": "demandé",
+        "genre_replacement": "demandé",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_87": [
+      {
+        "original_sent": "Je vous remercie, Monsieur le Président, et je remercie principalement les députés du Parlement européen pour la discussion intéressante et constructive qui a eu lieu.",
+        "converted_sent": "Je vous remercie, Monsieur le Président, et je remercie principalement le parlement du Parlement européen pour la discussion intéressante et constructive qui a eu lieu.",
+        "original_dep": "européen",
+        "inflecteur_replacement": "européen",
+        "genre_replacement": "européen",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_88": [
+      {
+        "original_sent": "Les députés doivent donc procéder par déduction, par un examen minutieux de chaque détail, par les questions parlementaires, comme je le fais moi.",
+        "converted_sent": "le parlement doit donc procéder par déduction, par un examen minutieux de chaque détail, par les questions parlement, comme je le fais moi.",
+        "original_dep": "doivent",
+        "inflecteur_replacement": "doit",
+        "genre_replacement": "doit",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Les députés doivent donc procéder par déduction, par un examen minutieux de chaque détail, par les questions parlementaires, comme je le fais moi.",
+        "converted_sent": "le parlement doivent donc procéder par déduction, par un examen minutieux de chaque détail, par les questions parlement, comme je le fais moi.",
+        "original_dep": "parlementaires",
+        "inflecteur_replacement": "parlementaire",
+        "genre_replacement": "parlementaire",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_90": [
+      {
+        "original_sent": "Un deuxième élément concerne le soutien apporté à la Commission aux acteurs locaux qui veulent participer à ces programmes afin d'avoir accès aux sources de financement correspondantes.",
+        "converted_sent": "Un deuxième élément concerne le soutien apporté à la Commission à l'actorat local qui veulent participer à ces programmes afin d'avoir accès aux sources de financement correspondantes.",
+        "original_dep": "locaux",
+        "inflecteur_replacement": "local",
+        "genre_replacement": "local",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "eupr_93": [
+      {
+        "original_sent": "Mais nous devons accepter la réalité: les attentes et les demandes des citoyens ont beau croître en permanence, les ressources des autorités consulaires, elles, restent toujours limitées.",
+        "converted_sent": "Mais nous devons accepter la réalité : les attentes et les demandes de la citoyenneté ont beau croître en permanence, les ressources des autorités consulaires, elles, restent toujours limitées.",
+        "original_dep": "croître",
+        "inflecteur_replacement": "croître",
+        "genre_replacement": "croître",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Mais nous devons accepter la réalité: les attentes et les demandes des citoyens ont beau croître en permanence, les ressources des autorités consulaires, elles, restent toujours limitées.",
+        "converted_sent": "Mais nous devons accepter la réalité : les attentes et les demandes de la citoyenneté ont beau croître en permanence, les ressources des autorités consulaires, elles, reste toujours limitées.",
+        "original_dep": "restent",
+        "inflecteur_replacement": "reste",
+        "genre_replacement": "reste",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Mais nous devons accepter la réalité: les attentes et les demandes des citoyens ont beau croître en permanence, les ressources des autorités consulaires, elles, restent toujours limitées.",
+        "converted_sent": "Mais nous devons accepter la réalité : les attentes et les demandes de la citoyenneté ont beau croître en permanence, les ressources des autorités consulaires, elles, reste toujours limitée.",
+        "original_dep": "limitées",
+        "inflecteur_replacement": "limitée",
+        "genre_replacement": "limitée",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_95": [
+      {
+        "original_sent": "Par contre, il est évident aussi que nous continuons d'exiger que les commissaires actuels fassent preuve d'un maximum de transparence à l'égard de ce Parlement.",
+        "converted_sent": "Par contre, il est évident aussi que nous continuons d'exiger que la commission actuelle fassent preuve d'un maximum de transparence à l'égard de ce Parlement.",
+        "original_dep": "actuels",
+        "inflecteur_replacement": "actuelle",
+        "genre_replacement": "actuelle",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_97": [
+      {
+        "original_sent": "Il s'agissait essentiellement d'une alliance corrompue entre l'ancienne hiérarchie communiste, les oligarques économiques et les bureaucrates gouvernementaux.",
+        "converted_sent": "Il s'agissait essentiellement d'une alliance corrompue entre l'ancienne hiérarchie communiste, l'oligarchie économique et la bureaucratie gouvernementaux.",
+        "original_dep": "économiques",
+        "inflecteur_replacement": "économique",
+        "genre_replacement": "économique",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Il s'agissait essentiellement d'une alliance corrompue entre l'ancienne hiérarchie communiste, les oligarques économiques et les bureaucrates gouvernementaux.",
+        "converted_sent": "Il s'agissait essentiellement d'une alliance corrompue entre l'ancienne hiérarchie communiste, l'oligarchie économiques et la bureaucratie gouvernementale.",
+        "original_dep": "gouvernementaux",
+        "inflecteur_replacement": "gouvernementale",
+        "genre_replacement": "gouvernementale",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_99": [
+      {
+        "original_sent": "Et une économie au sein de laquelle est déclaré roi le choix du consommateur. Le prix qui doit être payé pour y parvenir, plus particulièrement par les paysans africains, est trop élevé.",
+        "converted_sent": "Et une économie au sein de laquelle est déclaré roi le choix du consommateur. Le prix qui doit être payé pour y parvenir, plus particulièrement par la paysannerie africaine, est trop élevé.",
+        "original_dep": "africains",
+        "inflecteur_replacement": "africaine",
+        "genre_replacement": "africaine",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_101": [
+      {
+        "original_sent": "Les échanges d'informations et le dialogue constructif nous permettront d'atteindre des résultats plus efficaces et plus transparents, ce qui est un élément essentiel du point de vue des citoyens européens dont nous représentons les intérêts.",
+        "converted_sent": "Les échanges d'informations et le dialogue constructif nous permettront d'atteindre des résultats plus efficaces et plus transparents, ce qui est un élément essentiel du point de vue de la citoyenneté européenne dont nous représentons les intérêts.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_102": [
+      {
+        "original_sent": "Si nous agissons dans un esprit de coopération avec nos institutions, si nous nous concentrons sur les résultats que les citoyens attendent de nous, si nous trouvons la meilleure atmosphère pour ce dialogue, je crois qu'il est possible de résoudre ce problème.",
+        "converted_sent": "Si nous agissons dans un esprit de coopération avec nos institutions, si nous nous concentrons sur les résultats que la citoyenneté attendent de nous, si nous trouvons la meilleure atmosphère pour ce dialogue, je crois qu'il est possible de résoudre ce problème.",
+        "original_dep": "attendent",
+        "inflecteur_replacement": "attendent",
+        "genre_replacement": "attendent",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Si nous agissons dans un esprit de coopération avec nos institutions, si nous nous concentrons sur les résultats que les citoyens attendent de nous, si nous trouvons la meilleure atmosphère pour ce dialogue, je crois qu'il est possible de résoudre ce problème.",
+        "converted_sent": "Si nous agissons dans un esprit de coopération avec nos institutions, si nous nous concentrons sur les résultats que la citoyenneté attendent de nous, si nous trouvons la meilleure atmosphère pour ce dialogue, je croit qu'il est possible de résoudre ce problème.",
+        "original_dep": "crois",
+        "inflecteur_replacement": "croit",
+        "genre_replacement": "croit",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_104": [
+      {
+        "original_sent": "En préambule aux élections, Mugabe n'hésite pas à recourir à la violence contre ses opposants politiques.",
+        "converted_sent": "En préambule aux élections, Mugabe n'hésite pas à recourir à la violence contre son opposition politique.",
+        "original_dep": "politiques",
+        "inflecteur_replacement": "politique",
+        "genre_replacement": "politique",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_105": [
+      {
+        "original_sent": "J'estime par ailleurs que le point 6 du rapport Schmidt est tout à fait surprenant, pour ne pas dire très inquiétant. Au travers de ce point, il cherche à faire en sorte que les électeurs se sentent impuissants en déclarant dès à présent que tôt ou tard nous devrons finalement faire partie de la zone euro.",
+        "converted_sent": "J'estime par ailleurs que le point 6 du rapport Schmidt est tout à fait surprenant, pour ne pas dire très inquiétant. Au travers de ce point, il cherche à faire en sorte que l'électorat se sent impuissants en déclarant dès à présent que tôt ou tard nous devrons finalement faire partie de la zone euro.",
+        "original_dep": "sentent",
+        "inflecteur_replacement": "sent",
+        "genre_replacement": "sent",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_106": [
+      {
+        "original_sent": "Je regrette profondément que les députés hongrois utilisent les interventions d'une minute, à chaque période de session du Parlement européen, pour attaquer le gouvernement slovaque et, par extension, les citoyens de la République slovaque également.",
+        "converted_sent": "Je regrette profondément que le parlement hongrois utilisent les interventions d'une minute, à chaque période de session du Parlement européen, pour attaquer le gouvernement slovaque et, par extension, la citoyenneté de la République slovaque également.",
+        "original_dep": "hongrois",
+        "inflecteur_replacement": "hongrois",
+        "genre_replacement": "hongrois",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Je regrette profondément que les députés hongrois utilisent les interventions d'une minute, à chaque période de session du Parlement européen, pour attaquer le gouvernement slovaque et, par extension, les citoyens de la République slovaque également.",
+        "converted_sent": "Je regrette profondément que le parlement hongrois utilisent les interventions d'une minute, à chaque période de session du Parlement européen, pour attaquer le gouvernement slovaque et, par extension, la citoyenneté de la République slovaque également.",
+        "original_dep": "utilisent",
+        "inflecteur_replacement": "utilisent",
+        "genre_replacement": "utilisent",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_107": [
+      {
+        "original_sent": "Les citoyens, les entreprises et les organisations sont souvent furieux, et à juste titre. Leurs plaintes traînent parfois des années, comme dans le cas de la loi Evin en France et de l'interdiction des publicités télévisées pour les jouets en Grèce.",
+        "converted_sent": "la citoyenneté, les entreprises et les organisations est souvent furieux, et à juste titre. Leurs plaintes traînent parfois des années, comme dans le cas de la loi Evin en France et de l'interdiction des publicités télévisées pour les jouets en Grèce.",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Les citoyens, les entreprises et les organisations sont souvent furieux, et à juste titre. Leurs plaintes traînent parfois des années, comme dans le cas de la loi Evin en France et de l'interdiction des publicités télévisées pour les jouets en Grèce.",
+        "converted_sent": "la citoyenneté, les entreprises et les organisations est souvent furieuse, et à juste titre. Leurs plaintes traînent parfois des années, comme dans le cas de la loi Evin en France et de l'interdiction des publicités télévisées pour les jouets en Grèce.",
+        "original_dep": "furieux",
+        "inflecteur_replacement": "furieuse",
+        "genre_replacement": "furieuse",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_108": [
+      {
+        "original_sent": "Par ailleurs, l'Union européenne se doit d'assurer l'approvisionnement régulier de ses clients des pays tiers traditionnels.",
+        "converted_sent": "Par ailleurs, l'Union européenne se doit d'assurer l'approvisionnement régulier de sa clientèle des pays tiere traditionnels.",
+        "original_dep": "tiers",
+        "inflecteur_replacement": "tiers",
+        "genre_replacement": "tiere",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_110": [
+      {
+        "original_sent": "Nous attendons du Conseil des ministres des Affaires sociales, prévu pour octobre, qu'il mette en pratique les rapports adoptés aujourd'hui.",
+        "converted_sent": "Nous attendons du Conseil de la ministraille des Affaires sociale, prévu pour octobre, qu'il mette en pratique les rapports adoptés aujourd'hui.",
+        "original_dep": "sociales",
+        "inflecteur_replacement": "sociale",
+        "genre_replacement": "sociale",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_111": [
+      {
+        "original_sent": "J'ai écouté avec attention à la fois le débat d'aujourd'hui et les réponses que les commissaires désignés nous ont données au cours des auditions parlementaires au cours de ces dernières semaines, et j'ai encore de graves inquiétudes et de sérieuses réserves.",
+        "converted_sent": "J'ai écouté avec attention à la fois le débat d'aujourd'hui et les réponses que la commission désignés nous a données au cours des auditions parlement au cours de ces dernières semaines, et j'ai encore de graves inquiétudes et de sérieuses réserves.",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "J'ai écouté avec attention à la fois le débat d'aujourd'hui et les réponses que les commissaires désignés nous ont données au cours des auditions parlementaires au cours de ces dernières semaines, et j'ai encore de graves inquiétudes et de sérieuses réserves.",
+        "converted_sent": "J'ai écouté avec attention à la fois le débat d'aujourd'hui et les réponses que la commission désignée nous a données au cours des auditions parlement au cours de ces dernières semaines, et j'ai encore de graves inquiétudes et de sérieuses réserves.",
+        "original_dep": "désignés",
+        "inflecteur_replacement": "désignés",
+        "genre_replacement": "désignée",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "J'ai écouté avec attention à la fois le débat d'aujourd'hui et les réponses que les commissaires désignés nous ont données au cours des auditions parlementaires au cours de ces dernières semaines, et j'ai encore de graves inquiétudes et de sérieuses réserves.",
+        "converted_sent": "J'ai écouté avec attention à la fois le débat d'aujourd'hui et les réponses que la commission désignés nous ont données au cours des auditions parlement au cours de ces dernières semaines, et j'ai encore de graves inquiétudes et de sérieuses réserves.",
+        "original_dep": "parlementaires",
+        "inflecteur_replacement": "parlementaire",
+        "genre_replacement": "parlementaire",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "eupr_114": [
+      {
+        "original_sent": "L'insuffisance des moyens de secours est apparue dans toute sa clarté, ceux-ci ont reposé en grande partie sur l'engagement volontaire des citoyens eux-mêmes.",
+        "converted_sent": "L ' insuffisance des moyens de secours est apparue dans toute sa clarté , ceux - ci ont reposé en grande partie sur l ' engagement volontaire de la citoyenneté eux - mêmes .",
+        "original_dep": "eux",
+        "inflecteur_replacement": "eux",
+        "genre_replacement": "eux",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {
+    "eupr_119": [
+      {
+        "original_sent": "Même si la Constitution ne reconnaît pas les recours non juridictionnels, conformément à son article 1, paragraphe 2, si les décisions doivent être prises dans le plus grand respect possible du principe d'ouverture et le plus près possible des citoyens, le rôle du médiateur européen et des commissaires administratifs est une garantie de la bonne conduite de l'administration, de l'État de droit et du respect des droits de l'homme.",
+        "converted_sent": "Même si la Constitution ne reconnaît pas les recours non juridictionnels, conformément à son article 1, paragraphe 2, si les décisions doivent être prises dans le plus grand respect possible du principe d'ouverture et le plus près possible de la citoyenneté, le rôle du médiateur européen et de la commission administrative est une garantie de la bonne conduite de l'administration, de l'État de droit et du respect des droits de l'homme.",
+        "original_dep": "administratifs",
+        "inflecteur_replacement": "administrative",
+        "genre_replacement": "administrative",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_120": [
+      {
+        "original_sent": "C'est un signe encourageant et dans ce contexte difficile que j'ai décrit et dans lequel, comme les députés peuvent le constater, la Commission se montre particulièrement active en définissant un ensemble cohérent d'initiatives, je désire exprimer aux députés toute notre gratitude pour le soutien que le Parlement nous apporte en la matière, également par le biais d'initiatives, comme l'audition récemment organisée sur la question par Mme Randzio-Plath.",
+        "converted_sent": "C'est un signe encourageant et dans ce contexte difficile que j'ai décrit et dans lequel, comme le parlement peut le constater, la Commission se montre particulièrement active en définissant un ensemble cohérent d'initiatives, je désire exprimer au parlement toute notre gratitude pour le soutien que le Parlement nous apporte en la matière, également par le biais d'initiatives, comme l'audition récemment organisée sur la question par Mme Randzio-Plath.",
+        "original_dep": "peuvent",
+        "inflecteur_replacement": "peut",
+        "genre_replacement": "peut",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_121": [
+      {
+        "original_sent": "C'est pourquoi selon moi, il importe qu'en plus de la prévention, les enfants apprennent ce qu'il convient de faire s'ils reçoivent ce type de demande ou s'ils sont exposés à ce genre d'influence.",
+        "converted_sent": "C'est pourquoi selon moi, il importe qu'en plus de la prévention, l'enfance apprend ce qu'il convient de faire s'ils reçoivent ce type de demande ou s'ils sont exposés à ce genre d'influence.",
+        "original_dep": "apprennent",
+        "inflecteur_replacement": "apprend",
+        "genre_replacement": "apprend",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "C'est pourquoi selon moi, il importe qu'en plus de la prévention, les enfants apprennent ce qu'il convient de faire s'ils reçoivent ce type de demande ou s'ils sont exposés à ce genre d'influence.",
+        "converted_sent": "C'est pourquoi selon moi, il importe qu'en plus de la prévention, l'enfance apprend ce qu'il convient de faire s'ils reçoivent ce type de demande ou s'ils sont exposés à ce genre d'influence.",
+        "original_dep": "moi",
+        "inflecteur_replacement": "moi",
+        "genre_replacement": "moi",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_122": [
+      {
+        "original_sent": "Il n'appartient naturellement pas à l'Union européenne d'aider financièrement les citoyens albanais à surmonter l'une ou l'autre mésaventure due à leurs malencontreuses spéculations.",
+        "converted_sent": "Il n'appartient naturellement pas à l'Union européenne d'aider financièrement la citoyenneté albanaise à surmonter l'une ou l'autre mésaventure due à leurs malencontreuses spéculations.",
+        "original_dep": "albanais",
+        "inflecteur_replacement": "albanaise",
+        "genre_replacement": "albanaise",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_124": [
+      {
+        "original_sent": "À entendre les débats aujourd'hui, je ne peux que constater que, finalement, malgré le choc total - économique, financier, social, démographique - qui est lié à la crise que nous vivons, les institutions européennes n'ont, pas plus que les chefs d'État ou de gouvernement, pris la mesure du drame et de ses conséquences qui vont nous frapper.",
+        "converted_sent": "À entendre les débats aujourd ' hui , je ne peux que constater que , finalement , malgré le choc total - économique , financier , social , démographique - qui est lié à la crise que nous vivons , les institutions européennes n ' ont , pas plus que la chefferie d ' État ou de gouvernement , pris la mesure du drame et de ses conséquences qui vont nous frapper .",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_126": [
+      {
+        "original_sent": "Il faut reconnaître que cette communication lancée par la Commission à la suite de l'échec du projet constitutionnel de traité en vue de favoriser le débat sur la relation entre les institutions démocratiques de l'Union et ses citoyens ne semble pas avoir atteint ses objectifs.",
+        "converted_sent": "Il faut reconnaître que cette communication lancée par la Commission à la suite de l'échec du projet constitutionnel de traité en vue de favoriser le débat sur la relation entre les institutions démocratiques de l'Union et sa citoyenneté ne semble pas avoir atteint ses objectifs.",
+        "original_dep": "avoir",
+        "inflecteur_replacement": "avoir",
+        "genre_replacement": "avoir",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Il faut reconnaître que cette communication lancée par la Commission à la suite de l'échec du projet constitutionnel de traité en vue de favoriser le débat sur la relation entre les institutions démocratiques de l'Union et ses citoyens ne semble pas avoir atteint ses objectifs.",
+        "converted_sent": "Il faut reconnaître que cette communication lancée par la Commission à la suite de l'échec du projet constitutionnel de traité en vue de favoriser le débat sur la relation entre les institutions démocratiques de l'Union et sa citoyenneté ne semble pas avoir atteint ses objectifs.",
+        "original_dep": "semble",
+        "inflecteur_replacement": "semble",
+        "genre_replacement": "semble",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_128": [
+      {
+        "original_sent": "C'est là un point essentiel pour le bien des citoyens des Balkans occidentaux et de nos propres citoyens.",
+        "converted_sent": "C'est là un point essentiel pour le bien de la citoyenneté des Balkans occidentale et de nos propres citoyenneté.",
+        "original_dep": "occidentaux",
+        "inflecteur_replacement": "occidentale",
+        "genre_replacement": "occidentale",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "eupr_132": [
+      {
+        "original_sent": "Notre Parlement est composé de députés directement élus par les citoyens européens.",
+        "converted_sent": "Notre Parlement est composé de parlement directement élus par la citoyenneté européenne.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "eupr_135": [
+      {
+        "original_sent": "Le fait d'accorder le droit à des policiers étrangers d'effectuer une surveillance ou de procéder à des arrestations dans un autre État membre signifie forcément qu'il est possible d'améliorer le travail.",
+        "converted_sent": "Le fait d'accorder le droit à la police étrangère d'effectuer une surveillance ou de procéder à des arrestations dans un autre État membre signifie forcément qu'il est possible d'améliorer le travail.",
+        "original_dep": "étrangers",
+        "inflecteur_replacement": "étrangère",
+        "genre_replacement": "étrangère",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_137": [
+      {
+        "original_sent": "Il est indéniable que les citoyens européens rejettent en masse les négociations d'adhésion avec la Turquie - un pays non-européen - et pourtant ces négociations se poursuivent comme si de rien n'était et elles se poursuivront sans nul doute encore bien au-delà de décembre.",
+        "converted_sent": "Il est indéniable que la citoyenneté européenne rejettent en masse les négociations d'adhésion avec la Turquie-un pays non-européen-et pourtant ces négociations se poursuivent comme si de rien n'était et elles se poursuivront sans nul doute encore bien au-delà de décembre.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Il est indéniable que les citoyens européens rejettent en masse les négociations d'adhésion avec la Turquie - un pays non-européen - et pourtant ces négociations se poursuivent comme si de rien n'était et elles se poursuivront sans nul doute encore bien au-delà de décembre.",
+        "converted_sent": "Il est indéniable que la citoyenneté européenne rejette en masse les négociations d'adhésion avec la Turquie-un pays non-européen-et pourtant ces négociations se poursuivent comme si de rien n'était et elles se poursuivront sans nul doute encore bien au-delà de décembre.",
+        "original_dep": "rejettent",
+        "inflecteur_replacement": "rejette",
+        "genre_replacement": "rejette",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_138": [
+      {
+        "original_sent": "Elle doit engager un dialogue ouvert avec la société civile, car l'avenir de l'Europe repose en partie sur une plus grande coopération européenne dans les domaines où les citoyens attendent des résultats à portée transfrontalière, qu'il s'agisse de la sécurité alimentaire, de l'immigration, de la pollution, de la criminalité internationale ou du terrorisme.",
+        "converted_sent": "Elle doit engager un dialogue ouvert avec la société civile, car l'avenir de l'Europe repose en partie sur une plus grande coopération européenne dans les domaines où la citoyenneté attendent des résultats à portée transfrontalière, qu'il s'agisse de la sécurité alimentaire, de l'immigration, de la pollution, de la criminalité internationale ou du terrorisme.",
+        "original_dep": "attendent",
+        "inflecteur_replacement": "attendent",
+        "genre_replacement": "attendent",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "eupr_141": [
+      {
+        "original_sent": "Madame la Présidente, prenant la parole, non pas devant une Assemblée comble, mais plutôt dans ce qui ressemble à une atmosphère familiale, je suis heureuse, car c'est un grand jour pour des millions de femmes, d'enfants et d'adolescents victimes de la violence, vu que nous avons adopté, dans le cadre d'une procédure accélérée, le programme Daphné de prévention et de lutte contre la violence envers les enfants, les adolescents et les femmes et de protection des victimes, pour la période 2007-2013, comme partie intégrante du programme-cadre sur les droits fondamentaux et la justice.",
+        "converted_sent": "Madame la Présidente , prenant la parole , non pas devant une Assemblée comble , mais plutôt dans ce qui ressemble à une atmosphère familiale , je suis heureuse , car c ' est un grand jour pour des millions de femmes , d ' enfance et d ' jeunesse victime de la violence , vu que nous avons adopté , dans le cadre d ' une procédure accélérée , le programme Daphné de prévention et de lutte contre la violence envers l ' enfance , la jeunesse et les femmes et de protection des victimes , pour la période 2007 - 2013 , comme partie intégrante du programme - cadre sur les droits fondamentaux et la justice .",
+        "original_dep": "victimes",
+        "inflecteur_replacement": "victime",
+        "genre_replacement": "victime",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_143": [
+      {
+        "original_sent": "Le Conseil informel des ministres des affaires étrangères de l'Union, réuni au début du mois à Riva del Garda, a décidé d'inclure l'aile politique du Hamas sur la liste européenne des organisations terroristes.",
+        "converted_sent": "Le Conseil informel de la ministraille des affaires étrangère de l'Union, réuni au début du mois à Riva del Garda, a décidé d'inclure l'aile politique du Hamas sur la liste européenne des organisations terroristes.",
+        "original_dep": "étrangères",
+        "inflecteur_replacement": "étrangère",
+        "genre_replacement": "étrangère",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_144": [
+      {
+        "original_sent": "Les offres des donateurs ont dépassé d'une marge confortable les attentes exprimées au début de la conférence.",
+        "converted_sent": "Les offres du mécenat a dépassé d'une marge confortable les attentes exprimées au début de la conférence.",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_145": [
+      {
+        "original_sent": "Je pense que ce débat constitue une bonne opportunité de rappeler aux citoyens européens le rôle du traité de Lisbonne pour rendre l'Union européenne plus démocratique et plus cohérente.",
+        "converted_sent": "Je pense que ce débat constitue une bonne opportunité de rappeler à la citoyenneté européenne le rôle du traité de Lisbonne pour rendre l'Union européenne plus démocratique et plus cohérente.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_147": [
+      {
+        "original_sent": "Je ne suis pas au courant du jugement de la Cour de justice mais je l'étudierai dès que mes collaborateurs le porteront à mon attention.",
+        "converted_sent": "Je ne suis pas au courant du jugement de la Cour de justice mais je l'étudierai dès que ma collaboration le portera à mon attention.",
+        "original_dep": "porteront",
+        "inflecteur_replacement": "portera",
+        "genre_replacement": "portera",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_149": [
+      {
+        "original_sent": "Il en a assurément trouvé un dans le représentant légitime des électeurs hongrois de Slovaquie, le Parti de la coalition hongroise.",
+        "converted_sent": "Il en a assurément trouvé un dans le représentant légitime de l ' électorat hongrois de Slovaquie , le Parti de la coalition hongroise .",
+        "original_dep": "hongrois",
+        "inflecteur_replacement": "hongrois",
+        "genre_replacement": "hongrois",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_151": [
+      {
+        "original_sent": "Je ne serai pour l'adhésion de nouveaux États que lorsque l'Union européenne mettra l'intégration régionale au profit de l'ensemble des citoyens amenés à la composer et non pas à celui des intérêts du capital qui le domine aujourd'hui et donne à l'Union européenne un cadre d'intégration sans que les citoyens ne le contrôlent.",
+        "converted_sent": "Je ne serai pour l'adhésion de nouveaux États que lorsque l'Union européenne mettra l'intégration régionale au profit de l'ensemble de la citoyenneté amenés à la composer et non pas à celui des intérêts du capital qui le domine aujourd'hui et donne à l'Union européenne un cadre d'intégration sans que la citoyenneté ne le contrôlent.",
+        "original_dep": "amenés",
+        "inflecteur_replacement": "amenés",
+        "genre_replacement": "amenés",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_153": [
+      {
+        "original_sent": "Si nous nous en remettons à la bonne volonté, des hommes par exemple, rien ne changera.",
+        "converted_sent": "Si nous nous en remettons à la bonne volonté, de l'humanité par exemple, rien ne changera.",
+        "original_dep": "changera",
+        "inflecteur_replacement": "changera",
+        "genre_replacement": "changera",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Si nous nous en remettons à la bonne volonté, des hommes par exemple, rien ne changera.",
+        "converted_sent": "Si nous nous en remettons à la bonne volonté, de l'humanité par exemple, rien ne changera.",
+        "original_dep": "remettons",
+        "inflecteur_replacement": "remettons",
+        "genre_replacement": "remettons",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "eupr_160": [
+      {
+        "original_sent": "(IT) Monsieur le Président, Mesdames et Messieurs, je suis convaincu que ce droit d'initiative accordé aux citoyens européens par le Traité aidera à rapprocher davantage les citoyens de l'Europe et des institutions européennes que les campagnes de sensibilisation coûteuses financées par l'Union, qui ont jusqu'ici donné des résultats limités. Le taux de participation aux élections européennes confirme cette constatation.",
+        "converted_sent": "(IT) Monsieur le Président, Mesdames et Messieurs, je suis convaincu que ce droit d'initiative accordé à la citoyenneté européenne par le Traité aidera à rapprocher davantage la citoyenneté de l'Europe et des institutions européennes que les campagnes de sensibilisation coûteuses financées par l'Union, qui ont jusqu'ici donné des résultats limités. Le taux de participation aux élections européennes confirme cette constatation.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_162": [
+      {
+        "original_sent": "Le Conseil considère toutefois, comme l'ont souligné les ministres en juin dernier, qu'il faut respecter le principe d'une utilisation souple du dividende numérique. Cela doit se faire sans préjudice des contraintes nécessaires pour éviter des interférences nuisibles ou pour promouvoir des objectifs d'intérêt général comme, par exemple, une grande disponibilité du service ou le pluralisme des médias et la diversité culturelle et linguistique.",
+        "converted_sent": "Le Conseil considère toutefois, comme l'ont souligné la ministraille en juin dernière, qu'il faut respecter le principe d'une utilisation souple du dividende numérique. Cela doit se faire sans préjudice des contraintes nécessaires pour éviter des interférences nuisibles ou pour promouvoir des objectifs d'intérêt général comme, par exemple, une grande disponibilité du service ou le pluralisme des médias et la diversité culturelle et linguistique.",
+        "original_dep": "dernier",
+        "inflecteur_replacement": "dernière",
+        "genre_replacement": "dernière",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_163": [
+      {
+        "original_sent": "Nous constatons que tous les citoyens ne sont pas satisfaits de la nouvelle monnaie. Mais après tout, l'Europe a montré qu'elle était capable de réaliser quelque chose quand elle se montrait unie.",
+        "converted_sent": "Nous constatons que toute la citoyenneté ne est pas satisfaite de la nouvelle monnaie. Mais après tout, l'Europe a montré qu'elle était capable de réaliser quelque chose quand elle se montrait unie.",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Nous constatons que tous les citoyens ne sont pas satisfaits de la nouvelle monnaie. Mais après tout, l'Europe a montré qu'elle était capable de réaliser quelque chose quand elle se montrait unie.",
+        "converted_sent": "Nous constatons que toute la citoyenneté ne est pas satisfaite de la nouvelle monnaie. Mais après tout, l'Europe a montré qu'elle était capable de réaliser quelque chose quand elle se montrait unie.",
+        "original_dep": "satisfaits",
+        "inflecteur_replacement": "satisfaite",
+        "genre_replacement": "satisfaite",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_165": [
+      {
+        "original_sent": "La violence a été bien combattue, les auteurs des actes de violence ont été vaincus et il n'y a rien à cacher à propos de la violence.",
+        "converted_sent": "La violence a été bien combattue , l ' autorat des actes de violence ont été vaincus et il n ' y a rien à cacher à propos de la violence .",
+        "original_dep": "été",
+        "inflecteur_replacement": "été",
+        "genre_replacement": "été",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "La violence a été bien combattue, les auteurs des actes de violence ont été vaincus et il n'y a rien à cacher à propos de la violence.",
+        "converted_sent": "La violence a été bien combattue , l ' autorat des actes de violence ont été vaincus et il n ' y a rien à cacher à propos de la violence .",
+        "original_dep": "vaincus",
+        "inflecteur_replacement": "vaincus",
+        "genre_replacement": "vaincus",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "eupr_168": [
+      {
+        "original_sent": "J'espère que son mandat à Bruxelles coïncidera avec un bon qualitatif des relations entre l'Amérique et les députés européens : la visite annoncée du vice-président Biden constitue un excellent point de départ car personne plus que moi ne souhaite le renforcement du partenariat transatlantique.",
+        "converted_sent": "J'espère que son mandat à Bruxelles coïncidera avec un bon qualitatif des relations entre l'Amérique et le parlement européen : la visite annoncée du vice-président Biden constitue un excellent point de départ car personne plus que moi ne souhaite le renforcement du partenariat transatlantique.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européen",
+        "genre_replacement": "européen",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_169": [
+      {
+        "original_sent": "(SK) Monsieur le Président, permettez-moi, à l'occasion du 50e anniversaire du Parlement européen, de commencer mon intervention en souhaitant à notre Assemblée de prendre beaucoup de sages décisions à l'avenir au nom des citoyens européens.",
+        "converted_sent": "(SK) Monsieur le Président, permettez-moi, à l'occasion du 50e anniversaire du Parlement européen, de commencer mon intervention en souhaitant à notre Assemblée de prendre beaucoup de sages décisions à l'avenir au nom de la citoyenneté européenne.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_171": [
+      {
+        "original_sent": "En pratique, si le traitement est pris en charge par le système de santé dont ils dépendent, les patients auront le droit de recevoir ce traitement à l'étranger et de se le faire rembourser à concurrence du coût d'un traitement identique ou similaire dans leur État de résidence.",
+        "converted_sent": "En pratique, si le traitement est pris en charge par le système de santé dont ils dépendent, la patientèle aura le droit de recevoir ce traitement à l'étranger et de se le faire rembourser à concurrence du coût d'un traitement identique ou similaire dans leur État de résidence.",
+        "original_dep": "auront",
+        "inflecteur_replacement": "aura",
+        "genre_replacement": "aura",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_172": [
+      {
+        "original_sent": "Cette tâche est au programme du sommet du G20 du mois prochain, et je me réjouis du ton adopté par les dirigeants européens lors de leur rencontre à Berlin.",
+        "converted_sent": "Cette tâche est au programme du sommet du G20 du mois prochain, et je me réjouis du ton adopté par la direction européenne lors de leur rencontre à Berlin.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_173": [
+      {
+        "original_sent": "Je terminerai en répétant et en insistant sur le fait que nous devons être à l' écoute des attentes des citoyens européens !",
+        "converted_sent": "Je terminerai en répétant et en insistant sur le fait que nous devons être à l'écoute des attentes de la citoyenneté européenne !",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Je terminerai en répétant et en insistant sur le fait que nous devons être à l' écoute des attentes des citoyens européens !",
+        "converted_sent": "Je terminerai en répétant et en insistant sur le fait que nous devons être à l'écoute des attentes de la citoyenneté européenne !",
+        "original_dep": "être",
+        "inflecteur_replacement": "être",
+        "genre_replacement": "être",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_174": [
+      {
+        "original_sent": "Malgré des tentatives antérieures visant à établir les principes démocratiques et une coopération pacifique avec ses voisins, la situation en Érythrée est devenue beaucoup plus complexe, et on enregistre une dégradation progressive de la majeure partie des secteurs surveillés par des organisations internationales.",
+        "converted_sent": "Malgré des tentatives antérieures visant à établir les principes démocratiques et une coopération pacifique avec son voisinage, la situation en Érythrée est devenue beaucoup plus complexe, et on enregistre une dégradation progressive de la majeure partie des secteurs surveillés par des organisations internationales.",
+        "original_dep": "devenue",
+        "inflecteur_replacement": "devenue",
+        "genre_replacement": "devenue",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Malgré des tentatives antérieures visant à établir les principes démocratiques et une coopération pacifique avec ses voisins, la situation en Érythrée est devenue beaucoup plus complexe, et on enregistre une dégradation progressive de la majeure partie des secteurs surveillés par des organisations internationales.",
+        "converted_sent": "Malgré des tentatives antérieures visant à établir les principes démocratiques et une coopération pacifique avec son voisinage, la situation en Érythrée est devenue beaucoup plus complexe, et on enregistre une dégradation progressive de la majeure partie des secteurs surveillés par des organisations internationales.",
+        "original_dep": "est",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Malgré des tentatives antérieures visant à établir les principes démocratiques et une coopération pacifique avec ses voisins, la situation en Érythrée est devenue beaucoup plus complexe, et on enregistre une dégradation progressive de la majeure partie des secteurs surveillés par des organisations internationales.",
+        "converted_sent": "Malgré des tentatives antérieures visant à établir les principes démocratiques et une coopération pacifique avec son voisinage, la situation en Érythrée est devenue beaucoup plus complexe, et on enregistre une dégradation progressive de la majeure partie des secteurs surveillés par des organisations internationales.",
+        "original_dep": "complexe",
+        "inflecteur_replacement": "complexe",
+        "genre_replacement": "complexe",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "eupr_181": [
+      {
+        "original_sent": "Pourquoi les enfants sont-ils devenus un marché juteux pour les médicaments au point que de puissants groupes de pression devraient trouver profitable de se battre pendant quelques mois de temps à autre pour des extensions de brevets?",
+        "converted_sent": "Pourquoi l'enfance sont-ils devenus un marché juteux pour les médicaments au point que de puissants groupes de pression devraient trouver profitable de se battre pendant quelques mois de temps à autre pour des extensions de brevets ?",
+        "original_dep": "devenus",
+        "inflecteur_replacement": "devenus",
+        "genre_replacement": "devenus",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Pourquoi les enfants sont-ils devenus un marché juteux pour les médicaments au point que de puissants groupes de pression devraient trouver profitable de se battre pendant quelques mois de temps à autre pour des extensions de brevets?",
+        "converted_sent": "Pourquoi l'enfance sont-ils devenus un marché juteux pour les médicaments au point que de puissants groupes de pression devrait trouver profitable de se battre pendant quelques mois de temps à autre pour des extensions de brevets ?",
+        "original_dep": "devraient",
+        "inflecteur_replacement": "devrait",
+        "genre_replacement": "devrait",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_183": [
+      {
+        "original_sent": "En effet, la semaine dernière, à Ljubljana, les commissaires Hübner et Potočnik ont annoncé de très bons chiffres à cet égard.",
+        "converted_sent": "En effet, la semaine dernière, à Ljubljana, la commission Hübner et Potočnik a annoncé de très bons chiffres à cet égard.",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_184": [
+      {
+        "original_sent": "J'aurais donc souhaité que l'on parte du principe que tous les députés sont égaux et que personne n'ait plus ou moins de droits !",
+        "converted_sent": "J'aurais donc souhaité que l'on parte du principe que tout le parlement est égaux et que personne n'ait plus ou moins de droits !",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_185": [
+      {
+        "original_sent": "Les enfants âgés de 9 à 16 ans ont été appréhendés et amenés à la prison de Diyarbakir.",
+        "converted_sent": "l'enfance âgée de 9 à 16 ans ont été appréhendés et amenés à la prison de Diyarbakir.",
+        "original_dep": "âgés",
+        "inflecteur_replacement": "âgée",
+        "genre_replacement": "âgée",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Les enfants âgés de 9 à 16 ans ont été appréhendés et amenés à la prison de Diyarbakir.",
+        "converted_sent": "l'enfance âgée de 9 à 16 ans ont été appréhendée et amenés à la prison de Diyarbakir.",
+        "original_dep": "appréhendés",
+        "inflecteur_replacement": "appréhendés",
+        "genre_replacement": "appréhendée",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Les enfants âgés de 9 à 16 ans ont été appréhendés et amenés à la prison de Diyarbakir.",
+        "converted_sent": "l'enfance âgée de 9 à 16 ans ont été appréhendée et amenés à la prison de Diyarbakir.",
+        "original_dep": "été",
+        "inflecteur_replacement": "été",
+        "genre_replacement": "été",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_186": [
+      {
+        "original_sent": "Et je crois que, de ce point de vue, aussi bien dans nos pays que dans les pays en voie de développement, la crise de la famille, quelle qu'elle soit, n'est profitable ni aux enfants, ni à la femme, qui se retrouve avec la charge des enfants qu'elle a mis au monde.",
+        "converted_sent": "Et je crois que , de ce point de vue , aussi bien dans nos pays que dans les pays en voie de développement , la crise de la famille , quelle qu ' elle soit , n ' est profitable ni à l ' enfance , ni à la femme , qui se retrouve avec la charge de l ' enfance qu ' elle a mis au monde .",
+        "original_dep": "a",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_188": [
+      {
+        "original_sent": "Il est également très important pour les patients d'être en mesure d'obtenir des informations fiables sur l'internet.",
+        "converted_sent": "Il est également très importante pour la patientèle d'être en mesure d'obtenir des informations fiables sur l'internet.",
+        "original_dep": "important",
+        "inflecteur_replacement": "importante",
+        "genre_replacement": "importante",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_189": [
+      {
+        "original_sent": "Tout ceci exige un engagement de tous les acteurs concernés, une impulsion politique pour arrêter les mesures nécessaires, mais à notre tour nous devrons traduire cette volonté politique, Mesdames, Messieurs, le moment venu, en dépenses prioritaires, tant au niveau de l'Union qu'au niveau des États membres.",
+        "converted_sent": "Tout ceci exige un engagement de tout l'actorat concernés, une impulsion politique pour arrêter les mesures nécessaires, mais à notre tour nous devrons traduire cette volonté politique, Mesdames, Messieurs, le moment venu, en dépenses prioritaires, tant au niveau de l'Union qu'au niveau des États membres.",
+        "original_dep": "concernés",
+        "inflecteur_replacement": "concernés",
+        "genre_replacement": "concernés",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_191": [
+      {
+        "original_sent": "Ce n'est qu'avec une réponse concrète à cette question que l'on pourra déterminer dans quelle mesure les citoyens européens sont prêts à continuer à construire la maison Europe.",
+        "converted_sent": "Ce n'est qu'avec une réponse concrète à cette question que l'on pourra déterminer dans quelle mesure la citoyenneté européenne sont prêts à continuer à construire la maison Europe.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_192": [
+      {
+        "original_sent": "L'élargissement doit prendre en considération les souhaits des citoyens européens en ce qui concerne leur propre élargissement et ne doit pas prendre leur voix pour acquise.",
+        "converted_sent": "L'élargissement doit prendre en considération les souhaits de la citoyenneté européenne en ce qui concerne leur propre élargissement et ne doit pas prendre leur voix pour acquise.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_193": [
+      {
+        "original_sent": "Conscients des tendances de notre société, nous reconnaissons que le modèle traditionnel de la famille ne peut être le seul point de référence et qu'il existe un nombre de plus en plus important de modèles alternatifs que nous devons prendre en compte dans notre conviction bien ancrée que les enfants doivent bénéficier d'un environnement familial positif.",
+        "converted_sent": "Conscients des tendances de notre société, nous reconnaissons que le modèle traditionnel de la famille ne peut être le seul point de référence et qu'il existe un nombre de plus en plus important de modèles alternatifs que nous devons prendre en compte dans notre conviction bien ancrée que l'enfance doit bénéficier d'un environnement familial positif.",
+        "original_dep": "doivent",
+        "inflecteur_replacement": "doit",
+        "genre_replacement": "doit",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_194": [
+      {
+        "original_sent": "Les citoyens, soyons-en certains, ne se font aucune illusion.",
+        "converted_sent": "la citoyenneté, soyons-en certains, ne se fait aucune illusion.",
+        "original_dep": "font",
+        "inflecteur_replacement": "fait",
+        "genre_replacement": "fait",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_195": [
+      {
+        "original_sent": "Les lâches attentats terroristes de Madrid ont profondément touché non seulement la nation espagnole, mais aussi tous les citoyens européens.",
+        "converted_sent": "Les lâches attentats terroristes de Madrid ont profondément touché non seulement la nation espagnole, mais aussi toute la citoyenneté européenne.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_196": [
+      {
+        "original_sent": "Les immigrés ne doivent pas être considérés comme des travailleurs jetables après usage.",
+        "converted_sent": "l'immigration ne doit pas être considérés comme des travailleurs jetables après usage.",
+        "original_dep": "doivent",
+        "inflecteur_replacement": "doit",
+        "genre_replacement": "doit",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Les immigrés ne doivent pas être considérés comme des travailleurs jetables après usage.",
+        "converted_sent": "l'immigration ne doit pas être considérés comme des travailleurs jetables après usage.",
+        "original_dep": "être",
+        "inflecteur_replacement": "être",
+        "genre_replacement": "être",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Les immigrés ne doivent pas être considérés comme des travailleurs jetables après usage.",
+        "converted_sent": "l'immigration ne doit pas être considérée comme des travailleurs jetables après usage.",
+        "original_dep": "considérés",
+        "inflecteur_replacement": "considérés",
+        "genre_replacement": "considérée",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_197": [
+      {
+        "original_sent": "Les musulmans du Turkestan oriental ne sont pas les seules victimes de cette politique. Partout en Chine, on persécute notamment les chrétiens appartenant à des Églises qui ne sont pas enregistrées officiellement.",
+        "converted_sent": "l'Islam du Turkestan oriental ne sont pas les seules victimes de cette politique. Partout en Chine, on persécute notamment la chrétienté appartenant à des Églises qui ne sont pas enregistrées officiellement.",
+        "original_dep": "appartenant",
+        "inflecteur_replacement": "appartenant",
+        "genre_replacement": "appartenant",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_199": [
+      {
+        "original_sent": "Il renforce la nature démocratique de nos institutions et facilite la participation des citoyens au processus décisionnel, de manière à conférer une plus grande légitimité aux autorités publiques en améliorant leur efficacité et en renforçant leur responsabilité vis-à-vis du peuple.",
+        "converted_sent": "Il renforce la nature démocratique de nos institutions et facilite la participation de la citoyenneté au processus décisionnelle, de manière à conférer une plus grande légitimité aux autorités publiques en améliorant leur efficacité et en renforçant leur responsabilité vis-à-vis du peuple.",
+        "original_dep": "décisionnel",
+        "inflecteur_replacement": "décisionnelle",
+        "genre_replacement": "décisionnelle",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "eupr_202": [
+      {
+        "original_sent": "Je précise que vendredi a marqué la fin du processus car je pense que les citoyens européens ont tous exprimé leur avis, directement ou indirectement.",
+        "converted_sent": "Je précise que vendredi a marqué la fin du processus car je pense que la citoyenneté européenne ont tous exprimé leur avis, directement ou indirectement.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Je précise que vendredi a marqué la fin du processus car je pense que les citoyens européens ont tous exprimé leur avis, directement ou indirectement.",
+        "converted_sent": "Je précise que vendredi a marqué la fin du processus car je pense que la citoyenneté européenne ont tous exprimé leur avis, directement ou indirectement.",
+        "original_dep": "exprimé",
+        "inflecteur_replacement": "exprimé",
+        "genre_replacement": "exprimé",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_204": [
+      {
+        "original_sent": "Nous leur demandons de veiller particulièrement à ce que chaque jeune qui sort de l'école ait un emploi ou puisse bénéficier d'une formation ou d'une autre mesure d'aide à l'emploi dans les six mois. Nous leur demandons également de permettre aux sans-emploi un accès plus large à la formation, en particulier les moins qualifiés, d'augmenter l'investissement dans un système de prise en charge des enfants global et abordable, de continuer à réduire la charge fiscale qui pèse sur l'emploi, de combattre l'exclusion sociale et la discrimination, de continuer à investir dans l'éducation, la formation professionnelle et la formation tout au long de la vie afin de stimuler la base de compétences de l'Union, de faire le nécessaire pour arriver à une meilleure adéquation entre le système éducatif et les besoins des nouveaux marchés du travail, en encourageant par exemple l'esprit d'entreprise dans les programmes éducatifs, de permettre enfin aux travailleurs plus âgés de rester sur le marché de l'emploi sur base volontaire, et de modifier les systèmes fiscaux et de sécurité sociale, afin d'encourager une vie active plus longue.",
+        "converted_sent": "Nous leur demandons de veiller particulièrement à ce que chaque jeune qui sort de l'école ait un emploi ou puisse bénéficier d'une formation ou d'une autre mesure d'aide à l'emploi dans les six mois. Nous leur demandons également de permettre aux sans-emploi un accès plus large à la formation, en particulier les moins qualifiés, d'augmenter l'investissement dans un système de prise en charge de l'enfance globale et abordable, de continuer à réduire la charge fiscale qui pèse sur l'emploi, de combattre l'exclusion sociale et la discrimination, de continuer à investir dans l'éducation, la formation professionnelle et la formation tout au long de la vie afin de stimuler la base de compétences de l'Union, de faire le nécessaire pour arriver à une meilleure adéquation entre le système éducatif et les besoins des nouveaux marchés du travail, en encourageant par exemple l'esprit d'entreprise dans les programmes éducatifs, de permettre enfin aux travailleurs plus âgés de rester sur le marché de l'emploi sur base volontaire, et de modifier les systèmes fiscaux et de sécurité sociale, afin d'encourager une vie active plus longue.",
+        "original_dep": "global",
+        "inflecteur_replacement": "globale",
+        "genre_replacement": "globale",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "eupr_207": [
+      {
+        "original_sent": "Les enfants roms scolarisés tendent à quitter l'école prématurément sans qualifications pour l'avenir, ni compétences leur permettant de s'occuper d'eux-mêmes et de leurs familles.",
+        "converted_sent": "l'enfance roms scolarisés tendent à quitter l'école prématurément sans qualifications pour l'avenir, ni compétences leur permettant de s'occuper d'eux-mêmes et de leurs familles.",
+        "original_dep": "roms",
+        "inflecteur_replacement": "roms",
+        "genre_replacement": "roms",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_208": [
+      {
+        "original_sent": "La directive sur les services et les perspectives financières sont sur le point d'aboutir, le bilan de la présidence concernant la première moitié de son mandat est positif et les gagnants sont multiples, notamment les PME, les jeunes, les projets de réseaux transeuropéens et bien d'autres encore.",
+        "converted_sent": "La directive sur les services et les perspectives financières sont sur le point d'aboutir, le bilan de la présidence concernant la première moitié de son mandat est positive et les gagnants sont multiples, notamment les PME, la jeunesse, les projets de réseaux transeuropéens et bien d'autres encore.",
+        "original_dep": "positif",
+        "inflecteur_replacement": "positive",
+        "genre_replacement": "positive",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_210": [
+      {
+        "original_sent": "Dans leur relation avec l'Union, les candidats à l'adhésion sont en position de faiblesse, et je ne pense pas devoir convaincre quelque membre de cette Assemblée que ce soit que l'une des missions les plus difficiles des hommes politiques consiste à faire en sorte que la partie la plus faible voit ses droits reconnus.",
+        "converted_sent": "Dans leur relation avec l'Union, les candidats à l'adhésion sont en position de faiblesse, et je ne pense pas devoir convaincre quelque membre de cette Assemblée que ce soit que l'une des missions les plus difficiles de l'humanité politique consiste à faire en sorte que la partie la plus faible voit ses droits reconnus.",
+        "original_dep": "politiques",
+        "inflecteur_replacement": "politique",
+        "genre_replacement": "politique",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Dans leur relation avec l'Union, les candidats à l'adhésion sont en position de faiblesse, et je ne pense pas devoir convaincre quelque membre de cette Assemblée que ce soit que l'une des missions les plus difficiles des hommes politiques consiste à faire en sorte que la partie la plus faible voit ses droits reconnus.",
+        "converted_sent": "Dans leur relation avec l'Union, les candidats à l'adhésion sont en position de faiblesse, et je ne pense pas devoir convaincre quelque membre de cette Assemblée que ce soit que l'une des missions les plus difficiles de l'humanité politique consiste à faire en sorte que la partie la plus faible voit ses droits reconnus.",
+        "original_dep": "consiste",
+        "inflecteur_replacement": "consiste",
+        "genre_replacement": "consiste",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_211": [
+      {
+        "original_sent": "Tous ceux appartenant à un autre groupe peuvent être considérés comme des concurrents indésirables sur le marché du travail ou du logement.",
+        "converted_sent": "Tous ceux appartenant à un autre groupe peuvent être considérés comme la concurrence indésirable sur le marché du travail ou du logement.",
+        "original_dep": "indésirables",
+        "inflecteur_replacement": "indésirable",
+        "genre_replacement": "indésirable",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "eupr_215": [
+      {
+        "original_sent": "Le processus d'inscription des électeurs est également lancé, bien qu'il faille accélérer le rythme des travaux.",
+        "converted_sent": "Le processus d'inscription de l'électorat est également lancé, bien qu'il faille accélérer le rythme des travaux.",
+        "original_dep": "est",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Le processus d'inscription des électeurs est également lancé, bien qu'il faille accélérer le rythme des travaux.",
+        "converted_sent": "Le processus d'inscription de l'électorat est également lancé, bien qu'il faille accélérer le rythme des travaux.",
+        "original_dep": "lancé",
+        "inflecteur_replacement": "lancé",
+        "genre_replacement": "lancé",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {},
+  {
+    "eupr_220": [
+      {
+        "original_sent": "La contribution de la Communauté à ce fonds ne peut être augmentée, mais grâce à une légère planification, la somme d'argent débloquée pour couvrir la participation des représentants ACP ne devrait poser aucun problème.",
+        "converted_sent": "La contribution de la Communauté à ce fonds ne peut être augmentée, mais grâce à une légère planification, la somme d'argent débloquée pour couvrir la participation de la représentation ACP ne devrait poser aucun problème.",
+        "original_dep": "devrait",
+        "inflecteur_replacement": "devrait",
+        "genre_replacement": "devrait",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_222": [
+      {
+        "original_sent": "À quelques mois de l'adhésion, l'Union européenne ne peut envoyer un message négatif d'ajournement aux citoyens bulgares et roumains",
+        "converted_sent": "À quelques mois de l'adhésion, l'Union européenne ne peut envoyer un message négatif d'ajournement à la citoyenneté bulgare et roumains",
+        "original_dep": "bulgares",
+        "inflecteur_replacement": "bulgare",
+        "genre_replacement": "bulgare",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_223": [
+      {
+        "original_sent": "C'est le type même d'action positive qui a un sens pour les citoyens européens.",
+        "converted_sent": "C'est le type même d'action positive qui a un sens pour la citoyenneté européenne.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_224": [
+      {
+        "original_sent": "Les ministres ne seront plus jamais autorisés à se couvrir mutuellement lorsqu'un État membre permet à ses finances publiques de dérailler.",
+        "converted_sent": "la ministraille ne sera plus jamais autorisée à se couvrir mutuellement lorsqu'un État membre permet à ses finances publiques de dérailler.",
+        "original_dep": "seront",
+        "inflecteur_replacement": "sera",
+        "genre_replacement": "sera",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Les ministres ne seront plus jamais autorisés à se couvrir mutuellement lorsqu'un État membre permet à ses finances publiques de dérailler.",
+        "converted_sent": "la ministraille ne sera plus jamais autorisée à se couvrir mutuellement lorsqu'un État membre permet à ses finances publiques de dérailler.",
+        "original_dep": "autorisés",
+        "inflecteur_replacement": "autorisés",
+        "genre_replacement": "autorisés",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_226": [
+      {
+        "original_sent": "Les enfants représentent 46 % de la population rom, en raison de l'effet combiné d'un taux de natalité élevé et, malheureusement, d'une espérance de vie réduite.",
+        "converted_sent": "l'enfance représente 46 % de la population rom, en raison de l'effet combiné d'un taux de natalité élevé et, malheureusement, d'une espérance de vie réduite.",
+        "original_dep": "représentent",
+        "inflecteur_replacement": "représente",
+        "genre_replacement": "représente",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_227": [
+      {
+        "original_sent": "Viennent à présent s'y ajouter les efforts d'adaptation à l'UE. Cette évolution a été rude et s'est traduite, pour les citoyens de ces pays comme pour leurs dirigeants politiques, par de sévères exigences.",
+        "converted_sent": "Viennent à présent s'y ajouter les efforts d'adaptation à l'UE. Cette évolution a été rude et s'est traduite, pour la citoyenneté de ces pays comme pour leurs direction politique, par de sévères exigences.",
+        "original_dep": "politiques",
+        "inflecteur_replacement": "politique",
+        "genre_replacement": "politique",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_229": [
+      {
+        "original_sent": "De même, les citoyens et les entreprises attendent de l'Union européenne la garantie d'un service public de qualité à un prix abordable.",
+        "converted_sent": "De même, la citoyenneté et les entreprises attendent de l'Union européenne la garantie d'un service public de qualité à un prix abordable.",
+        "original_dep": "attendent",
+        "inflecteur_replacement": "attendent",
+        "genre_replacement": "attendent",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_230": [
+      {
+        "original_sent": "De l'autre, à Vintimille, la France rejette les immigrants sous prétexte qu'ils ne possèdent pas de permis de séjour.",
+        "converted_sent": "De l'autre, à Vintimille, la France rejette l'immigration sous prétexte qu'ils ne possèdent pas de permis de séjour.",
+        "original_dep": "autre",
+        "inflecteur_replacement": "autre",
+        "genre_replacement": "autre",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_231": [
+      {
+        "original_sent": "Mais que valent les proclamations sur le droit du travail tant que les patrons des entreprises disposent du droit régalien d'embaucher ou de licencier ?",
+        "converted_sent": "Mais que valent les proclamations sur le droit du travail tant que le patronat des entreprises dispose du droit régalien d'embaucher ou de licencier ?",
+        "original_dep": "disposent",
+        "inflecteur_replacement": "dispose",
+        "genre_replacement": "dispose",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "eupr_234": [
+      {
+        "original_sent": "Selon les derniers rapports de la Commission européenne, 16 % des citoyens européens sont menacés de pauvreté, et 8 % d'entre eux malgré un emploi à temps plein.",
+        "converted_sent": "Selon les derniers rapports de la Commission européenne, 16 % de la citoyenneté européenne sont menacés de pauvreté, et 8 % d'entre eux malgré un emploi à temps plein.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Selon les derniers rapports de la Commission européenne, 16 % des citoyens européens sont menacés de pauvreté, et 8 % d'entre eux malgré un emploi à temps plein.",
+        "converted_sent": "Selon les derniers rapports de la Commission européenne, 16 % de la citoyenneté européenne est menacés de pauvreté, et 8 % d'entre eux malgré un emploi à temps plein.",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_235": [
+      {
+        "original_sent": "Les citoyens ne sont pas dupes des combats de coq organisés au Parlement européen ni des efforts visant à élever celui-ci au rang de censeur, qui constitue qui plus est le cadre de soutien de base des intérêts du capital.",
+        "converted_sent": "la citoyenneté ne est pas du pes des combats de coq organisés au Parlement européen ni des efforts visant à élever celui-ci au rang de censeur, qui constitue qui plus est le cadre de soutien de base des intérêts du capital.",
+        "original_dep": "sont",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "Les citoyens ne sont pas dupes des combats de coq organisés au Parlement européen ni des efforts visant à élever celui-ci au rang de censeur, qui constitue qui plus est le cadre de soutien de base des intérêts du capital.",
+        "converted_sent": "la citoyenneté ne est pas du pes des combats de coq organisés au Parlement européen ni des efforts visant à élever celui-ci au rang de censeur, qui constitue qui plus est le cadre de soutien de base des intérêts du capital.",
+        "original_dep": "dupes",
+        "inflecteur_replacement": "du pes",
+        "genre_replacement": "dupes",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_237": [
+      {
+        "original_sent": "L'objectif de la Lettonie est d'avoir des citoyens lettons ayant des droits complets, plutôt que d'avoir des citoyens non lettons ayant de nombreux droits.",
+        "converted_sent": "L ' objectif de la Lettonie est d ' avoir la citoyenneté lettone ayant des droits complets , plutôt que d ' avoir la citoyenneté non lettone ayant de nombreux droits .",
+        "original_dep": "lettons",
+        "inflecteur_replacement": "lettons",
+        "genre_replacement": "lettone",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "L'objectif de la Lettonie est d'avoir des citoyens lettons ayant des droits complets, plutôt que d'avoir des citoyens non lettons ayant de nombreux droits.",
+        "converted_sent": "L ' objectif de la Lettonie est d ' avoir la citoyenneté lettone ayant des droits complets , plutôt que d ' avoir la citoyenneté non lettone ayant de nombreux droits .",
+        "original_dep": "est",
+        "inflecteur_replacement": "est",
+        "genre_replacement": "est",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {},
+  {
+    "eupr_241": [
+      {
+        "original_sent": "Il convient de reconnaître que si les partenaires ne perdent pas les privilèges qu'ils ont dans le pays d'origine, ils jouiront d'un privilège que les citoyens de l'État d'accueil n'ont pas.",
+        "converted_sent": "Il convient de reconnaître que si les partenaires ne perdent pas les privilèges qu ' ils ont dans le pays d ' origine , ils jouiront d ' un privilège que la citoyenneté de l ' État d ' accueil n ' ont pas .",
+        "original_dep": "ont",
+        "inflecteur_replacement": "a",
+        "genre_replacement": "a",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_242": [
+      {
+        "original_sent": "C'est bien volontiers que j'admets que certains aspects auraient pu être mieux réglés, mais ce qui compte à mes yeux, c'est qu'ensemble, nous fassions de ce projet politique une réussite. À cet égard, je ne peux que me rallier à votre rapporteur pour dire que c'est ce que les citoyens européens attendent de nous.",
+        "converted_sent": "C'est bien volontiers que j'admets que certains aspects auraient pu être mieux réglés, mais ce qui compte à mes yeux, c'est qu'ensemble, nous fassions de ce projet politique une réussite. À cet égard, je ne peux que me rallier à votre rapporteur pour dire que c'est ce que la citoyenneté européenne attendent de nous.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      },
+      {
+        "original_sent": "C'est bien volontiers que j'admets que certains aspects auraient pu être mieux réglés, mais ce qui compte à mes yeux, c'est qu'ensemble, nous fassions de ce projet politique une réussite. À cet égard, je ne peux que me rallier à votre rapporteur pour dire que c'est ce que les citoyens européens attendent de nous.",
+        "converted_sent": "C'est bien volontiers que j'admets que certains aspects auraient pu être mieux réglés, mais ce qui compte à mes yeux, c'est qu'ensemble, nous fassions de ce projet politique une réussite. À cet égard, je ne peux que me rallier à votre rapporteur pour dire que c'est ce que la citoyenneté européenne attendent de nous.",
+        "original_dep": "attendent",
+        "inflecteur_replacement": "attendent",
+        "genre_replacement": "attendent",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_243": [
+      {
+        "original_sent": "Je vous invite à informer les députés européens chargés des dossiers agricoles de l'avancement des négociations.",
+        "converted_sent": "Je vous invite à informer le parlement européen chargés des dossiers agricoles de l'avancement des négociations.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européen",
+        "genre_replacement": "européen",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "eupr_246": [
+      {
+        "original_sent": "En outre, il faut comprendre que la Pologne est un pays profondément catholique et que, par conséquent, les citoyens de ce pays refléteront leur croyance catholique exactement de la même manière que les musulmans reflètent leur point de vue islamique sur l'homosexualité.",
+        "converted_sent": "En outre, il faut comprendre que la Pologne est un pays profondément catholique et que, par conséquent, la citoyenneté de ce pays refléteront leur croyance catholique exactement de la même manière que l'Islam reflète leur point de vue islamique sur l'homosexualité.",
+        "original_dep": "reflètent",
+        "inflecteur_replacement": "reflète",
+        "genre_replacement": "reflète",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {
+    "eupr_247": [
+      {
+        "original_sent": "Si la majorité qualifiée était adoptée pour la fiscalité, comme le souhaite la très grande majorité des députés européens, un pan entier de la souveraineté nationale se trouverait ainsi balayé.",
+        "converted_sent": "Si la majorité qualifiée était adoptée pour la fiscalité, comme le souhaite la très grande majorité du parlement européen, un pan entier de la souveraineté nationale se trouverait ainsi balayé.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européen",
+        "genre_replacement": "européen",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  },
+  {},
+  {
+    "eupr_249": [
+      {
+        "original_sent": "J'espère que, si l'Assemblée ne peut répéter le vote à l'unanimité demain en commission, elle pourra au moins fournir une majorité substantielle qui montrera, non le pouvoir, mais la bonne volonté que met le Parlement à trouver une réelle solution au problème pour tous les citoyens européens.",
+        "converted_sent": "J'espère que, si l'Assemblée ne peut répéter le vote à l'unanimité demain en commission, elle pourra au moins fournir une majorité substantielle qui montrera, non le pouvoir, mais la bonne volonté que met le Parlement à trouver une réelle solution au problème pour toute la citoyenneté européenne.",
+        "original_dep": "européens",
+        "inflecteur_replacement": "européenne",
+        "genre_replacement": "européenne",
+        "manual": "UNK_MANUAL"
+      }
+    ]
+  }
+]
